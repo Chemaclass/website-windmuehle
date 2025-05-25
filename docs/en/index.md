@@ -10,8 +10,6 @@
   Whether you're interested in its history, current projects, or future plans — we warmly invite you to help preserve a unique piece of village culture with us.
 </div>
 
----
-
 ## 🎯 Goals and Purpose of the Association
 
 The **Windmill Tündern Association (e.V.)** is passionately dedicated to the preservation, care, and revitalization of the historic windmill.
@@ -23,8 +21,6 @@ Our mission is to **protect**, **bring to life**, and integrate this unique cult
 - Preserving and maintaining the historical structure
 - Organizing guided tours and educational events about the mill’s history
 - Promoting the mill as part of local tourism
-
----
 
 ## 🏗️ Achievements & Future Projects
 
@@ -40,14 +36,10 @@ Our mission is to **protect**, **bring to life**, and integrate this unique cult
 - Creation of a small exhibition/museum area inside the mill
 - Hosting school projects and educational visits on-site
 
----
-
 ## 📜 Association Statutes
 
 Learn more about the legal structure and principles of our nonprofit work:  
 📄 [Download statutes as PDF](./satzung.pdf)
-
----
 
 ## 🤝 Become a Member
 

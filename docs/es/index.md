@@ -10,8 +10,6 @@
   Si te interesa su historia, los proyectos actuales o los planes futuros, te invitamos a preservar con nosotros esta parte de la cultura del pueblo.
 </div>
 
----
-
 ## 🎯 Objetivos y fines de la asociación
 
 La **Asociación Molino de Viento Tündern (e.V.)** se dedica con pasión a la conservación, el cuidado y la revitalización del molino.
@@ -23,8 +21,6 @@ Nuestra misión es **proteger**, **dar vida** e integrar este singular monumento
 - Conservar y mantener la estructura histórica
 - Organizar visitas guiadas y actividades educativas sobre la historia del molino
 - Promover el molino como parte del turismo local
-
----
 
 ## 🏗️ Logros y proyectos futuros
 
@@ -40,14 +36,10 @@ Nuestra misión es **proteger**, **dar vida** e integrar este singular monumento
 - Creación de una pequeña zona de exposición/museo en el interior
 - Realización de proyectos escolares y visitas didácticas en el lugar
 
----
-
 ## 📜 Estatutos de la asociación
 
 Conoce la base jurídica y los principios de nuestro trabajo sin ánimo de lucro:
 📄 [Descargar estatutos en PDF](./satzung.pdf)
-
----
 
 ## 🤝 Hazte miembro
 
