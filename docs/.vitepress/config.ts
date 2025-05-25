@@ -19,7 +19,7 @@ export default defineConfig({
                     { text: 'Spenden', link: '/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} <a href="https://chemaclass.com">Chemaclass</a> — <a href="/impressum">Impressum</a>`,
+                    copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chemaclass</a> · <a href="/impressum">Impressum</a>`
                 },
             },
         },
@@ -37,7 +37,7 @@ export default defineConfig({
                     { text: 'Donate', link: '/en/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} <a href="https://chemaclass.com">Chemaclass</a> — <a href="/en/impressum">Imprint</a>`,
+                    copyright: `© ${currentYear} Windmill Tündern · Built by <a href="https://chemaclass.com" target="_blank" rel="noopener">Chemaclass</a> · <a href="/en/impressum">Imprint</a>`,
                 },
             },
         },
