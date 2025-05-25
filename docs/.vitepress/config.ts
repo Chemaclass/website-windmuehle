@@ -33,6 +33,7 @@ export default defineConfig({
             description: 'Association dedicated to preserving the historic windmill in Tündern.',
             themeConfig: {
                 outline: false,
+                logo: '/imgs/logo.svg',
                 nav: [
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },

@@ -1,4 +1,4 @@
-# Windmühle Tündern Förderverein
+# Förderverein Windmühle Tündern e.V.
 
 <p align="center">
   <img src="/imgs/logo.svg" alt="Windmühle Tündern Logo" width="180" />
