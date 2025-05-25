@@ -12,6 +12,8 @@ export default defineConfig({
             title: 'Windmühle Tündern',
             description: 'Förderverein zur Erhaltung der historischen Windmühle in Tündern.',
             themeConfig: {
+                outline: false,
+                logo: '/imgs/logo.svg',
                 nav: [
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },

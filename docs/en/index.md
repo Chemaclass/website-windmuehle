@@ -1,7 +1,7 @@
 # Windmill Tündern Association
 
 <p align="center">
-  <img src="/imgs/logo.jpg" alt="Windmühle Tundern" width="200" />
+  <img src="/imgs/logo.svg" alt="Windmühle Tündern Logo" width="200" style="margin-top: 1rem;" />
 </p>
 
 **Welcome to our information page!**
