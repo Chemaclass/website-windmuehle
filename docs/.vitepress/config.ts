@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    title: 'Windmühle Tundern',
-    description: 'Förderverein zur Erhaltung der historischen Windmühle in Tundern.',
+    title: 'Windmühle Tündern',
+    description: 'Förderverein zur Erhaltung der historischen Windmühle in Tündern.',
     lang: 'de-DE',
     themeConfig: {
         nav: [
