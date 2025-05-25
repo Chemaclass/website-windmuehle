@@ -1,0 +1,3 @@
+# Aufgaben und Ziele des Fördervereins
+
+Der Förderverein setzt sich für den Erhalt und die Pflege der historischen Windmühle in Tundern ein...
