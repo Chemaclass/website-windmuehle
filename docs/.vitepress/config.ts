@@ -6,7 +6,6 @@ export default defineConfig({
     lang: 'de-DE',
     themeConfig: {
         nav: [
-            { text: 'Start', link: '/' },
             { text: 'Geschichte', link: '/geschichte' },
             { text: 'Bilder', link: '/bilder' },
             { text: 'Kontakt', link: '/kontakt' },
