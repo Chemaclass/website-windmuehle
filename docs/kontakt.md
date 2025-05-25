@@ -11,7 +11,7 @@ Sie können uns gerne direkt eine E-Mail schreiben oder das folgende Formular nu
 
 ## Kontaktformular
 
-<form action="mailto:info@windmuehle-tuendern.de" method="post" enctype="text/plain" style="display: block; max-width: 500px; margin: 1rem auto; padding: 1rem; background-color: #f9f9f9; border-radius: 8px;">
+<form action="mailto:info@windmuehle-tuendern.de" method="post" enctype="text/plain" style="max-width: 500px; display: block; margin: 1rem auto; padding: 1rem; background-color: #f9f9f9; border-radius: 8px;">
 
 <label for="name"><strong>Ihr Name:</strong><br />
 <input type="text" id="name" name="name" required style="width: 100%; padding: 0.4rem; margin-bottom: 1rem;" />
