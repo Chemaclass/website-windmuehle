@@ -12,7 +12,7 @@
 
 ---
 
-## \ud83c\udfaf Objetivos y fines de la asociación
+## 🎯 Objetivos y fines de la asociación
 
 La **Asociación Molino de Viento Tündern (e.V.)** se dedica con pasión a la conservación, el cuidado y la revitalización del molino.
 
@@ -26,7 +26,7 @@ Nuestra misión es **proteger**, **dar vida** e integrar este singular monumento
 
 ---
 
-## \ud83d\udea7 Logros y proyectos futuros
+## 🏗️ Logros y proyectos futuros
 
 ### Logros alcanzados
 
@@ -42,14 +42,14 @@ Nuestra misión es **proteger**, **dar vida** e integrar este singular monumento
 
 ---
 
-## \ud83d\udcdc Estatutos de la asociación
+## 📜 Estatutos de la asociación
 
 Conoce la base jurídica y los principios de nuestro trabajo sin ánimo de lucro:
 📄 [Descargar estatutos en PDF](./satzung.pdf)
 
 ---
 
-## \ud83e\udd1d Hazte miembro
+## 🤝 Hazte miembro
 
 **¡Apoya nuestro trabajo — hazte miembro de la asociación!**
 

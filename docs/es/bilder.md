@@ -2,7 +2,7 @@
 
 Una imagen vale más que mil palabras, así que aquí presentamos una pequeña selección de fotos del molino de Tündern.
 
-## \ud83d\udcf8 Galería
+## 📸 Galería
 
 <!-- imagen de muestra -->
 <p align="center">
