@@ -1,4 +1,4 @@
-# 🏡 Windmühle Tündern Förderverein
+# Windmühle Tündern Förderverein
 
 <p align="center">
   <img src="/imgs/logo.jpg" alt="Windmühle Tündern Logo" width="200" />
@@ -41,5 +41,3 @@ Unterstützen Sie unsere Arbeit aktiv!
 📄 [Beitrittsformular hier als PDF herunterladen](./beitritt.pdf)  
 Bitte senden Sie das ausgefüllte Formular an unsere Adresse oder bringen Sie es zu einer unserer Veranstaltungen mit.  
 **Wir freuen uns über jedes neue Mitglied!**
-
----
