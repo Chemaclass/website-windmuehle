@@ -1,9 +1,6 @@
 # Bilder der Windmühle
 
-## Vor der Renovierung
+Hier finden Sie eine kleine Auswahl an Aufnahmen. 
+Diese Bilder können später durch eigene Fotografien ersetzt werden.
 
-![Windmühle vor der Renovierung](https://via.placeholder.com/600x400?text=Vor+der+Renovierung)
-
-## Nach der Renovierung
-
-![Windmühle nach der Renovierung](https://via.placeholder.com/600x400?text=Nach+der+Renovierung)
+...

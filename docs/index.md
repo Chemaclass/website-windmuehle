@@ -1,34 +1,45 @@
-# Windmühle Tündern Förderverein
+# 🏡 Windmühle Tündern Förderverein
 
-Willkommen auf unserer kleinen Informationsseite. Hier finden Sie Wissenswertes rund um die Windmühle in Tündern und wie Sie uns erreichen können.
+<p align="center">
+  <img src="/imgs/logo.jpg" alt="Windmühle Tündern Logo" width="200" />
+</p>
 
+**Herzlich willkommen auf unserer Informationsseite!**  
+Hier erfahren Sie alles Wissenswerte rund um die historische Windmühle in Tündern – über unsere Ziele, bereits Erreichtes, zukünftige Pläne und wie Sie mitmachen oder uns kontaktieren können.
 
 ## Aufgaben und Ziele des Fördervereins
 
-Der Förderverein setzt sich für den Erhalt und die Pflege der historischen Windmühle in Tündern ein. Unser Ziel ist es, dieses wertvolle Kulturdenkmal für kommende Generationen zu bewahren und erlebbar zu machen.
+Der **Förderverein Windmühle Tündern e.V.** engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Belebung der Windmühle. Unser Ziel ist es, dieses besondere Kulturdenkmal zu bewahren und für kommende Generationen erlebbar zu machen.
 
 **Unsere Hauptziele:**
-- Erhalt der Bausubstanz der Windmühle
-- Führungen und Veranstaltungen zur Geschichte der Mühle
-- Integration in den regionalen Tourismus
 
+- Erhalt der Bausubstanz der Mühle
+- Führungen und Veranstaltungen zur Geschichte der Windmühle
+- Einbindung in den regionalen Tourismus
 
 ## Vereinssatzung
 
-Unsere Vereinssatzung können Sie [hier als PDF herunterladen](./satzung.pdf).
+Die Satzung unseres gemeinnützigen Vereins können Sie hier einsehen:  
+📄 [Vereinssatzung als PDF herunterladen](./satzung.pdf)
 
-## Erreichtes und weitere Vorhaben
+## Erreichtes & Weitere Vorhaben
 
 ### Bereits erreicht:
-- Neue Dachdeckung 2020
-- Sanierung des Mühlenständers
-- Einführung geführter Besichtigungen
+- Neue Dachdeckung im Jahr 2020
+- Sanierung des tragenden Mühlenständers
+- Einführung regelmäßiger Führungen
 
-### Zukünftige Vorhaben:
+### Unsere nächsten Ziele:
 - Wiederherstellung des Flügelwerks
 - Ausbau eines kleinen Museumsbereichs im Inneren
-- Organisation von Schulprojekten vor Ort
+- Durchführung von Schulprojekten direkt vor Ort
 
-## Beitrittsformular
+## Mitglied werden
 
-Werden Sie Mitglied! Das Beitrittsformular finden Sie [hier als PDF](./beitritt.pdf). Bitte senden Sie es ausgefüllt an unsere Vereinsadresse oder bringen Sie es zu einer unserer Veranstaltungen mit.
+Unterstützen Sie unsere Arbeit aktiv!
+
+📄 [Beitrittsformular hier als PDF herunterladen](./beitritt.pdf)  
+Bitte senden Sie das ausgefüllte Formular an unsere Adresse oder bringen Sie es zu einer unserer Veranstaltungen mit.  
+**Wir freuen uns über jedes neue Mitglied!**
+
+---

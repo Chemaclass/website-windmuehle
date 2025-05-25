@@ -1,3 +1,7 @@
 # Geschichte der Windmühle
 
-Die Windmühle in Tündern wurde im 19. Jahrhundert erbaut und war bis Mitte des 20. Jahrhunderts in Betrieb. Seitdem ist sie ein Wahrzeichen unseres Dorfes und ein wichtiges Zeugnis regionaler Handwerkskunst.
+Die Holländerwindmühle wurde 1883 vom Mühlenbauer Redecker aus Börry gebaut. 
+
+1979 wurde die Mühle restauriert, ein Jahr später zerstörte ein Blitzschlag weite Teile des oberen Bereiches. Eine zweite Restaurierung erfolgte. Die Mühle kann besichtigt werden und gibt einen Einblick in das Leben eines Müllers.
+
+![Bild 1](/imgs/from-wikipedia.png)
