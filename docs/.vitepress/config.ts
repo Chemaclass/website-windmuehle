@@ -4,6 +4,7 @@ const currentYear = new Date().getFullYear()
 
 export default defineConfig({
     lang: 'de-DE',
+    appearance: false,
     locales: {
         root: {
             label: 'Deutsch',
