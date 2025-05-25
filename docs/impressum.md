@@ -1,8 +1,11 @@
 # Impressum
 
-**Windmuehle-Tuendern-Förderverein e.V.**
-Addresse: todo
-E-Mail: todo
-Vertretungsberechtigt: todo
+**Windmühle-Tündern Förderverein e.V.**
 
-Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV: Max Mustermann
+Adresse: Mühlenweg 1, 31789 Hameln-Tündern
+
+E-Mail: info@windmuehle-tuendern.de
+
+Vertretungsberechtigt: Der Vorstand
+
+Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV: Der Vorstand

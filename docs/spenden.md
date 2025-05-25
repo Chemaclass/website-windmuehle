@@ -1,4 +1,4 @@
-# Spendenkonto
+# Spenden
 
 Unterstützen Sie uns mit Ihrer Spende:
 

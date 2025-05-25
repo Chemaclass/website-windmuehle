@@ -1,14 +1,11 @@
-# Windmuehle-Tuendern-Förderverein
+# Windmühle Tündern Förderverein
 
-Willkommen auf der offiziellen Website des Windmuehle-Tuendern-Fördervereins. Hier erfahren Sie alles über unsere Aufgaben, Geschichte und aktuelle Projekte.
+Willkommen auf unserer kleinen Informationsseite. Hier finden Sie Wissenswertes rund um die Windmühle in Tündern und wie Sie uns erreichen können.
 
 ---
 
-- [Aufgaben und Ziele](./aufgaben.md)
 - [Geschichte der Windmühle](./geschichte.md)
-- [Erreichtes und weitere Vorhaben](./vorhaben.md)
-- [Aktuelles und Termine](./aktuelles.md)
-- [Spendenkonto](./spendenkonto.md)
-- [Vereinssatzung](./vereinssatzung.md)
-- [Beitrittsformular](./beitrittsformular.md)
+- [Bilder der Renovierung](./bilder.md)
+- [Kontakt](./kontakt.md)
+- [Spenden](./spenden.md)
 - [Impressum](./impressum.md)
