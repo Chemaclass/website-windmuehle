@@ -14,3 +14,24 @@ img {
   margin: 1rem auto;
   display: block;
 }
+.site-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5c842;
+  color: #000;
+  text-align: center;
+  padding: 0.4rem 1rem;
+  z-index: 1000;
+  font-weight: bold;
+}
+
+/* Push the nav bar down */
+.VPNav {
+  margin-top: 2rem;
+}
+
+body {
+  padding-top: 2rem;
+}
