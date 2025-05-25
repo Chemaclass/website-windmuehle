@@ -1,4 +1,4 @@
-# 💚 Spenden
+# Spenden
 
 **Tragen Sie dazu bei, die Windmühle Tündern lebendig zu halten!**
 

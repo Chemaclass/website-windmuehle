@@ -1,4 +1,4 @@
-# 🏛️ History of the Windmill
+# History of the Windmill
 
 The windmill was built in **1883** by the millwright **Redecker** from Börry, who was also its first owner. **Ten years later** he leased it to **Carl Lampe**, a master miller wanting to settle in Tündern after eight years of traveling.
 

@@ -1,4 +1,4 @@
-# 🏡 Windmühle Tündern Förderverein
+# Windmühle Tündern Förderverein
 
 <p align="center">
   <img src="/imgs/logo.svg" alt="Windmühle Tündern Logo" width="180" />
@@ -18,19 +18,19 @@ Unser Ziel ist es, dieses besondere Kulturdenkmal zu **bewahren**, **erlebbar zu
 
 ### Unsere Schwerpunkte
 
-- 🛠️ Erhalt und Sicherung der historischen Bausubstanz
-- 📖 Führungen und Veranstaltungen zur Mühlengeschichte
-- 🧭 Integration der Mühle in den lokalen Tourismus
+- Erhalt und Sicherung der historischen Bausubstanz
+- Führungen und Veranstaltungen zur Mühlengeschichte
+- Integration der Mühle in den lokalen Tourismus
 
 ## 🏗️ Erreichtes & Zukünftige Vorhaben
 
-### ✅ Bereits erreicht
+### Bereits erreicht
 
 - Neue Dachdeckung im Jahr 2020
 - Sanierung des tragenden Mühlenständers
 - Einführung regelmäßiger Führungen
 
-### 🔧 Geplante Projekte
+### Geplante Projekte
 
 - Wiederherstellung des Flügelwerks
 - Aufbau eines kleinen Museumsbereichs im Inneren

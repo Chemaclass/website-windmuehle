@@ -1,4 +1,4 @@
-# 📝 Impressum
+# Impressum
 
 **Windmühle-Tündern Förderverein e.V.**
 

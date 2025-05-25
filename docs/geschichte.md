@@ -1,4 +1,4 @@
-# 🏛️ Geschichte der Windmühle
+# Geschichte der Windmühle
 
 Die Windmühle wurde im Jahr **1883** vom Mühlenbauer **Redecker** aus Börry erbaut, der zugleich auch ihr erster Eigentümer war.  
 **Zehn Jahre später** verpachtete er die Mühle an **Carl Lampe**, der sich nach einer achtjährigen Wanderschaft als Müllermeister in Tündern niederlassen wollte.

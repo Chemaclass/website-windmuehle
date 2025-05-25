@@ -1,8 +1,6 @@
-# 🖼️ Windmill Images
+# Windmill Images
 
 A picture says more than a thousand words – so here we present a small selection of photos of the Tündern windmill.
-
-These images currently serve as placeholders and can later be replaced with your own photographs — for example before-and-after shots of the restoration or impressions from tours and events.
 
 ## 📸 Gallery
 

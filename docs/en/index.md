@@ -1,4 +1,4 @@
-# 🏡 Windmill Tündern Association
+# Windmill Tündern Association
 
 <p align="center">
   <img src="/imgs/logo.svg" alt="Windmill Tündern Logo" width="180" />
@@ -20,21 +20,21 @@ Our mission is to **protect**, **bring to life**, and integrate this unique cult
 
 ### Our Focus Areas
 
-- 🛠️ Preserving and maintaining the historical structure
-- 📖 Organizing guided tours and educational events about the mill’s history
-- 🧭 Promoting the mill as part of local tourism
+- Preserving and maintaining the historical structure
+- Organizing guided tours and educational events about the mill’s history
+- Promoting the mill as part of local tourism
 
 ---
 
 ## 🏗️ Achievements & Future Projects
 
-### ✅ Already Accomplished
+### Already Achieved
 
 - New roof installed in 2020
 - Restoration of the structural base of the mill
 - Introduction of regular public tours
 
-### 🔧 Planned Projects
+### Planned Projects
 
 - Reconstruction of the windmill sails
 - Creation of a small exhibition/museum area inside the mill

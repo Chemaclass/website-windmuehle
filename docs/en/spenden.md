@@ -1,4 +1,4 @@
-# 💚 Donate
+# Donate
 
 **Help keep the Tündern windmill alive!**
 

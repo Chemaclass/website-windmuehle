@@ -1,4 +1,4 @@
-# ✉️ Contact
+# Contact
 
 Do you have a question or would like to reach out to us?
 
