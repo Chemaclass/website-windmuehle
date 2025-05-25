@@ -1,23 +1,27 @@
-# Spenden
+# 💚 Spenden
 
-**Helfen Sie mit, die historische Windmühle Tündern zu erhalten!**
+**Tragen Sie dazu bei, die Windmühle Tündern lebendig zu halten!**
 
-Mit Ihrer Spende unterstützen Sie die Pflege, den Erhalt und die Weiterentwicklung dieses besonderen Kulturdenkmals in unserem Dorf.
+Mit Ihrer Spende unterstützen Sie den Erhalt, die Pflege und die Weiterentwicklung unserer historischen Windmühle – ein wertvolles Kulturdenkmal und Wahrzeichen unseres Dorfes.
 
-## Unsere Bankverbindung
+Jeder Beitrag – ob groß oder klein – hilft uns dabei, Geschichte erlebbar zu machen und auch kommenden Generationen zugänglich zu halten.
 
-Bitte überweisen Sie Ihre Spende an:
+## 🏦 Bankverbindung
+
+Bitte richten Sie Ihre Spende an folgendes Konto:
 
 - **Bank:** Sparkasse Hameln-Weserbergland
 - **IBAN:** `DE12 1234 1234 1234 1234 00`
 - **BIC:** `WELADED1HMN`
 - **Verwendungszweck:** *Spende Windmühle Tündern*
 
-## Spendenquittung gewünscht?
+## 🧾 Spendenquittung gewünscht?
 
-Gerne stellen wir Ihnen eine Spendenbescheinigung aus. Senden Sie uns dafür einfach eine E-Mail mit Ihrem Namen und Ihrer Adresse an:  
+Gerne stellen wir Ihnen eine **Spendenbescheinigung** aus. Bitte senden Sie uns dafür einfach eine kurze E-Mail mit Ihrem **Namen und Ihrer Anschrift** an:
+
 📧 [kontakt@windmuehle-tundern.de](mailto:kontakt@windmuehle-tundern.de)
 
----
+## 🙏 Herzlichen Dank!
 
-Vielen Dank für Ihre Unterstützung! 🙏
+Wir danken Ihnen herzlich für Ihre Unterstützung und Ihr Vertrauen in unsere Arbeit.  
+Gemeinsam können wir dieses besondere Stück Heimat erhalten.

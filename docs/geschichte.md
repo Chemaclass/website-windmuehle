@@ -1,12 +1,33 @@
-# Geschichte der Windmühle
+# 🏛️ Geschichte der Windmühle
 
-Die Mühe 1883 vom Mühlenbauer Redecker aus Börry gebaut. Er war auch der Eigentümer. 10 Jahre später wurde Sie von Carl Lampe, der sich nach einer 8 jährigen Wanderschaft als Müllermeister, niederlassen wollte gepachtet.
+Die Windmühle wurde im Jahr **1883** vom Mühlenbauer **Redecker** aus Börry erbaut, der zugleich auch ihr erster Eigentümer war.  
+**Zehn Jahre später** verpachtete er die Mühle an **Carl Lampe**, der sich nach einer achtjährigen Wanderschaft als Müllermeister in Tündern niederlassen wollte.
 
-## Die Mühle befindet sich in Familienbesitz.
+## 🏠 Die Mühle im Familienbesitz
 
-Die Mühle ist eine sogenannte Erdholländer. Der obere Teil der Mühle ist beweglich, sie wird deshalb auch als Kappendreher bezeichnet. Die Windrose richtet die Flügel automatisch nach dem Wind aus. Das ist wichtig, weil die Flügel sich nur drehen, wenn sie frontal im Wind stehen. In Deutschland herrscht nämlich zu 70 bis 75 % Westwind.
-Die jährliche Pacht betrug sich zunächst auf 350 Goldmark. 1897 kaufte Lampe jedoch die Mühle für 9.500 Goldmark. Er war ein sehr erfolgreicher Unternehmer, denn er konnte sich nicht nur diese hohe Kaufsumme leisten, sondern er baute schon 1900 ein Wohnhaus direkt neben der Mühle. Dies kostete 13.000 Goldmark. Die Tündersche Mühle war lange eine reine Schrotmühle. Das heißt, sie mahlte für die Bauern Viehfutter. Lampe führte neben der Mühle noch einen landwirtschaftlichen Betrieb. Wenn in der Mühle wegen Windflaute nichts zu tun war, konnte der Lehrling und der Geselle dort mithelfen. Die Arbeit war sehr vom Wetter abhängig. Oft musste schnell reagiert und der Ablauf geändert werden.
+Es handelt sich um eine sogenannte **Erdholländer-Mühle**, bei der der obere Teil drehbar ist. Deshalb wird sie auch als **Kappendreher** bezeichnet. Die **Windrose** auf der Rückseite sorgt dafür, dass sich die Mühlenflügel automatisch in den Wind drehen – wichtig, denn nur bei **frontalem Wind** drehen sich die Flügel. In Deutschland weht der Wind in rund **70–75%** der Fälle aus westlicher Richtung.
 
-Der Sohn von Carl Lampe sen. der ebenfalls Karl Lampe hieß, wurde genau wie sein Vater Müllermeister und übernahm den Betrieb. 1921 wurde ein Elektromotor eingebaut, damit man unabhängiger vom Wind wurde. 1927 ließ Lampe jun. einen Walzenstuhl einbauen, so dass die Mühle auch Mehl mahlen konnte. Schrotmühle und Walzenstuhl standen als unabhängige Systeme nebeneinander in der Mühle. Karl Lampe jun. starb 1968. Seither arbeitet sein Sohn Karl Lampe nach Feierabend in der Mühle, um seiner Mutter zu helfen. Er hatte selbst eine Müllerlehre in Aerzen angefangen, musste sie aber wegen einer Mehlallergie abbrechen. Bald wurde aber der Betrieb der Mühle ganz aufgegeben. 1979 wurde die Mühle mit großem Aufwand restauriert. Ein Jahr später wurde sie von einem Blitzschlag getroffen. Das Feuer zerstörte weite Teile des oberen Bereiches. In einem enormen Kraftakt wurde die Mühle ein weiteres Mal in Stand gesetzt und kann heute besichtigt werden.
+Anfangs zahlte Carl Lampe eine **jährliche Pacht von 350 Goldmark**. Im Jahr **1897** kaufte er die Mühle schließlich für **9.500 Goldmark**. Bereits **1900** errichtete er ein Wohnhaus direkt neben der Mühle – Kostenpunkt: **13.000 Goldmark**.  
+Die Tündersche Mühle diente über lange Zeit hinweg als **reine Schrotmühle** – sie mahlte also Tierfutter für die Bauern der Umgebung. Nebenbei betrieb Lampe eine kleine Landwirtschaft. Bei Windflaute halfen der Lehrling und der Geselle dort mit. Die Arbeit war stark vom Wetter abhängig, und es musste häufig spontan umgeplant werden.
 
-![Bild 1](/imgs/from-wikipedia.png)
+<p align="center">
+  <img src="/imgs/from-wikipedia.png" alt="Bild der Windmühle" style="width: 50%;" />
+</p>
+
+## 👨‍👦 Generationenwechsel und technische Neuerungen
+
+Der Sohn von Carl Lampe sen., ebenfalls **Karl Lampe** genannt, trat in die Fußstapfen seines Vaters und wurde ebenfalls **Müllermeister**. Er übernahm den Betrieb und modernisierte die Mühle:
+
+- **1921**: Einbau eines **Elektromotors**, um unabhängig vom Wind mahlen zu können
+- **1927**: Einbau eines **Walzenstuhls**, wodurch nun auch **Mehl** gemahlen werden konnte
+
+Die **Schrotmühle** und der **Walzenstuhl** arbeiteten als getrennte Systeme nebeneinander.
+
+Nach dem Tod von Karl Lampe jun. im Jahr **1968** arbeitete sein Sohn (ebenfalls Karl Lampe) **nach Feierabend in der Mühle**, um seine Mutter zu unterstützen. Zwar hatte er selbst eine **Müllerlehre in Aerzen** begonnen, musste sie aber aufgrund einer **Mehlallergie** abbrechen. Kurze Zeit später wurde der Mühlenbetrieb ganz eingestellt.
+
+## 🔧 Restaurierung und heutiger Zustand
+
+**1979** erfolgte eine aufwändige **Restaurierung** der Windmühle. Bereits ein Jahr später traf ein **Blitzschlag** den oberen Bereich – das Feuer zerstörte große Teile des Aufbaus.
+
+Dank eines weiteren **großen ehrenamtlichen Einsatzes** konnte die Mühle erneut instand gesetzt werden.  
+Heute ist sie vollständig erhalten und kann im Rahmen von Führungen besichtigt werden – ein lebendiges Stück Dorfgeschichte.

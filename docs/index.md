@@ -1,43 +1,49 @@
-# Windmühle Tündern Förderverein
+# 🏡 Windmühle Tündern Förderverein
 
 <p align="center">
   <img src="/imgs/logo.jpg" alt="Windmühle Tündern Logo" width="200" />
 </p>
 
 **Herzlich willkommen auf unserer Informationsseite!**  
-Hier erfahren Sie alles Wissenswerte rund um die historische Windmühle in Tündern – über unsere Ziele, bereits Erreichtes, zukünftige Pläne und wie Sie mitmachen oder uns kontaktieren können.
+Hier erfahren Sie alles über die **historische Windmühle in Tündern**, den Förderverein und wie Sie sich aktiv oder durch eine Spende einbringen können.
 
-## Aufgaben und Ziele des Fördervereins
+Ob Geschichte, aktuelle Projekte oder zukünftige Pläne – wir laden Sie ein, mit uns ein Stück Dorfkultur zu erhalten.
 
-Der **Förderverein Windmühle Tündern e.V.** engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Belebung der Windmühle. Unser Ziel ist es, dieses besondere Kulturdenkmal zu bewahren und für kommende Generationen erlebbar zu machen.
+## 🎯 Aufgaben und Ziele des Fördervereins
 
-**Unsere Hauptziele:**
+Der **Förderverein Windmühle Tündern e.V.** engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Wiederbelebung der Windmühle.
 
-- Erhalt der Bausubstanz der Mühle
-- Führungen und Veranstaltungen zur Geschichte der Windmühle
-- Einbindung in den regionalen Tourismus
+Unser Ziel ist es, dieses einmalige Kulturdenkmal **zu bewahren, zugänglich zu machen** und in das Gemeindeleben einzubinden – heute und für kommende Generationen.
 
-## Vereinssatzung
+**Unsere Schwerpunkte:**
+
+- 🛠️ Erhalt und Sicherung der historischen Bausubstanz
+- 📖 Führungen und Veranstaltungen zur Mühlengeschichte
+- 🧭 Integration der Mühle in den lokalen Tourismus
+
+## 🏗️ Erreichtes & Zukünftige Vorhaben
+
+### ✅ Bereits erreicht:
+- Neue Dachdeckung (2020)
+- Sanierung des tragenden Mühlenständers
+- Einführung regelmäßiger Führungen
+
+### 🔧 In Planung:
+- Wiederherstellung des Flügelwerks
+- Aufbau eines kleinen Museumsbereichs im Inneren
+- Durchführung von Schulprojekten direkt an der Mühle
+
+## 📜 Vereinssatzung
 
 Die Satzung unseres gemeinnützigen Vereins können Sie hier einsehen:  
 📄 [Vereinssatzung als PDF herunterladen](./satzung.pdf)
 
-## Erreichtes & Weitere Vorhaben
+## 🤝 Mitglied werden
 
-### Bereits erreicht:
-- Neue Dachdeckung im Jahr 2020
-- Sanierung des tragenden Mühlenständers
-- Einführung regelmäßiger Führungen
+Unterstützen Sie unsere Arbeit – **werden Sie Mitglied im Förderverein!**
 
-### Unsere nächsten Ziele:
-- Wiederherstellung des Flügelwerks
-- Ausbau eines kleinen Museumsbereichs im Inneren
-- Durchführung von Schulprojekten direkt vor Ort
+📄 [Beitrittsformular als PDF herunterladen](./beitritt.pdf)
 
-## Mitglied werden
-
-Unterstützen Sie unsere Arbeit aktiv!
-
-📄 [Beitrittsformular hier als PDF herunterladen](./beitritt.pdf)  
-Bitte senden Sie das ausgefüllte Formular an unsere Adresse oder bringen Sie es zu einer unserer Veranstaltungen mit.  
-**Wir freuen uns über jedes neue Mitglied!**
+Bitte senden Sie das ausgefüllte Formular per Post an unsere Adresse  
+oder bringen Sie es einfach zu einer unserer Veranstaltungen mit.  
+**Wir freuen uns über jedes neue Mitglied und Ihre Unterstützung!**
