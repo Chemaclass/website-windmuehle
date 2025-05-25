@@ -32,7 +32,7 @@ Nuestra misión es **proteger**, **dar vida** e integrar este singular monumento
 
 - Nueva cubierta del tejado en 2020
 - Restauración de la base estructural del molino
-- Inicio de visitas p\u00fablicas regulares
+- Inicio de visitas públicas regulares
 
 ### Proyectos previstos
 
@@ -56,7 +56,7 @@ Conoce la base jurídica y los principios de nuestro trabajo sin ánimo de lucro
 📄 [Descargar formulario de alta en PDF](./beitritt.pdf)
 
 Por favor, envía el formulario cumplimentado por correo a nuestra dirección
-o entrégalo en alguno de nuestros eventos p\u00fablicos.
+o entrégalo en alguno de nuestros eventos públicos.
 
 <div style="font-weight: bold; font-size: 1.1rem; margin-top: 0.5rem;">
 ¡Estaremos encantados de darte la bienvenida!

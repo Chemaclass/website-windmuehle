@@ -8,9 +8,7 @@ It is a so-called **Erdholländer** windmill whose upper part can rotate, which 
 
 At first Carl Lampe paid an **annual rent of 350 Goldmarks**. In **1897** he bought the mill for **9,500 Goldmarks**. By **1900** he had built a house right next to it costing **13,000 Goldmarks**. For many years the Tündern mill served purely as a **grist mill**, grinding animal feed for local farmers. Lampe also ran a small farm, and when there was no wind the apprentice and journeyman helped out there. The work was very weather dependent and plans often had to change at short notice.
 
-<p align="center">
-  <img src="/imgs/from-wikipedia.png" alt="Image of the windmill" style="width: 50%;" />
-</p>
+<img src="/imgs/bilder/windmill-7.jpeg" alt="Windmühle Tündern Bild 4" style="width: 100%; height: auto; border-radius: 8px;" />
 
 ## 👨‍👦 Generational Change and Technical Innovations
 

@@ -1,16 +1,14 @@
 # Historia del molino
 
-El molino se construyó en **1883** por el constructor de molinos **Redecker** de B\u00f6rry, quien también fue su primer propietario. **Diez años más tarde** lo arrendó a **Carl Lampe**, un maestro molinero que quería establecerse en Tündern tras ocho años de viajes.
+El molino se construyó en **1883** por el constructor de molinos **Redecker** de Börry, quien también fue su primer propietario. **Diez años más tarde** lo arrendó a **Carl Lampe**, un maestro molinero que quería establecerse en Tündern tras ocho años de viajes.
 
 ## 🏡 El molino en manos de la familia
 
-Se trata de un molino llamado **Erdholl\u00e4nder** cuya parte superior puede girar, por lo que también se le conoce como **Kappendreher**. El **molinete** en la parte trasera orienta automáticamente las aspas hacia el viento —algo esencial, ya que solo giran si se encuentran de frente. En Alemania el viento sopla desde el oeste aproximadamente **70–75%** del tiempo.
+Se trata de un molino llamado **Erdholländer** cuya parte superior puede girar, por lo que también se le conoce como **Kappendreher**. El **molinete** en la parte trasera orienta automáticamente las aspas hacia el viento —algo esencial, ya que solo giran si se encuentran de frente. En Alemania el viento sopla desde el oeste aproximadamente **70–75%** del tiempo.
 
-Al principio Carl Lampe pagaba un **alquiler anual de 350 marcos de oro**. En **1897** compró el molino por **9.500 marcos de oro**. Hacia **1900** construyó una casa justo al lado por **13.000 marcos de oro**. Durante muchos años el molino de Tündern funcionó \u00fanicamente como **molino de pienso**, moliendo alimento para los granjeros locales. Lampe también llevaba una pequeña granja y, cuando no había viento, el aprendiz y el oficial le ayudaban allí. El trabajo dependía mucho del tiempo y los planes solían cambiar a corto plazo.
+Al principio Carl Lampe pagaba un **alquiler anual de 350 marcos de oro**. En **1897** compró el molino por **9.500 marcos de oro**. Hacia **1900** construyó una casa justo al lado por **13.000 marcos de oro**. Durante muchos años el molino de Tündern funcionó como **molino de pienso**, moliendo alimento para los granjeros locales. Lampe también llevaba una pequeña granja y, cuando no había viento, el aprendiz y el oficial le ayudaban allí. El trabajo dependía mucho del tiempo y los planes solían cambiar a corto plazo.
 
-<p align="center">
-  <img src="/imgs/from-wikipedia.png" alt="Imagen del molino" style="width: 50%;" />
-</p>
+<img src="/imgs/bilder/windmill-7.jpeg" alt="Windmühle Tündern Bild 4" style="width: 100%; height: auto; border-radius: 8px;" />
 
 ## 👨‍👦 Cambio generacional e innovaciones técnicas
 

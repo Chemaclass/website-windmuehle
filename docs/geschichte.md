@@ -10,9 +10,7 @@ Es handelt sich um eine sogenannte **Erdholländer-Mühle**, bei der der obere T
 Anfangs zahlte Carl Lampe eine **jährliche Pacht von 350 Goldmark**. Im Jahr **1897** kaufte er die Mühle schließlich für **9.500 Goldmark**. Bereits **1900** errichtete er ein Wohnhaus direkt neben der Mühle – Kostenpunkt: **13.000 Goldmark**.  
 Die Tündersche Mühle diente über lange Zeit hinweg als **reine Schrotmühle** – sie mahlte also Tierfutter für die Bauern der Umgebung. Nebenbei betrieb Lampe eine kleine Landwirtschaft. Bei Windflaute halfen der Lehrling und der Geselle dort mit. Die Arbeit war stark vom Wetter abhängig, und es musste häufig spontan umgeplant werden.
 
-<p align="center">
-  <img src="/imgs/from-wikipedia.png" alt="Bild der Windmühle" style="width: 50%;" />
-</p>
+<img src="/imgs/bilder/windmill-7.jpeg" alt="Windmühle Tündern Bild 4" style="width: 100%; height: auto; border-radius: 8px;" />
 
 ## 👨‍👦 Generationenwechsel und technische Neuerungen
 
