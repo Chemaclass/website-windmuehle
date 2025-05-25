@@ -1,31 +1,30 @@
-# History of the Windmill
+# 🏛️ History of the Windmill
 
-The windmill was built in **1883** by millwright Redecker from Börry, who was also its first owner.  
-Ten years later, it was leased by **Carl Lampe**, a master miller who had just returned from eight years of travel and wanted to settle down in Tündern.
+The windmill was built in **1883** by the millwright **Redecker** from Börry, who was also its first owner. **Ten years later** he leased it to **Carl Lampe**, a master miller wanting to settle in Tündern after eight years of traveling.
 
-## The Mill Has Stayed in the Family
+## 🏡 The Mill in Family Hands
 
-The mill is a so-called *“Erdholländer”* — an earth-level Dutch-style windmill. Its top section can rotate and is therefore called a *“Kappendreher.”*  
-Thanks to the wind vane (or fantail), the sails automatically turn into the wind — which is crucial, as they only rotate when facing it directly. In Germany, the wind blows from the west about 70–75% of the time.
+It is a so-called **Erdholländer** windmill whose upper part can rotate, which is why it is also known as a **Kappendreher**. The **fantail** on the back turns the sails automatically into the wind—essential because they only rotate when facing it directly. In Germany the wind blows from the west about **70–75%** of the time.
 
-Initially, Carl Lampe paid **350 Goldmarks** in yearly rent. In **1897**, however, he bought the mill for **9,500 Goldmarks** — a large sum at the time. He proved to be a successful entrepreneur: just three years later, in 1900, he built a house right next to the mill for **13,000 Goldmarks**.
+At first Carl Lampe paid an **annual rent of 350 Goldmarks**. In **1897** he bought the mill for **9,500 Goldmarks**. By **1900** he had built a house right next to it costing **13,000 Goldmarks**. For many years the Tündern mill served purely as a **grist mill**, grinding animal feed for local farmers. Lampe also ran a small farm, and when there was no wind the apprentice and journeyman helped out there. The work was very weather dependent and plans often had to change at short notice.
 
-Back then, the Tündern windmill was primarily a **grist mill**, meaning it ground animal feed for local farmers. Carl Lampe also ran a small farm, and whenever the wind was too weak for milling, the apprentice and journeyman would help out on the farm. The work was heavily weather-dependent, and plans often had to change quickly.
+<p align="center">
+  <img src="/imgs/from-wikipedia.png" alt="Image of the windmill" style="width: 50%;" />
+</p>
 
-## From Wind to Electricity
+## 👨‍👦 Generational Change and Technical Innovations
 
-Carl Lampe’s son, also named **Karl Lampe**, followed in his father's footsteps and became a master miller himself. He modernized the business further:
+Carl Lampe senior's son—also named **Karl Lampe**—followed in his father’s footsteps and became a **master miller**. He took over the business and modernized the mill:
 
-- In **1921**, an **electric motor** was installed to make the mill less dependent on wind.
-- In **1927**, he added a **roller mill**, allowing the windmill to produce flour as well as feed.  
-  Both systems — the traditional grist mill and the roller mill — operated side by side.
+- **1921**: installation of an **electric motor** so milling could continue without wind
+- **1927**: installation of a **roller mill**, allowing flour to be produced
 
-When Karl Lampe Jr. passed away in **1968**, his own son — also named Karl — took over helping in the evenings after work. Although he had begun miller training in Aerzen, he had to stop due to a flour allergy.
+The **grist mill** and the **roller mill** operated as separate systems side by side.
 
-Eventually, the mill’s operation came to a halt. But in **1979**, it was **restored with great effort**. Sadly, just a year later, it was struck by lightning, and much of the upper structure was destroyed by fire.
+After Karl Lampe Jr. died in **1968**, his son (also named Karl Lampe) **worked evenings in the mill** to support his mother. Although he had begun miller training in Aerzen, he had to quit because of a **flour allergy**. Shortly afterwards the mill ceased operation entirely.
 
-Thanks to another incredible effort by the community, the mill was restored once again — and today, it stands proudly and can be visited as a piece of living history.
+## 🔨 Restoration and Current State
 
----
+In **1979** the windmill underwent extensive **restoration**. Just a year later a **lightning strike** hit the upper section and the fire destroyed large parts of the structure.
 
-![Historic image](/imgs/from-wikipedia.png)
+Thanks to another **major volunteer effort**, the mill was restored once again. Today it is fully preserved and can be visited on guided tours—a living piece of village history.

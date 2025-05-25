@@ -1,34 +1,17 @@
-# Windmill Gallery
+# 🖼️ Windmill Images
 
-A glimpse into the past and present of the historic windmill in Tündern.
+A picture says more than a thousand words – so here we present a small selection of photos of the Tündern windmill.
 
-Below you'll find a small collection of images showing the mill from various angles and stages — before and after restoration.
+These images currently serve as placeholders and can later be replaced with your own photographs — for example before-and-after shots of the restoration or impressions from tours and events.
 
-Feel free to replace these placeholders with your own photos.
+## 📸 Gallery
 
-## Image Collection
-
-### Before Renovation
-
-![Windmill Before Renovation](https://via.placeholder.com/600x400?text=Mill+Before)
-
-*A view of the mill before restoration work began.*
-
-### After Renovation
-
-![Windmill After Renovation](https://via.placeholder.com/600x400?text=Mill+After)
-
-*The restored windmill — standing proud again as a local landmark.*
-
-### Detail Views
-
-![Windmill Wings](https://via.placeholder.com/600x400?text=Mill+Wings)
-
-*Close-up of the new wings under blue skies.*
+<!-- sample image -->
+<p align="center">
+  <img src="/imgs/from-wikipedia.png" alt="Windmill Tündern – sample image" style="width: 50%; border-radius: 8px;" />
+</p>
 
 ---
 
-## 📥 Have photos to share?
-
-We're always looking for historical photos or new perspectives.  
-Feel free to send your images to [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
+**Do you have great photos of the mill?**
+We would love to receive them at [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de) — we’d be happy to publish your perspective!

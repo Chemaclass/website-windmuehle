@@ -1,40 +1,80 @@
-# 📬 Contact
+# ✉️ Contact
 
-We’d love to hear from you!
+Do you have a question or would like to reach out to us?
 
-If you have any questions about the windmill, the association, or upcoming events, feel free to contact us by email or using the form below.
+Feel free to send us an email directly or use the form below. We look forward to your message!
 
----
-
-## 📞 Contact Details
+## 📞 Contact Options
 
 - **Email:** [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
 - **Phone:** 01234 / 56789
 
----
-
 ## 📝 Contact Form
 
-<form action="mailto:info@windmuehle-tuendern.de" method="post" enctype="text/plain" style="display: block; max-width: 500px; margin: 1rem auto; padding: 1rem; background-color: #f9f9f9; border-radius: 8px;">
+<form action="mailto:info@windmuehle-tuendern.de" method="post" enctype="text/plain" style="
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  font-family: sans-serif;
+">
 
-<label for="name"><strong>Your Name:</strong><br />
-<input type="text" id="name" name="name" required style="width: 100%; padding: 0.4rem; margin-bottom: 1rem;" />
-</label>
+  <label for="name" style="display: block; margin-bottom: 1rem;">
+    <strong>Your Name:</strong><br />
+    <input type="text" id="name" name="name" required style="
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    ">
+  </label>
 
-<label for="email"><strong>Your Email:</strong><br />
-<input type="email" id="email" name="email" required style="width: 100%; padding: 0.4rem; margin-bottom: 1rem;" />
-</label>
+  <label for="email" style="display: block; margin-bottom: 1rem;">
+    <strong>Your Email Address:</strong><br />
+    <input type="email" id="email" name="email" required style="
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    ">
+  </label>
 
-<label for="message"><strong>Message:</strong><br />
-<textarea id="message" name="message" rows="5" style="width: 100%; padding: 0.4rem;"></textarea>
-</label>
+  <label for="message" style="display: block; margin-bottom: 1rem;">
+    <strong>Your Message:</strong><br />
+    <textarea id="message" name="message" rows="6" required style="
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      resize: vertical;
+    "></textarea>
+  </label>
 
-<br /><br />
-<button type="submit" style="padding: 0.6rem 1.2rem; background-color: #4d90fe; color: white; border: none; border-radius: 4px; cursor: pointer;">
-Send Message
-</button>
+  <div style="text-align: right;">
+    <button type="submit" style="
+      padding: 0.6rem 1.2rem;
+      background-color: #4d90fe;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    ">
+      Send Message
+    </button>
+  </div>
 </form>
 
 ---
 
-Thank you for reaching out! We’ll get back to you as soon as possible.
+Thank you for your message!
+We will get back to you as soon as possible.

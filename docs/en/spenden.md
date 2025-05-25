@@ -1,23 +1,27 @@
-# Donate
+# 💚 Donate
 
-**Help preserve a piece of local history.**
+**Help keep the Tündern windmill alive!**
 
-Your donation supports the maintenance and restoration of the historic windmill in Tündern — a cultural treasure for our village and future generations.
+Your donation supports the preservation, care and further development of our historic windmill – a valuable cultural monument and landmark of our village.
 
-## Bank Details
+Every contribution – big or small – helps us make history tangible and keep it accessible for future generations.
 
-Please use the following information for your donation:
+## 🏛️ Bank Details
+
+Please send your donation to the following account:
 
 - **Bank:** Sparkasse Hameln-Weserbergland
 - **IBAN:** `DE12 1234 1234 1234 1234 00`
 - **BIC:** `WELADED1HMN`
 - **Reference:** *Donation Windmill Tündern*
 
-## Donation Receipt
+## 💾 Would you like a donation receipt?
 
-If you would like a donation receipt (*Spendenquittung*), simply send us your full name and address via email:  
-📧 [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
+We are happy to issue a donation certificate. Just send us a short email with your **name and address** to:
 
----
+📧 [kontakt@windmuehle-tundern.de](mailto:kontakt@windmuehle-tundern.de)
 
-Thank you for your support — every contribution makes a difference! 🙏
+## 🙏 Thank you very much!
+
+We sincerely thank you for your support and trust in our work.
+Together we can preserve this special piece of heritage.
