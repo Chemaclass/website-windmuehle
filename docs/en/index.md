@@ -1,48 +1,63 @@
-# Windmill Tündern Association
+# 🏡 Windmill Tündern Association
 
 <p align="center">
-  <img src="/imgs/logo.svg" alt="Windmühle Tündern Logo" width="200" style="margin-top: 1rem;" />
+  <img src="/imgs/logo.svg" alt="Windmill Tündern Logo" width="180" />
 </p>
 
-**Welcome to our information page!**
-Here you will find everything about the **historic windmill in Tündern**, the association and how you can get involved or support us with a donation.
+<div style="text-align: center; font-size: 1.1rem; line-height: 1.6;">
+  <strong>Welcome to our information page!</strong><br />
+  Here you can learn all about the <strong>historic windmill in Tündern</strong>, our association, and how you can support us — either actively or with a donation.<br /><br />
+  Whether you're interested in its history, current projects, or future plans — we warmly invite you to help preserve a unique piece of village culture with us.
+</div>
 
-Whether you’re interested in history, current projects or future plans—we invite you to help us preserve a piece of village culture.
+---
 
-## 🎯 Goals and Objectives
+## 🎯 Goals and Purpose of the Association
 
-The **Windmühle Tündern Association** is wholeheartedly dedicated to preserving, maintaining and reviving the windmill.
+The **Windmill Tündern Association (e.V.)** is passionately dedicated to the preservation, care, and revitalization of the historic windmill.
 
-Our goal is to keep this unique cultural monument **alive and accessible**, and to integrate it into community life—today and for generations to come.
+Our mission is to **protect**, **bring to life**, and integrate this unique cultural landmark into the community for future generations.
 
-**Our main focuses:**
+### Our Focus Areas
 
-- 🔨 Preserving and securing the historic structure
-- 📖 Guided tours and events about the mill’s history
-- 🧬 Integrating the mill into local tourism
+- 🛠️ Preserving and maintaining the historical structure
+- 📖 Organizing guided tours and educational events about the mill’s history
+- 🧭 Promoting the mill as part of local tourism
 
-## 🏗️ Achievements & Upcoming Projects
+---
 
-### ✅ Already achieved:
-- New roof covering (2020)
-- Restoration of the supporting mill stand
-- Introduction of regular guided tours
+## 🏗️ Achievements & Future Projects
 
-### 🔧 In planning:
-- Reconstruction of the sails
-- Creating a small museum area inside
-- Running school projects directly at the mill
+### ✅ Already Accomplished
 
-## 📜 Statutes of the Association
+- New roof installed in 2020
+- Restoration of the structural base of the mill
+- Introduction of regular public tours
 
-You can view our nonprofit statutes here:
-📄 [Download the statutes PDF](../satzung.pdf)
+### 🔧 Planned Projects
+
+- Reconstruction of the windmill sails
+- Creation of a small exhibition/museum area inside the mill
+- Hosting school projects and educational visits on-site
+
+---
+
+## 📜 Association Statutes
+
+Learn more about the legal structure and principles of our nonprofit work:  
+📄 [Download statutes as PDF](./satzung.pdf)
+
+---
 
 ## 🤝 Become a Member
 
-Support our work—**become a member of the association!**
+**Support our work — become a member of the association!**
 
-📄 [Download the membership form](../beitritt.pdf)
+📄 [Download membership form as PDF](./beitritt.pdf)
 
-Please send the completed form by post to our address or simply bring it to one of our events.
-**We look forward to every new member and your support!**
+Please send the completed form by mail to our address  
+or bring it with you to one of our public events.
+
+<div style="font-weight: bold; font-size: 1.1rem; margin-top: 0.5rem;">
+We are happy to welcome every new member!
+</div>
