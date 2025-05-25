@@ -45,5 +45,25 @@ export default defineConfig({
                 },
             },
         },
+        es: {
+            label: 'Español',
+            lang: 'es-ES',
+            link: '/es/',
+            title: 'Molino de Viento Tündern',
+            description: 'Asociación dedicada a preservar el histórico molino de viento de Tündern.',
+            themeConfig: {
+                outline: false,
+                logo: '/imgs/logo.svg',
+                nav: [
+                    { text: 'Historia', link: '/es/geschichte' },
+                    { text: 'Galería', link: '/es/bilder' },
+                    { text: 'Contacto', link: '/es/kontakt' },
+                    { text: 'Donar', link: '/es/spenden' },
+                ],
+                footer: {
+                    copyright: `© ${currentYear} Molino Tündern · Desarrollado por <a href="https://chemaclass.com" target="_blank" rel="noopener">Chemaclass</a> · <a href="/es/impressum">Aviso legal</a>`,
+                },
+            },
+        },
     },
 })
