@@ -10,7 +10,7 @@ export default defineConfig({
             label: 'Deutsch',
             lang: 'de-DE',
             title: 'Windmühle Tündern',
-            description: 'F\u00f6rderverein zur Erhaltung der historischen Windmühle in Tündern.',
+            description: 'Förderverein zur Erhaltung der historischen Windmühle in Tündern.',
             themeConfig: {
                 nav: [
                     { text: 'Geschichte', link: '/geschichte' },
@@ -31,13 +31,13 @@ export default defineConfig({
             description: 'Association dedicated to preserving the historic windmill in Tündern.',
             themeConfig: {
                 nav: [
-                    { text: 'History', link: '/en/history' },
-                    { text: 'Gallery', link: '/en/gallery' },
-                    { text: 'Contact', link: '/en/contact' },
-                    { text: 'Donate', link: '/en/donate' }
+                    { text: 'History', link: '/en/geschichte' },
+                    { text: 'Gallery', link: '/en/bilder' },
+                    { text: 'Contact', link: '/en/kontakt' },
+                    { text: 'Donate', link: '/en/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} <a href="https://chemaclass.com">Chemaclass</a> — <a href="/en/imprint">Imprint</a>`,
+                    copyright: `© ${currentYear} <a href="https://chemaclass.com">Chemaclass</a> — <a href="/en/impressum">Imprint</a>`,
                 },
             },
         },
