@@ -1,4 +1,4 @@
-# 🖼️ Bilder der Windmühle
+# Bilder der Windmühle
 
 Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl an Aufnahmen der Windmühle Tündern.
 
