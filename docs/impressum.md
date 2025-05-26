@@ -1,5 +1,9 @@
 # Impressum
 
+<script setup>
+import { CONTACT } from './.vitepress/variables'
+</script>
+
 **Windmühle-Tündern Förderverein e.V.**
 
 **Anschrift:**  
@@ -7,8 +11,8 @@ Mühlenweg 1
 31789 Hameln-Tündern  
 Deutschland
 
-**E-Mail:**  
-[info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
+**E-Mail:**
+<a href="mailto:{{ CONTACT.email }}">{{ CONTACT.email }}</a>
 
 **Vertretungsberechtigter Vorstand:**  
 Der Vorstand des Fördervereins

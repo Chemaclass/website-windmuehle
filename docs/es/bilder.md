@@ -1,5 +1,9 @@
 # Imágenes del Molino
 
+<script setup>
+import { CONTACT } from '../.vitepress/variables'
+</script>
+
 Una imagen vale más que mil palabras, así que aquí presentamos una pequeña selección de fotos del molino de Tündern.
 
 ## 📸 Galería
@@ -20,4 +24,4 @@ Una imagen vale más que mil palabras, así que aquí presentamos una pequeña s
 
 **¿Tienes buenas fotos del molino?**
 
-Nos encantaría recibirlas en [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de); estaremos encantados de publicar tu perspectiva.
+Nos encantaría recibirlas en [{{ CONTACT.email }}](mailto:{{ CONTACT.email }}); estaremos encantados de publicar tu perspectiva.

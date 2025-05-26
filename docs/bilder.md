@@ -1,5 +1,9 @@
 # Bilder der Windmühle
 
+<script setup>
+import { CONTACT } from './.vitepress/variables'
+</script>
+
 Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl an Aufnahmen der Windmühle Tündern.
 
 ## 📸 Galerie (Option 1: Slider)
@@ -30,4 +34,4 @@ Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine klei
 ---
 
 **Haben Sie schöne Fotos der Mühle?**  
-Dann freuen wir uns über Ihre Einsendung an [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de) – gerne veröffentlichen wir auch Ihre Perspektive!
+Dann freuen wir uns über Ihre Einsendung an [{{ CONTACT.email }}](mailto:{{ CONTACT.email }}) – gerne veröffentlichen wir auch Ihre Perspektive!

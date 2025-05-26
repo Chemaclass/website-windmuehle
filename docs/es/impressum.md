@@ -1,5 +1,9 @@
 # Aviso legal
 
+<script setup>
+import { CONTACT } from '../.vitepress/variables'
+</script>
+
 **Asociación Molino de Viento Tündern (e.V.)**
 
 **Dirección:**
@@ -8,7 +12,7 @@ Mühlenweg 1
 Alemania
 
 **Correo electrónico:**
-[info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
+<a href="mailto:{{ CONTACT.email }}">{{ CONTACT.email }}</a>
 
 **Junta directiva autorizada:** La junta de la asociación
 

@@ -1,17 +1,21 @@
 # Contact
 
+<script setup>
+import { CONTACT } from '../.vitepress/variables'
+</script>
+
 Do you have a question or would like to reach out to us?
 
 Feel free to send us an email directly or use the form below. We look forward to your message!
 
 ## 📞 Contact Options
 
-- **Email:** [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
-- **Phone:** 01234 / 56789
+- **Email:** <a href="mailto:{{ CONTACT.email }}">{{ CONTACT.email }}</a>
+- **Phone:** {{ CONTACT.phone }}
 
 ## 📝 Contact Form
 
-<form action="mailto:info@windmuehle-tuendern.de" method="post" enctype="text/plain" style="
+<form action="mailto:{{ CONTACT.email }}" method="post" enctype="text/plain" style="
   max-width: 500px;
   margin: 2rem auto;
   padding: 2rem;

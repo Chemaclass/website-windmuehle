@@ -1,5 +1,9 @@
 # Imprint
 
+<script setup>
+import { CONTACT } from '../.vitepress/variables'
+</script>
+
 **Windmühle-Tündern Förderverein e.V.**
 
 **Address:**
@@ -8,8 +12,7 @@ Mühlenweg 1
 Germany
 
 **Email:**
-[info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
-
+<a href="mailto:{{ CONTACT.email }}">{{ CONTACT.email }}</a>
 **Authorized Board:**
 The association's board
 

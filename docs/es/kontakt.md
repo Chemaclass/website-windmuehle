@@ -1,17 +1,21 @@
 # Contacto
 
+<script setup>
+import { CONTACT } from '../.vitepress/variables'
+</script>
+
 ¿Tienes alguna pregunta o quieres ponerte en contacto con nosotros?
 
 Puedes enviarnos un correo electrónico directamente o utilizar el siguiente formulario. ¡Esperamos tu mensaje!
 
 ## 📞 Formas de contacto
 
-- **Correo electrónico:** [info@windmuehle-tuendern.de](mailto:info@windmuehle-tuendern.de)
-- **Teléfono:** 01234 / 56789
+- **Correo electrónico:** <a href="mailto:{{ CONTACT.email }}">{{ CONTACT.email }}</a>
+- **Teléfono:** {{ CONTACT.phone }}
 
 ## 📝 Formulario de contacto
 
-<form action="mailto:info@windmuehle-tuendern.de" method="post" enctype="text/plain" style="
+<form action="mailto:{{ CONTACT.email }}" method="post" enctype="text/plain" style="
   max-width: 500px;
   margin: 2rem auto;
   padding: 2rem;

@@ -22,7 +22,7 @@ export default defineConfig({
                     { text: 'Spenden', link: '/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chemaclass</a> · <a href="/impressum">Impressum</a>`
+                    copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="/impressum">Impressum</a>`
                 },
             },
         },
