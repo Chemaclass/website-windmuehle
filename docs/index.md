@@ -10,7 +10,7 @@
   Ob Geschichte, aktuelle Projekte oder zukünftige Pläne – wir laden Sie herzlich ein, mit uns ein Stück Dorfkultur zu erhalten.
 </div>
 
-## 🎯 Aufgaben und Ziele des Fördervereins
+## Aufgaben und Ziele des Fördervereins
 
 Der **Förderverein Windmühle Tündern e.V.** engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Belebung der Windmühle.
 
@@ -22,33 +22,19 @@ Unser Ziel ist es, dieses besondere Kulturdenkmal zu **bewahren**, **erlebbar zu
 - Führungen und Veranstaltungen zur Mühlengeschichte
 - Integration der Mühle in den lokalen Tourismus
 
-## 🏗️ Erreichtes & Zukünftige Vorhaben
+## Bereits erreicht
 
-### Bereits erreicht
+- Erstellung eines Sachverständigengutachtens zum Umfang und den Kosten der notwenigen Arbeiten
+- Förderanträge bei möglichen Zuschussgebern und Zusagen von der EU, der Stiftung Denkmalschutz, der Stadt Hameln und des Landkreises Hameln-Pyrmont
+- Ausschreibung der Bauarbeiten und Angebote
+- Angebot für den Austausch der Mühlenflügel
 
-- Neue Dachdeckung im Jahr 2020
-- Sanierung des tragenden Mühlenständers
-- Einführung regelmäßiger Führungen
+### Das ist der Plan
 
-### Geplante Projekte
-
-- Wiederherstellung des Flügelwerks
-- Aufbau eines kleinen Museumsbereichs im Inneren
-- Durchführung von Schulprojekten vor Ort
-
-## 📜 Vereinssatzung
-
-Informieren Sie sich über die rechtlichen Grundlagen unserer Arbeit:  
-📄 [Vereinssatzung als PDF herunterladen](./satzung.pdf)
-
-## 🤝 Mitglied werden
-
-**Unterstützen Sie unsere Arbeit – werden Sie Mitglied im Förderverein!**
-
-📄 [Beitrittsformular als PDF herunterladen](./beitritt.pdf)
-
-Bitte senden Sie das ausgefüllte Formular per Post an unsere Adresse  
-oder bringen Sie es gerne zu einer unserer Veranstaltungen mit.
-<div style="font-weight: bold; font-size: 1.1rem; margin-top: 0.5rem;">
-Wir freuen uns über jedes neue Mitglied!
-</div>
+- Abnahme der alten Flügel Ende Juni/Anfang Juli 2025
+- Einrüsten der Windmühle im Juli 2025
+- Entfernen des alten Putzes
+- Ausbessern von schadhaften Stellen im Mauerwerk
+- Aufbringen des neuen Putzes im September 2025
+- Erneuerung des Anstriches
+- Anbringen der neuen Flügel im März 2026
