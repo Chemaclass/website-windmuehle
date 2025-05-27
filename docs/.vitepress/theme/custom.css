@@ -81,6 +81,7 @@ body {
   white-space: nowrap;
   padding: 1rem 0;
   margin-bottom: 2rem;
+  scroll-snap-type: x mandatory;
 }
 
 .scroll-img {
@@ -89,4 +90,10 @@ body {
   border-radius: 8px;
   display: inline-block;
   object-fit: cover;
+  scroll-snap-align: start;
+}
+
+.scroll-gallery {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }

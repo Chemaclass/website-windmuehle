@@ -31,8 +31,8 @@ Por eso es **urgentemente necesario** una restauración completa para conservar 
 
 El molino de Tündern se encuentra no solo en la **Ruta Ciclista del Weser**, sino también en la famosa **Ruta Alemana de los Cuentos de Hadas**.
 
-¿Te has fijado en la frecuencia con la que aparecen los **molinos** en los cuentos antiguos? Ya sea en los cuentos de los hermanos Grimm como **"El gato con botas"** o **"Rumpelstiltskin"**, o en leyendas como **"Krabat"**, el oficio de molinero siempre ha tenido su lugar.
+¿Te has fijado en la frecuencia con la que aparecen los **molinos** en los cuentos antiguos? Ya sea en los cuentos de los hermanos Grimm como **"El gato con botas"** o **"El duende saltarín"**, o en leyendas como **"Krabat"**, el oficio de molinero siempre ha tenido su lugar.
 
-Antiguamente, los **molinero** se consideraban figuras misteriosas. Los molinos solían estar aislados, fuera del control social. Muchos creían que los bandidos se escondían allí, y de hecho la profesión de molinero estuvo durante mucho tiempo poco valorada socialmente.
+Antiguamente, los **molinos** se consideraban figuras misteriosas y solían estar aislados, fuera del control social. Muchos creían que los bandidos se escondían allí, y de hecho la profesión de molinero estuvo durante mucho tiempo poco valorada socialmente.
 
 Solo en el **siglo XIX** cambió esa imagen: los molinos se convirtieron en símbolo de la seguridad alimentaria y de la innovación técnica. Nuestro molino de Tündern es también un pedazo de cultura que merece la pena conservar.
