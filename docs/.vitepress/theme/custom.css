@@ -35,3 +35,58 @@ img {
 body {
   padding-top: 2rem;
 }
+
+.home-hero {
+  max-width: 800px;
+  margin: 4rem auto 2rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-logo {
+  width: 140px;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.featured-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 2rem auto;
+  border-radius: 8px;
+}
+
+.scroll-gallery {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.scroll-img {
+  height: 400px;
+  margin-right: 1rem;
+  border-radius: 8px;
+  display: inline-block;
+  object-fit: cover;
+}

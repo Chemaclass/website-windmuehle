@@ -30,7 +30,6 @@ export default defineConfig({
             title: 'Windmühle Tündern',
             description: 'Förderverein zur Erhaltung der historischen Windmühle in Tündern.',
             themeConfig: {
-                outline: false,
                 logo: '/imgs/logo.svg',
                 nav: [
                     { text: 'Geschichte', link: '/geschichte' },
@@ -49,7 +48,6 @@ export default defineConfig({
             title: 'Windmill Tündern',
             description: 'Association dedicated to preserving the historic windmill in Tündern.',
             themeConfig: {
-                outline: false,
                 logo: '/imgs/logo.svg',
                 nav: [
                     { text: 'History', link: '/en/geschichte' },
@@ -68,7 +66,6 @@ export default defineConfig({
             title: 'Molino de Viento Tündern',
             description: 'Asociación dedicada a preservar el histórico molino de viento de Tündern.',
             themeConfig: {
-                outline: false,
                 logo: '/imgs/logo.svg',
                 nav: [
                     { text: 'Historia', link: '/es/geschichte' },
