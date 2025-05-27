@@ -1,7 +1,7 @@
 # Donate
 
 <script setup>
-import { BANK } from './.vitepress/variables'
+import { BANK } from '../.vitepress/variables'
 </script>
 
 **Help keep the Tündern windmill alive!**

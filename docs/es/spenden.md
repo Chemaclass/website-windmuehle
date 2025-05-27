@@ -1,7 +1,7 @@
 # Donar
 
 <script setup>
-import { BANK } from './.vitepress/variables'
+import { BANK } from '../.vitepress/variables'
 </script>
 
 **¡Ayude a mantener vivo el molino de Tündern!**
