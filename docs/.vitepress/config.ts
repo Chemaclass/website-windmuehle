@@ -16,7 +16,7 @@ export default defineConfig({
         ['meta', { property: 'og:type', content: 'website' }],
 
         // Twitter Card metadata
-        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+        ['meta', { name: 'twitter:card', content: 'summary' }],
         ['meta', { name: 'twitter:title', content: 'Förderverein Windmühle Tündern e.V.' }],
         ['meta', { name: 'twitter:description', content: 'Hier finden Sie alles über die historische Windmühle in Tündern, unseren Verein und wie Sie sich engagieren oder mit einer Spende unterstützen können.' }],
         ['meta', { name: 'twitter:image', content: 'https://windmuehle-tuendern.de/imgs/logo.jpg' }],
