@@ -1,7 +1,7 @@
 # Spenden
 
 <script setup>
-import { BANK, CONTACT } from './.vitepress/variables'
+import { BANK } from './.vitepress/variables'
 </script>
 
 **Tragen Sie dazu bei, die Windmühle Tündern lebendig zu halten!**
@@ -10,7 +10,7 @@ Mit Ihrer Spende unterstützen Sie den Erhalt, die Pflege und die Weiterentwickl
 
 Jeder Beitrag – ob groß oder klein – hilft uns dabei, Geschichte erlebbar zu machen und auch kommenden Generationen zugänglich zu halten.
 
-## 🏦 Bankverbindung
+### Bankverbindung
 
 Bitte richten Sie Ihre Spende an folgendes Konto:
 
@@ -19,13 +19,7 @@ Bitte richten Sie Ihre Spende an folgendes Konto:
 - **BIC:** `{{ BANK.bic }}`
 - **Verwendungszweck:** *{{ BANK.reference.de }}*
 
-## 🧾 Spendenquittung gewünscht?
-
-Gerne stellen wir Ihnen eine **Spendenbescheinigung** aus. Bitte senden Sie uns dafür einfach eine kurze E-Mail mit Ihrem **Namen und Ihrer Anschrift** an:
-
-📧 <a href="mailto:{{ CONTACT.donationEmail }}">{{ CONTACT.donationEmail }}</a>
-
-## 🙏 Herzlichen Dank!
+### Herzlichen Dank!
 
 Wir danken Ihnen herzlich für Ihre Unterstützung und Ihr Vertrauen in unsere Arbeit.  
 Gemeinsam können wir dieses besondere Stück Heimat erhalten.

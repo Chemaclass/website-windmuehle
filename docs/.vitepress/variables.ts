@@ -1,13 +1,12 @@
 export const CONTACT = {
-  email: 'info@windmuehle-tuendern.de',
-  phone: '01234 / 56789',
-  donationEmail: 'kontakt@windmuehle-tundern.de',
+  email: '?',
+  phone: '?',
 }
 
 export const BANK = {
-  name: 'Sparkasse Hameln-Weserbergland',
-  iban: 'DE12 1234 1234 1234 1234 00',
-  bic: 'WELADED1HMN',
+  name: 'Volksbank Hameln-Stadthagen',
+  iban: 'DE37 2546 2160 0107 7074 00',
+  bic: 'GENODEF1HMP',
   reference: {
     de: 'Spende Windmühle Tündern',
     en: 'Donation Windmill Tündern',

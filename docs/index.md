@@ -24,8 +24,8 @@ Unser Ziel ist es, dieses besondere Kulturdenkmal zu **bewahren**, **erlebbar zu
 
 ## Bereits erreicht
 
-- Erstellung eines Sachverständigengutachtens zum Umfang und den Kosten der notwenigen Arbeiten
-- Förderanträge bei möglichen Zuschussgebern und Zusagen von der EU, der Stiftung Denkmalschutz, der Stadt Hameln und des Landkreises Hameln-Pyrmont
+- Erstellung eines Sachverständigengutachtens zum Umfang und den Kosten der notwendigen Arbeiten
+- Förderanträge bei möglichen Zuschussgebern und Zusagen von **der EU, der Stiftung Denkmalschutz, der Stadt Hameln und des Landkreises Hameln-Pyrmont**
 - Ausschreibung der Bauarbeiten und Angebote
 - Angebot für den Austausch der Mühlenflügel
 
