@@ -6,6 +6,23 @@ export default defineConfig({
     lang: 'de-DE',
     appearance: false,
     cleanUrls: true,
+    head: [
+        // Open Graph (OG) metadata
+        ['meta', { property: 'og:title', content: 'Förderverein Windmühle Tündern e.V.' }],
+        ['meta', { property: 'og:description', content: 'Hier finden Sie alles über die historische Windmühle in Tündern, unseren Verein und wie Sie uns unterstützen können.' }],
+        ['meta', { property: 'og:image', content: 'https://windmuehle-tuendern.de/imgs/logo.jpg' }], // recommended to use a 1200x630px image
+        ['meta', { property: 'og:image:alt', content: 'Logo der Windmühle Tündern mit Vereinsname' }],
+        ['meta', { property: 'og:url', content: 'https://windmuehle-tuendern.de/' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+
+        // Twitter Card metadata
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+        ['meta', { name: 'twitter:title', content: 'Förderverein Windmühle Tündern e.V.' }],
+        ['meta', { name: 'twitter:description', content: 'Hier finden Sie alles über die historische Windmühle in Tündern, unseren Verein und wie Sie sich engagieren oder mit einer Spende unterstützen können.' }],
+        ['meta', { name: 'twitter:image', content: 'https://windmuehle-tuendern.de/imgs/logo.jpg' }],
+        ['meta', { name: 'twitter:image:alt', content: 'Logo der Windmühle Tündern mit Vereinsname' }],
+        ['meta', { name: 'twitter:creator', content: '@Chemaclass' }]
+    ],
     locales: {
         root: {
             label: 'Deutsch',
