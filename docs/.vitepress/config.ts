@@ -18,7 +18,6 @@ export default defineConfig({
                 nav: [
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },
-                    { text: 'Kontakt', link: '/kontakt' },
                     { text: 'Spenden', link: '/spenden' }
                 ],
                 footer: {
@@ -38,7 +37,6 @@ export default defineConfig({
                 nav: [
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
-                    { text: 'Contact', link: '/en/kontakt' },
                     { text: 'Donate', link: '/en/spenden' }
                 ],
                 footer: {
@@ -58,7 +56,6 @@ export default defineConfig({
                 nav: [
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
-                    { text: 'Contacto', link: '/es/kontakt' },
                     { text: 'Donar', link: '/es/spenden' },
                 ],
                 footer: {
