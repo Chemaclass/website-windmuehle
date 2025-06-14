@@ -41,7 +41,7 @@ export default defineConfig({
                     { text: 'Spenden', link: '/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="/impressum">Impressum</a>`
+                    copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/impressum">Impressum</a>`
                 }
             }
         },
@@ -60,7 +60,7 @@ export default defineConfig({
                     { text: 'Donate', link: '/en/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} Windmill Tündern · Built by <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="/en/impressum">Imprint</a>`
+                    copyright: `© ${currentYear} Windmill Tündern · Built by <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/en/impressum">Imprint</a>`
                 }
             }
         },
@@ -79,7 +79,7 @@ export default defineConfig({
                     { text: 'Donar', link: '/es/spenden' }
                 ],
                 footer: {
-                    copyright: `© ${currentYear} Molino Tündern · Desarrollado por <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="/es/impressum">Aviso legal</a>`
+                    copyright: `© ${currentYear} Molino Tündern · Desarrollado por <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/es/impressum">Aviso legal</a>`
                 }
             }
         }
