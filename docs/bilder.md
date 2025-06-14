@@ -11,9 +11,9 @@ Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine klei
 ### 🤝 Pfingstmontag an der Mühle
 
 <div class="grid-gallery">
+  <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" loading="lazy" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" loading="lazy" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" loading="lazy" class="grid-img" />
-  <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" loading="lazy" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" loading="lazy" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" loading="lazy" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" loading="lazy" class="grid-img" />

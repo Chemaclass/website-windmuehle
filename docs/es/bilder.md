@@ -11,9 +11,9 @@ Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña s
 ### 🤝 Lunes de Pentecostés en el molino
 
 <div class="grid-gallery">
+  <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" alt="Público reunido" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" alt="Visitantes en la molina" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" alt="Encuentro festivo" class="grid-img" />
-  <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" alt="Público reunido" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" alt="Guía en la molina" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" alt="Niños disfrutando" class="grid-img" />
   <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Ambiente relajado" class="grid-img" />
