@@ -2,6 +2,14 @@
 layout: home
 title: false
 outline: true
+description: Gallery of pictures from Windmill Tündern.
+head:
+  - - meta
+    - property: og:description
+      content: Gallery of pictures from Windmill Tündern.
+  - - meta
+    - name: twitter:description
+      content: Gallery of pictures from Windmill Tündern.
 ---
 
 # Pictures of the Windmill

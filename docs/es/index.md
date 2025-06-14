@@ -2,6 +2,14 @@
 layout: home
 outline: false
 title: false
+description: Información sobre la Asociación Molino de Viento Tündern y su labor.
+head:
+  - - meta
+    - property: og:description
+      content: Información sobre la Asociación Molino de Viento Tündern y su labor.
+  - - meta
+    - name: twitter:description
+      content: Información sobre la Asociación Molino de Viento Tündern y su labor.
 ---
 
 <div class="home-hero">

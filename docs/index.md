@@ -2,6 +2,14 @@
 layout: home
 outline: false
 title: false
+description: Infos über die Windmühle Tündern und den Förderverein.
+head:
+  - - meta
+    - property: og:description
+      content: Infos über die Windmühle Tündern und den Förderverein.
+  - - meta
+    - name: twitter:description
+      content: Infos über die Windmühle Tündern und den Förderverein.
 ---
 
 <div class="home-hero">

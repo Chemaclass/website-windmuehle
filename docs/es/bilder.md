@@ -2,6 +2,14 @@
 layout: home
 title: false
 outline: true
+description: Galería de fotos del Molino de Viento Tündern.
+head:
+  - - meta
+    - property: og:description
+      content: Galería de fotos del Molino de Viento Tündern.
+  - - meta
+    - name: twitter:description
+      content: Galería de fotos del Molino de Viento Tündern.
 ---
 
 # Imágenes del molino

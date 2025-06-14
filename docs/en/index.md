@@ -2,6 +2,14 @@
 layout: home
 outline: false
 title: false
+description: Information about the Windmill Tündern association and its mission.
+head:
+  - - meta
+    - property: og:description
+      content: Information about the Windmill Tündern association and its mission.
+  - - meta
+    - name: twitter:description
+      content: Information about the Windmill Tündern association and its mission.
 ---
 
 <div class="home-hero">
