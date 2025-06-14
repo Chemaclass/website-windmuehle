@@ -39,3 +39,14 @@ A picture is worth a thousand words – so here is a small selection of snapshot
   <img src="/imgs/bilder/windmill-15.jpeg" alt="Extinguishing work" class="scroll-img" />
   <img src="/imgs/bilder/windmill-16.jpeg" alt="Extinguishing work" class="scroll-img" />
 </div>
+
+### 🤝 Whit Monday at the mill
+
+<div class="grid-gallery">
+  <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" alt="Whit Monday visitors" class="grid-img" />
+  <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" alt="Crowd near the mill" class="grid-img" />
+  <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" alt="Outdoor gathering" class="grid-img" />
+  <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" alt="Guided tour" class="grid-img" />
+  <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" alt="Children at the mill" class="grid-img" />
+  <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Relaxed atmosphere" class="grid-img" />
+</div>
