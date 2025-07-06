@@ -16,6 +16,16 @@ head:
 
 A picture is worth a thousand words – so here is a small selection of snapshots around the **Tündern windmill**.
 
+### Removal of the blades 2025
+
+<div class="scroll-gallery">
+  <img src="/imgs/flugel-abgebaut/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-2.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-3.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-4.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-5.jpeg" loading="lazy" class="scroll-img" />
+</div>
+
 ### 🤝 Whit Monday at the mill
 
 <div class="grid-gallery">

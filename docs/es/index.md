@@ -42,11 +42,11 @@ Nuestro objetivo: **preservar** este especial monumento cultural, hacerlo **vivi
 - 💶 Compromisos de financiación de la **UE**, la **Fundación de Protección del Patrimonio**, la **ciudad de Hameln** y el **distrito de Hameln-Pyrmont**
 - 📐 Licitación y ofertas para los trabajos de restauración
 - ⚙️ Oferta para sustituir las aspas del molino
+- 🪓 Retirada de las aspas antiguas ([imágenes](/es/bilder#retirada-de-las-aspas-2025))
 
 
 ### El plan
 
-- 🪓 **junio–julio de 2025:** Retirada de las aspas antiguas
 - 🏗️ **julio de 2025:** Andamiaje del molino
 - 🧱 Eliminación del yeso viejo
 - 🛠️ Reparación de los muros dañados

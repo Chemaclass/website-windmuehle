@@ -42,11 +42,11 @@ Our goal: to **preserve** this unique cultural landmark, make it **experienceabl
 - 💶 Funding commitments from **EU**, **Heritage Conservation Foundation**, **City of Hameln** and **Hameln-Pyrmont District**
 - 📐 Tendering and offers for the restoration work
 - ⚙️ Offer for replacing the mill's blades
+- 🪓 Remove the old blades ([pictures](/en/bilder#removal-of-the-blades-2025))
 
 
 ### The Plan
 
-- 🪓 **June–July 2025:** Remove the old blades
 - 🏗️ **July 2025:** Scaffold the mill
 - 🧱 Remove the old plaster
 - 🛠️ Repair damaged masonry

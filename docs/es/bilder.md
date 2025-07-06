@@ -16,6 +16,16 @@ head:
 
 Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña selección de instantáneas en torno al **molino de viento de Tündern**.
 
+### Retirada de las aspas 2025
+
+<div class="scroll-gallery">
+  <img src="/imgs/flugel-abgebaut/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-2.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-3.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-4.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-5.jpeg" loading="lazy" class="scroll-img" />
+</div>
+
 ### 🤝 Lunes de Pentecostés en el molino
 
 <div class="grid-gallery">

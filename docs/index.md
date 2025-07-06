@@ -23,8 +23,6 @@ head:
 
 ### Aktuelles
 
-Die Sanierungsarbeiten haben begonnen: Am Freitag wurden die alten Flügel abgenommen.
-
 ### Unsere Mission
 
 Der **Förderverein Windmühle Tündern e.V.** engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Wiederbelebung der Windmühle in Tündern.
@@ -45,7 +43,7 @@ Unser Ziel: Dieses besondere Kulturdenkmal **bewahren**, **erlebbar machen** und
 - Förderzusagen von **EU**, **Stiftung Denkmalschutz**, **Stadt Hameln** und **Landkreis Hameln-Pyrmont**
 - Ausschreibung und Angebote für die Sanierungsarbeiten
 - Angebot für den Austausch der Mühlenflügel
-- Abnahme der alten Flügel
+- Abnahme der alten Flügel ([Bilder](/bilder#abbau-der-flugel-2025))
 
 
 ### Das ist der Plan
