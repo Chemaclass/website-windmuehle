@@ -16,7 +16,7 @@ img {
 }
 
 .home-hero {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 4rem auto 2rem;
   text-align: center;
   padding: 0 1rem;
@@ -43,7 +43,7 @@ img {
 .hero-text {
   font-size: 1rem;
   color: #555;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -110,4 +110,44 @@ img {
   .blade-gallery {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+}
+
+/* Home page redesign */
+.cta-button {
+  display: inline-block;
+  background-color: var(--vp-c-brand-1);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home-intro {
+  h2 {
+    border-top: none;
+    margin: unset;
+    padding-top: unset;
+  }
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.home-grid h3 {
+  margin-top: 0;
+}
+
+.plan ul {
+  list-style: disc;
+  padding-left: 1.5rem;
 }

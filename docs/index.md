@@ -17,39 +17,53 @@ head:
   <h1 class="hero-title">Förderverein Windmühle Tündern e.V.</h1>
   <p class="hero-subtitle">Herzlich willkommen auf unserer Informationsseite!</p>
   <p class="hero-text">
-    Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich aktiv oder durch eine Spende engagieren können.
+    Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich engagieren können.
   </p>
 </div>
 
-### Aktuelles
+<div class="home-intro">
+  <h2>Unsere Mission</h2>
+  <p>
+    Der <strong>Förderverein Windmühle Tündern e.V.</strong> engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Wiederbelebung der Windmühle in Tündern.
+    Unser Ziel: Dieses besondere Kulturdenkmal <strong>bewahren</strong>, <strong>erlebbar machen</strong> und fest im Gemeindeleben verankern.
+  </p>
+</div>
 
-### Unsere Mission
+<div class="home-grid">
+  <div>
+    <h3>Unsere Schwerpunkte</h3>
+    <p>
+      <ul>
+        <li>Erhalt und Sicherung der historischen Bausubstanz</li>
+        <li>Führungen & Veranstaltungen zur Mühlengeschichte</li>
+        <li>Integration der Mühle in den lokalen Tourismus</li>
+      </ul>
+    </p>
+  </div>
+  <div>
+    <h3>Bereits erreicht</h3>
+    <p>
+      <ul>
+        <li>Erstellung eines Sachverständigengutachtens über Umfang und Kosten</li>
+        <li>Förderzusagen von <strong>EU</strong>, <strong>Stiftung Denkmalschutz</strong>, <strong>Stadt Hameln</strong> und <strong>Landkreis Hameln-Pyrmont</strong></li>
+        <li>Ausschreibung und Angebote für die Sanierungsarbeiten</li>
+        <li>Angebot für den Austausch der Mühlenflügel</li>
+        <li>Abnahme der alten Flügel</li>
+      </ul>
+    </p>
+  </div>
+  <div class="plan">
+    <h3>Das ist der Plan</h3>
+    <p>
+      <ul>
+        <li><strong>Juli 2025:</strong> Einrüsten der Mühle</li>
+        <li>Entfernung des alten Putzes</li>
+        <li>Ausbessern schadhafter Mauerstellen</li>
+        <li><strong>September 2025:</strong> Neuer Putz & frischer Anstrich</li>
+        <li><strong>März 2026:</strong> Anbringen der neuen Flügel</li>
+      </ul>
+    </p>
+  </div>
+</div>
 
-Der **Förderverein Windmühle Tündern e.V.** engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Wiederbelebung der Windmühle in Tündern.
-
-Unser Ziel: Dieses besondere Kulturdenkmal **bewahren**, **erlebbar machen** und fest im Gemeindeleben verankern.
-
-
-### Unsere Schwerpunkte
-
-- Erhalt und Sicherung der historischen Bausubstanz
-- Führungen & Veranstaltungen zur Mühlengeschichte
-- Integration der Mühle in den lokalen Tourismus
-
-
-### Bereits Erreicht
-
-- Erstellung eines Sachverständigengutachtens über Umfang und Kosten
-- Förderzusagen von **EU**, **Stiftung Denkmalschutz**, **Stadt Hameln** und **Landkreis Hameln-Pyrmont**
-- Ausschreibung und Angebote für die Sanierungsarbeiten
-- Angebot für den Austausch der Mühlenflügel
-- Abnahme der alten Flügel ([Bilder](/bilder#abbau-der-flugel-2025))
-
-
-### Das ist der Plan
-
-- **Juli 2025:** Einrüsten der Mühle
-- Entfernung des alten Putzes
-- Ausbessern schadhafter Mauerstellen
-- **September 2025:** Neuer Putz & frischer Anstrich
-- **März 2026:** Anbringen der neuen Flügel  
+<img src="/imgs/bilder/windmill-7.jpeg" alt="Windmühle Tündern bei Sonnenlicht" class="featured-image" />
