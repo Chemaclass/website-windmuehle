@@ -16,6 +16,17 @@ head:
 
 Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl von Momentaufnahmen rund um die **Windmühle Tündern**.
 
+
+### 🛠️ Abbau der Flügel 2025
+
+<div class="scroll-gallery">
+  <img src="/imgs/flugel-abgebaut/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-2.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-3.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-4.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/flugel-abgebaut/windmill-5.jpeg" loading="lazy" class="scroll-img" />
+</div>
+
 ### 🤝 Pfingstmontag an der Mühle
 
 <div class="grid-gallery">

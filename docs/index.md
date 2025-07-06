@@ -20,6 +20,10 @@ head:
     Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich aktiv oder durch eine Spende engagieren können.
   </p>
 </div>
+### Aktuelles
+
+Die Sanierungsarbeiten haben begonnen: Am Freitag wurden die alten Flügel abgenommen.
+
 
 
 ### Unsere Mission
@@ -42,11 +46,11 @@ Unser Ziel: Dieses besondere Kulturdenkmal **bewahren**, **erlebbar machen** und
 - 💶 Förderzusagen von **EU**, **Stiftung Denkmalschutz**, **Stadt Hameln** und **Landkreis Hameln-Pyrmont**
 - 📐 Ausschreibung und Angebote für die Sanierungsarbeiten
 - ⚙️ Angebot für den Austausch der Mühlenflügel
+- 🪓 Abnahme der alten Flügel
 
 
 ### Das ist der Plan
 
-- 🪓 **Juni–Juli 2025:** Abnahme der alten Flügel
 - 🏗️ **Juli 2025:** Einrüsten der Mühle
 - 🧱 Entfernung des alten Putzes
 - 🛠️ Ausbessern schadhafter Mauerstellen

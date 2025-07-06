@@ -90,3 +90,24 @@ img {
   object-fit: cover;
   border-radius: 8px;
 }
+
+/* Layout for the blade removal gallery: three pictures on top and two below */
+.blade-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.blade-gallery img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .blade-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
