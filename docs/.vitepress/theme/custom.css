@@ -175,6 +175,18 @@ img {
   margin: 1rem 0 2rem;
 }
 
+@media (max-width: 1024px) {
+  .home-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 .home-gallery img {
   width: 100%;
   max-height: 300px;
