@@ -33,27 +33,23 @@ head:
 <div class="home-grid">
   <div>
     <h3>Already Achieved</h3>
-    <p>
-      <ul>
+    <ul>
         <li>Preparation of an expert report on scope and costs</li>
         <li>Funding commitments from <strong>EU</strong>, <strong>Heritage Conservation Foundation</strong>, <strong>City of Hameln</strong> and <strong>Hameln-Pyrmont District</strong></li>
         <li>Tendering and offers for the restoration work</li>
         <li>Offer for replacing the mill's blades</li>
         <li>Remove the old blades</li>
-      </ul>
-    </p>
+    </ul>
   </div>
   <div class="plan">
     <h3>The Plan</h3>
-    <p>
-      <ul>
+    <ul>
         <li><strong>July 2025:</strong> Scaffold the mill</li>
         <li>Remove the old plaster</li>
         <li>Repair damaged masonry</li>
         <li><strong>September 2025:</strong> Apply new plaster & fresh paint</li>
         <li><strong>March 2026:</strong> Install the new blades</li>
-      </ul>
-    </p>
+    </ul>
   </div>
 </div>
 

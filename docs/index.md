@@ -33,27 +33,23 @@ head:
 <div class="home-grid">
   <div>
     <h3>Bereits erreicht</h3>
-    <p>
-      <ul>
+    <ul>
         <li>Erstellung eines Sachverständigengutachtens über Umfang und Kosten</li>
         <li>Förderzusagen von <strong>EU</strong>, <strong>Stiftung Denkmalschutz</strong>, <strong>Stadt Hameln</strong> und <strong>Landkreis Hameln-Pyrmont</strong></li>
         <li>Ausschreibung und Angebote für die Sanierungsarbeiten</li>
         <li>Angebot für den Austausch der Mühlenflügel</li>
         <li>Abnahme der alten Flügel</li>
-      </ul>
-    </p>
+    </ul>
   </div>
   <div class="plan">
     <h3>Der Plan</h3>
-    <p>
-      <ul>
+    <ul>
         <li><strong>Juli 2025:</strong> Einrüsten der Mühle</li>
         <li>Entfernung des alten Putzes</li>
         <li>Ausbessern schadhafter Mauerstellen</li>
         <li><strong>September 2025:</strong> Neuer Putz & frischer Anstrich</li>
         <li><strong>März 2026:</strong> Anbringen der neuen Flügel</li>
-      </ul>
-    </p>
+    </ul>
   </div>
 </div>
 

@@ -33,27 +33,23 @@ head:
 <div class="home-grid">
   <div>
     <h3>Logros</h3>
-    <p>
-      <ul>
+    <ul>
         <li>Elaboración de un informe pericial sobre el alcance y los costes</li>
         <li>Compromisos de financiación de la <strong>UE</strong>, la <strong>Fundación de Protección del Patrimonio</strong>, la <strong>ciudad de Hameln</strong> y el <strong>distrito de Hameln-Pyrmont</strong></li>
         <li>Licitación y ofertas para los trabajos de restauración</li>
         <li>Oferta para sustituir las aspas del molino</li>
         <li>Retirada de las aspas antiguas</li>
-      </ul>
-    </p>
+    </ul>
   </div>
   <div class="plan">
     <h3>El plan</h3>
-    <p>
-      <ul>
+    <ul>
         <li><strong>julio de 2025:</strong> Andamiaje del molino</li>
         <li>Eliminación del yeso viejo</li>
         <li>Reparación de los muros dañados</li>
         <li><strong>septiembre de 2025:</strong> Nuevo revestimiento y pintura</li>
         <li><strong>marzo de 2026:</strong> Colocación de las nuevas aspas</li>
-      </ul>
-    </p>
+    </ul>
   </div>
 </div>
 
