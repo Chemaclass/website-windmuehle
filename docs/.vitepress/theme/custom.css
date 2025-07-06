@@ -179,11 +179,17 @@ img {
   .home-gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+  .home-gallery-item img {
+    max-height: 150px !important;
+  }
 }
 
 @media (max-width: 768px) {
   .home-gallery {
     grid-template-columns: 1fr;
+  }
+  .home-gallery-item img {
+    max-height: 100px !important;
   }
 }
 
