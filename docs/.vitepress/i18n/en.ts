@@ -64,6 +64,7 @@ export default {
     introBold: 'Help keep the Tündern windmill alive!',
     introText: 'With your donation you support the preservation, care and further development of our historic windmill – a valuable cultural monument and landmark of our village. Every contribution – big or small – helps us bring history to life and make it accessible for future generations.',
     bankTitle: 'Bank Details',
+    subject: 'Concept',
     donateText: 'Please send your donation to the following account:',
     thanksTitle: 'Thank you very much!',
     thanksText: 'We sincerely thank you for your support and trust in our work. Together we can preserve this special piece of heritage.'

@@ -64,6 +64,7 @@ export default {
     introBold: '¡Contribuya a mantener vivo el molino de Tündern!',
     introText: 'Con su donación apoya la conservación, el cuidado y el desarrollo continuo de nuestro histórico molino de viento, un valioso monumento cultural y símbolo de nuestro pueblo. Cada aportación –grande o pequeña– nos ayuda a hacer tangible la historia y conservarla para las próximas generaciones.',
     bankTitle: 'Datos bancarios',
+    subject: 'Concepto',
     donateText: 'Por favor envíe su donación a la siguiente cuenta:',
     thanksTitle: '¡Muchas gracias!',
     thanksText: 'Le agradecemos sinceramente su apoyo y la confianza en nuestro trabajo. Juntos podremos conservar este pedazo tan especial de nuestra tierra.'
