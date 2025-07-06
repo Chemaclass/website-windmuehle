@@ -152,11 +152,6 @@ img {
   padding-left: 1.5rem;
 }
 
-.home-focus {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
 
 .home-gallery {
   display: grid;
@@ -170,4 +165,22 @@ img {
   max-height: 300px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.home-gallery-item {
+  position: relative;
+}
+
+.focus-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  pointer-events: none;
 }

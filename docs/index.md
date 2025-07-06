@@ -29,16 +29,6 @@ head:
   </p>
 </div>
 
-<div class="home-focus">
-  <h3>Unsere Schwerpunkte</h3>
-  <p>
-    <ul>
-      <li>Erhalt und Sicherung der historischen Bausubstanz</li>
-      <li>Führungen & Veranstaltungen zur Mühlengeschichte</li>
-      <li>Integration der Mühle in den lokalen Tourismus</li>
-    </ul>
-  </p>
-</div>
 
 <div class="home-grid">
   <div>
@@ -54,7 +44,7 @@ head:
     </p>
   </div>
   <div class="plan">
-    <h3>Das ist der Plan</h3>
+    <h3>Der Plan</h3>
     <p>
       <ul>
         <li><strong>Juli 2025:</strong> Einrüsten der Mühle</li>
@@ -68,8 +58,20 @@ head:
 </div>
 
 <div class="home-gallery">
-  <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
-  <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Erhalt und Sicherung der historischen Bausubstanz</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Führungen & Veranstaltungen zur Mühlengeschichte</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Integration der Mühle in den lokalen Tourismus</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Bildungsprogramme zu erneuerbaren Energien</div>
+  </div>
 </div>

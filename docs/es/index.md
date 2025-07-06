@@ -29,16 +29,6 @@ head:
   </p>
 </div>
 
-<div class="home-focus">
-  <h3>Nuestros enfoques</h3>
-  <p>
-    <ul>
-      <li>Conservación y seguridad de la estructura histórica</li>
-      <li>Visitas guiadas y eventos sobre la historia del molino</li>
-      <li>Integración del molino en el turismo local</li>
-    </ul>
-  </p>
-</div>
 
 <div class="home-grid">
   <div>
@@ -68,8 +58,20 @@ head:
 </div>
 
 <div class="home-gallery">
-  <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
-  <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Conservación y seguridad de la estructura histórica</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Visitas guiadas y eventos sobre la historia del molino</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Integración del molino en el turismo local</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Programas educativos sobre energías renovables</div>
+  </div>
 </div>

@@ -29,16 +29,6 @@ head:
   </p>
 </div>
 
-<div class="home-focus">
-  <h3>Our Focus Areas</h3>
-  <p>
-    <ul>
-      <li>Preservation and safeguarding of the historic structure</li>
-      <li>Tours & events about the mill's history</li>
-      <li>Integration of the mill into local tourism</li>
-    </ul>
-  </p>
-</div>
 
 <div class="home-grid">
   <div>
@@ -68,8 +58,20 @@ head:
 </div>
 
 <div class="home-gallery">
-  <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
-  <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Preservation and safeguarding of the historic structure</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Tours & events about the mill's history</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Integration of the mill into local tourism</div>
+  </div>
+  <div class="home-gallery-item">
+    <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
+    <div class="focus-text">Educational programs on renewable energy</div>
+  </div>
 </div>
