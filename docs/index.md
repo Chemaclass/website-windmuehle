@@ -29,17 +29,18 @@ head:
   </p>
 </div>
 
+<div class="home-focus">
+  <h3>Unsere Schwerpunkte</h3>
+  <p>
+    <ul>
+      <li>Erhalt und Sicherung der historischen Bausubstanz</li>
+      <li>Führungen & Veranstaltungen zur Mühlengeschichte</li>
+      <li>Integration der Mühle in den lokalen Tourismus</li>
+    </ul>
+  </p>
+</div>
+
 <div class="home-grid">
-  <div>
-    <h3>Unsere Schwerpunkte</h3>
-    <p>
-      <ul>
-        <li>Erhalt und Sicherung der historischen Bausubstanz</li>
-        <li>Führungen & Veranstaltungen zur Mühlengeschichte</li>
-        <li>Integration der Mühle in den lokalen Tourismus</li>
-      </ul>
-    </p>
-  </div>
   <div>
     <h3>Bereits erreicht</h3>
     <p>
@@ -66,8 +67,9 @@ head:
   </div>
 </div>
 
-<div class="grid-gallery">
+<div class="home-gallery">
   <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
-  <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
   <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
+  <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
 </div>

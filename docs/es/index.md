@@ -29,17 +29,18 @@ head:
   </p>
 </div>
 
+<div class="home-focus">
+  <h3>Nuestros enfoques</h3>
+  <p>
+    <ul>
+      <li>Conservación y seguridad de la estructura histórica</li>
+      <li>Visitas guiadas y eventos sobre la historia del molino</li>
+      <li>Integración del molino en el turismo local</li>
+    </ul>
+  </p>
+</div>
+
 <div class="home-grid">
-  <div>
-    <h3>Nuestros enfoques</h3>
-    <p>
-      <ul>
-        <li>Conservación y seguridad de la estructura histórica</li>
-        <li>Visitas guiadas y eventos sobre la historia del molino</li>
-        <li>Integración del molino en el turismo local</li>
-      </ul>
-    </p>
-  </div>
   <div>
     <h3>Logros</h3>
     <p>
@@ -66,8 +67,9 @@ head:
   </div>
 </div>
 
-<div class="grid-gallery">
+<div class="home-gallery">
   <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
   <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
   <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
+  <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
 </div>
