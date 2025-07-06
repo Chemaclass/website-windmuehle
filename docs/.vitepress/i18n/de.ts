@@ -22,10 +22,22 @@ export default {
       '<strong>März 2026:</strong> Anbringen der neuen Flügel'
     ],
     gallery: [
-      'Erhalt und Sicherung der historischen Bausubstanz',
-      'Führungen & Veranstaltungen zur Mühlengeschichte',
-      'Integration der Mühle in den lokalen Tourismus',
-      'Bildungsprogramme zu erneuerbaren Energien'
+      {
+        text: 'Erhalt und Sicherung der historischen Bausubstanz',
+        img: '/imgs/bilder/windmill-8.jpeg'
+      },
+      {
+        text: 'Führungen & Veranstaltungen zur Mühlengeschichte',
+        img: '/imgs/bilder/windmill-6.jpeg'
+      },
+      {
+        text: 'Integration der Mühle in den lokalen Tourismus',
+        img: '/imgs/bilder/windmill-2.jpeg'
+      },
+      {
+        text: 'Bildungsprogramme zu erneuerbaren Energien',
+        img: '/imgs/bilder/windmill-1.jpeg'
+      }
     ]
   },
   history: {

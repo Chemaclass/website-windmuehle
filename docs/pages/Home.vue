@@ -32,9 +32,9 @@ const t = useT()
   </div>
 
   <div class="home-gallery">
-    <div class="home-gallery-item" v-for="(text, i) in t('home.gallery')" :key="i">
-      <img :src="`/imgs/bilder/windmill-${i === 1 ? 6 : i === 2 ? 2 : i === 3 ? 1 : 8}.jpeg`" loading="lazy" class="scroll-img" />
-      <div class="focus-text">{{ text }}</div>
+    <div class="home-gallery-item" v-for="(item, i) in t('home.gallery')" :key="i">
+      <img :src="item.img" loading="lazy" class="scroll-img" />
+      <div class="focus-text">{{ item.text }}</div>
     </div>
   </div>
 </template>

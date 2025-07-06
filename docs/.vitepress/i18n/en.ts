@@ -22,10 +22,22 @@ export default {
       '<strong>March 2026:</strong> Install the new blades'
     ],
     gallery: [
-      'Preservation and safeguarding of the historic structure',
-      "Tours & events about the mill's history",
-      'Integration of the mill into local tourism',
-      'Educational programs on renewable energy'
+      {
+        text: 'Preservation and safeguarding of the historic structure',
+        img: '/imgs/bilder/windmill-8.jpeg'
+      },
+      {
+        text: "Tours & events about the mill's history",
+        img: '/imgs/bilder/windmill-6.jpeg'
+      },
+      {
+        text: 'Integration of the mill into local tourism',
+        img: '/imgs/bilder/windmill-2.jpeg'
+      },
+      {
+        text: 'Educational programs on renewable energy',
+        img: '/imgs/bilder/windmill-1.jpeg'
+      }
     ]
   },
   history: {

@@ -22,10 +22,22 @@ export default {
       '<strong>marzo de 2026:</strong> Colocación de las nuevas aspas'
     ],
     gallery: [
-      'Conservación y seguridad de la estructura histórica',
-      'Visitas guiadas y eventos sobre la historia del molino',
-      'Integración del molino en el turismo local',
-      'Programas educativos sobre energías renovables'
+      {
+        text: 'Conservación y seguridad de la estructura histórica',
+        img: '/imgs/bilder/windmill-8.jpeg'
+      },
+      {
+        text: 'Visitas guiadas y eventos sobre la historia del molino',
+        img: '/imgs/bilder/windmill-6.jpeg'
+      },
+      {
+        text: 'Integración del molino en el turismo local',
+        img: '/imgs/bilder/windmill-2.jpeg'
+      },
+      {
+        text: 'Programas educativos sobre energías renovables',
+        img: '/imgs/bilder/windmill-1.jpeg'
+      }
     ]
   },
   history: {
