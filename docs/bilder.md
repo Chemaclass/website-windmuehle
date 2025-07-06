@@ -17,7 +17,7 @@ head:
 Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl von Momentaufnahmen rund um die **Windmühle Tündern**.
 
 
-### 🛠️ Abbau der Flügel 2025
+### Abbau der Flügel 2025
 
 <div class="scroll-gallery">
   <img src="/imgs/flugel-abgebaut/windmill-1.jpeg" loading="lazy" class="scroll-img" />
@@ -27,7 +27,7 @@ Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine klei
   <img src="/imgs/flugel-abgebaut/windmill-5.jpeg" loading="lazy" class="scroll-img" />
 </div>
 
-### 🤝 Pfingstmontag an der Mühle
+### Pfingstmontag an der Mühle
 
 <div class="grid-gallery">
   <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" loading="lazy" class="grid-img" />
@@ -38,7 +38,7 @@ Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine klei
   <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" loading="lazy" class="grid-img" />
 </div>
 
-### 🌅 Morgen- und Abendstimmung
+### Morgen- und Abendstimmung
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy"  class="scroll-img" />
@@ -48,7 +48,7 @@ Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine klei
   <img src="/imgs/bilder/windmill-5.jpeg" loading="lazy" class="scroll-img" />
 </div>
 
-### 🧾 Historische Aufnahmen
+### Historische Aufnahmen
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
@@ -58,7 +58,7 @@ Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine klei
 </div>
 
 
-### 🔥 Brand und Wiederaufbau
+### Brand und Wiederaufbau
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-11.jpeg" loading="lazy" class="scroll-img" />

@@ -20,11 +20,10 @@ head:
     Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich aktiv oder durch eine Spende engagieren können.
   </p>
 </div>
+
 ### Aktuelles
 
 Die Sanierungsarbeiten haben begonnen: Am Freitag wurden die alten Flügel abgenommen.
-
-
 
 ### Unsere Mission
 
@@ -35,24 +34,24 @@ Unser Ziel: Dieses besondere Kulturdenkmal **bewahren**, **erlebbar machen** und
 
 ### Unsere Schwerpunkte
 
-- 🏛️ Erhalt und Sicherung der historischen Bausubstanz
-- 📚 Führungen & Veranstaltungen zur Mühlengeschichte
-- 🧭 Integration der Mühle in den lokalen Tourismus
+- Erhalt und Sicherung der historischen Bausubstanz
+- Führungen & Veranstaltungen zur Mühlengeschichte
+- Integration der Mühle in den lokalen Tourismus
 
 
 ### Bereits Erreicht
 
-- 🧾 Erstellung eines Sachverständigengutachtens über Umfang und Kosten
-- 💶 Förderzusagen von **EU**, **Stiftung Denkmalschutz**, **Stadt Hameln** und **Landkreis Hameln-Pyrmont**
-- 📐 Ausschreibung und Angebote für die Sanierungsarbeiten
-- ⚙️ Angebot für den Austausch der Mühlenflügel
-- 🪓 Abnahme der alten Flügel
+- Erstellung eines Sachverständigengutachtens über Umfang und Kosten
+- Förderzusagen von **EU**, **Stiftung Denkmalschutz**, **Stadt Hameln** und **Landkreis Hameln-Pyrmont**
+- Ausschreibung und Angebote für die Sanierungsarbeiten
+- Angebot für den Austausch der Mühlenflügel
+- Abnahme der alten Flügel
 
 
 ### Das ist der Plan
 
-- 🏗️ **Juli 2025:** Einrüsten der Mühle
-- 🧱 Entfernung des alten Putzes
-- 🛠️ Ausbessern schadhafter Mauerstellen
-- 🎨 **September 2025:** Neuer Putz & frischer Anstrich
-- 🌬️ **März 2026:** Anbringen der neuen Flügel  
+- **Juli 2025:** Einrüsten der Mühle
+- Entfernung des alten Putzes
+- Ausbessern schadhafter Mauerstellen
+- **September 2025:** Neuer Putz & frischer Anstrich
+- **März 2026:** Anbringen der neuen Flügel  
