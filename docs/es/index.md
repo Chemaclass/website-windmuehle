@@ -12,62 +12,9 @@ head:
       content: Información sobre la Asociación Molino de Viento Tündern y su labor.
 ---
 
-<div class="home-hero">
-  <img src="/imgs/logo.svg" alt="Logotipo del molino" class="hero-logo" />
-  <h1 class="hero-title">Asociación Molino de Viento Tündern</h1>
-  <p class="hero-subtitle">¡Bienvenido a nuestra página de información!</p>
-  <p class="hero-text">
-    Conozca más sobre el <strong>molino de viento histórico de Tündern</strong>, la asociación y cómo puede participar activamente.
-  </p>
-</div>
 
-<div class="home-intro">
-  <h2>Nuestra misión</h2>
-  <p>
-    La <strong>Asociación Molino de Viento Tündern</strong> se dedica con mucha pasión a conservar, cuidar y revitalizar el molino de Tündern.
-    Nuestro objetivo: <strong>preservar</strong> este especial monumento cultural, hacerlo <strong>vivible</strong> y anclarlo firmemente en la vida de la comunidad.
-  </p>
-</div>
+<script setup>
+import Home from '../pages/Home.vue'
+</script>
 
-
-<div class="home-grid">
-  <div>
-    <h3>Logros</h3>
-    <ul>
-        <li>Elaboración de un informe pericial sobre el alcance y los costes</li>
-        <li>Compromisos de financiación de la <strong>UE</strong>, la <strong>Fundación de Protección del Patrimonio</strong>, la <strong>ciudad de Hameln</strong> y el <strong>distrito de Hameln-Pyrmont</strong></li>
-        <li>Licitación y ofertas para los trabajos de restauración</li>
-        <li>Oferta para sustituir las aspas del molino</li>
-        <li>Retirada de las aspas antiguas</li>
-    </ul>
-  </div>
-  <div class="plan">
-    <h3>El plan</h3>
-    <ul>
-        <li><strong>julio de 2025:</strong> Andamiaje del molino</li>
-        <li>Eliminación del yeso viejo</li>
-        <li>Reparación de los muros dañados</li>
-        <li><strong>septiembre de 2025:</strong> Nuevo revestimiento y pintura</li>
-        <li><strong>marzo de 2026:</strong> Colocación de las nuevas aspas</li>
-    </ul>
-  </div>
-</div>
-
-<div class="home-gallery">
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Conservación y seguridad de la estructura histórica</div>
-  </div>
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Visitas guiadas y eventos sobre la historia del molino</div>
-  </div>
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Integración del molino en el turismo local</div>
-  </div>
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Programas educativos sobre energías renovables</div>
-  </div>
-</div>
+<Home />

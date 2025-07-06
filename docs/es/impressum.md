@@ -9,10 +9,9 @@ head:
       content: Aviso legal de la Asociación Molino de Viento Tündern.
 ---
 
-# Aviso legal
 
-**Asociación Molino de Viento Tündern**  
-_Presidente:_  
-**Karl-Friedrich Meyer**  
-Linkworth 1  
-31789 Hameln-Tündern
+<script setup>
+import Imprint from '../pages/Imprint.vue'
+</script>
+
+<Imprint />

@@ -9,10 +9,9 @@ head:
       content: Impressum des Fördervereins Windmühle Tündern e.V.
 ---
 
-# Impressum
 
-**Förderverein Windmühle Tündern e.V.**  
-_Vorsitzender:_  
-**Karl-Friedrich Meyer**  
-Linkworth 1  
-31789 Hameln-Tündern
+<script setup>
+import Imprint from './pages/Imprint.vue'
+</script>
+
+<Imprint />

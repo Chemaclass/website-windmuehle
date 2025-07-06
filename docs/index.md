@@ -12,62 +12,9 @@ head:
       content: Infos über die Windmühle Tündern und den Förderverein.
 ---
 
-<div class="home-hero">
-  <img src="/imgs/logo.svg" alt="Windmühle Logo" class="hero-logo" />
-  <h1 class="hero-title">Förderverein Windmühle Tündern e.V.</h1>
-  <p class="hero-subtitle">Herzlich willkommen auf unserer Informationsseite!</p>
-  <p class="hero-text">
-    Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich engagieren können.
-  </p>
-</div>
 
-<div class="home-intro">
-  <h2>Unsere Mission</h2>
-  <p>
-    Der <strong>Förderverein Windmühle Tündern e.V.</strong> engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Wiederbelebung der Windmühle in Tündern.
-    Unser Ziel: Dieses besondere Kulturdenkmal <strong>bewahren</strong>, <strong>erlebbar machen</strong> und fest im Gemeindeleben verankern.
-  </p>
-</div>
+<script setup>
+import Home from './pages/Home.vue'
+</script>
 
-
-<div class="home-grid">
-  <div>
-    <h3>Bereits erreicht</h3>
-    <ul>
-        <li>Erstellung eines Sachverständigengutachtens über Umfang und Kosten</li>
-        <li>Förderzusagen von <strong>EU</strong>, <strong>Stiftung Denkmalschutz</strong>, <strong>Stadt Hameln</strong> und <strong>Landkreis Hameln-Pyrmont</strong></li>
-        <li>Ausschreibung und Angebote für die Sanierungsarbeiten</li>
-        <li>Angebot für den Austausch der Mühlenflügel</li>
-        <li>Abnahme der alten Flügel</li>
-    </ul>
-  </div>
-  <div class="plan">
-    <h3>Der Plan</h3>
-    <ul>
-        <li><strong>Juli 2025:</strong> Einrüsten der Mühle</li>
-        <li>Entfernung des alten Putzes</li>
-        <li>Ausbessern schadhafter Mauerstellen</li>
-        <li><strong>September 2025:</strong> Neuer Putz & frischer Anstrich</li>
-        <li><strong>März 2026:</strong> Anbringen der neuen Flügel</li>
-    </ul>
-  </div>
-</div>
-
-<div class="home-gallery">
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Erhalt und Sicherung der historischen Bausubstanz</div>
-  </div>
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Führungen & Veranstaltungen zur Mühlengeschichte</div>
-  </div>
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Integration der Mühle in den lokalen Tourismus</div>
-  </div>
-  <div class="home-gallery-item">
-    <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
-    <div class="focus-text">Bildungsprogramme zu erneuerbaren Energien</div>
-  </div>
-</div>
+<Home />
