@@ -16,14 +16,14 @@ head:
 Die sogenannte Holländer-Windmühle am Weserdamm in Tündern wurde im Jahr **1883** erbaut. Anfangs bezogen die vier Bäckereien im Ort ihr Mehl direkt aus der Mühle. Bis **1960** wurde dort weiterhin Getreide geschrotet und als Futtermittel verwendet. Ursprünglich angetrieben durch Windkraft, wurde bereits **1921** ein Motor in einem Nebengebäude installiert – eine frühe Maßnahme zur Unabhängigkeit von Wind und Wetter.
 
 
-### 🕰️ Vom Verfall zur Rettung
+### Vom Verfall zur Rettung
 
 Nach dem **Zweiten Weltkrieg** begann der allmähliche Verfall der Mühle. Erst mit der Gründung des Heimatvereins **„Tundirum“ im Jahr 1974** begann eine neue Ära. Durch zahlreiche Spenden konnte die Mühle **1979** mit einem neuen Dach und frischem Putz wiedereröffnet werden.
 
 Doch ein Jahr später, am Abend des **19. Juli 1980**, schlug ein Blitz ein. Die Mühle brannte nahezu vollständig nieder – Dach, Windrose, Mühlenkrone und Mahlwerk wurden zerstört. Dank überwältigendem Engagement und vielen helfenden Händen konnte der Wiederaufbau schon **1981** abgeschlossen werden. Seither gilt sie als Wahrzeichen Tünderns und beliebte Wegmarke am Weserradweg.
 
 
-### 🛠️ Heute: Ein Denkmal in Not
+### Heute: Ein Denkmal in Not
 
 Aber auch heute nagt der **Zahn der Zeit** an der Windmühle:
 - Die **Holzflügel sind morsch**
@@ -35,7 +35,7 @@ Eine umfassende Instandsetzung ist daher **dringend notwendig**, um dieses Kultu
 <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmühle Tündern bei Sonnenlicht" style="width: 100%; height: auto; border-radius: 8px; margin-top: 1.5rem;" />
 
 
-### 📖 Mühlen in Märchen, Sagen und Geschichten
+### Mühlen in Märchen, Sagen und Geschichten
 
 Die Windmühle in Tündern liegt nicht nur am **Weserradweg**, sondern auch an der berühmten **Deutschen Märchenstraße**.
 

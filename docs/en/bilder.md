@@ -26,7 +26,7 @@ A picture is worth a thousand words – so here is a small selection of snapshot
   <img src="/imgs/flugel-abgebaut/windmill-5.jpeg" loading="lazy" class="scroll-img" />
 </div>
 
-### 🤝 Whit Monday at the mill
+### Whit Monday at the mill
 
 <div class="grid-gallery">
   <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" alt="Outdoor gathering" class="grid-img" />
@@ -37,7 +37,7 @@ A picture is worth a thousand words – so here is a small selection of snapshot
   <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Relaxed atmosphere" class="grid-img" />
 </div>
 
-### 🌅 Morning and evening moods
+### Morning and evening moods
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-1.jpeg" alt="Sunset" class="scroll-img" />
@@ -48,7 +48,7 @@ A picture is worth a thousand words – so here is a small selection of snapshot
 </div>
 
 
-### 🧾 Historical shots
+### Historical shots
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-8.jpeg" alt="Close-up" class="scroll-img" />
@@ -58,7 +58,7 @@ A picture is worth a thousand words – so here is a small selection of snapshot
 </div>
 
 
-### 🔥 Fire and reconstruction
+### Fire and reconstruction
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-11.jpeg" alt="Old photo" class="scroll-img" />

@@ -26,7 +26,7 @@ Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña s
   <img src="/imgs/flugel-abgebaut/windmill-5.jpeg" loading="lazy" class="scroll-img" />
 </div>
 
-### 🤝 Lunes de Pentecostés en el molino
+### Lunes de Pentecostés en el molino
 
 <div class="grid-gallery">
   <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" alt="Público reunido" class="grid-img" />
@@ -37,7 +37,7 @@ Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña s
   <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Ambiente relajado" class="grid-img" />
 </div>
 
-### 🌅 Ambiente de mañana y tarde
+### Ambiente de mañana y tarde
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-1.jpeg" alt="Puesta de sol" class="scroll-img" />
@@ -48,7 +48,7 @@ Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña s
 </div>
 
 
-### 🧾 Fotografías históricas
+### Fotografías históricas
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-8.jpeg" alt="Primer plano" class="scroll-img" />
@@ -58,7 +58,7 @@ Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña s
 </div>
 
 
-### 🔥 Incendio y reconstrucción
+### Incendio y reconstrucción
 
 <div class="scroll-gallery">
   <img src="/imgs/bilder/windmill-11.jpeg" alt="Foto antigua" class="scroll-img" />

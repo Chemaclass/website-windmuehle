@@ -31,24 +31,23 @@ Our goal: to **preserve** this unique cultural landmark, make it **experienceabl
 
 ### Our Focus Areas
 
-- 🏛️ Preservation and safeguarding of the historic structure
-- 📚 Tours & events about the mill's history
-- 🧭 Integration of the mill into local tourism
-
+- Preservation and safeguarding of the historic structure
+- Tours & events about the mill's history
+- Integration of the mill into local tourism
 
 ### Already Achieved
 
-- 🧾 Preparation of an expert report on scope and costs
-- 💶 Funding commitments from **EU**, **Heritage Conservation Foundation**, **City of Hameln** and **Hameln-Pyrmont District**
-- 📐 Tendering and offers for the restoration work
-- ⚙️ Offer for replacing the mill's blades
-- 🪓 Remove the old blades ([pictures](/en/bilder#removal-of-the-blades-2025))
+- Preparation of an expert report on scope and costs
+- Funding commitments from **EU**, **Heritage Conservation Foundation**, **City of Hameln** and **Hameln-Pyrmont District**
+- Tendering and offers for the restoration work
+- Offer for replacing the mill's blades
+- Remove the old blades ([pictures](/en/bilder#removal-of-the-blades-2025))
 
 
 ### The Plan
 
-- 🏗️ **July 2025:** Scaffold the mill
-- 🧱 Remove the old plaster
-- 🛠️ Repair damaged masonry
-- 🎨 **September 2025:** Apply new plaster & fresh paint
-- 🌬️ **March 2026:** Install the new blades
+- **July 2025:** Scaffold the mill
+- Remove the old plaster
+- Repair damaged masonry
+- **September 2025:** Apply new plaster & fresh paint
+- **March 2026:** Install the new blades
