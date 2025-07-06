@@ -91,6 +91,21 @@ img {
   border-radius: 8px;
 }
 
+@media (max-width: 600px) {
+  .grid-gallery {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+  }
+
+  .grid-gallery img {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    scroll-snap-align: start;
+  }
+}
+
 /* Layout for the blade removal gallery: three pictures on top and two below */
 .blade-gallery {
   display: grid;
