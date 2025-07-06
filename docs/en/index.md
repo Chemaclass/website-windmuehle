@@ -66,4 +66,8 @@ head:
   </div>
 </div>
 
-<img src="/imgs/bilder/windmill-7.jpeg" alt="Windmill Tündern in sunlight" class="featured-image" />
+<div class="grid-gallery">
+  <img src="/imgs/bilder/windmill-8.jpeg" loading="lazy"  class="scroll-img" />
+  <img src="/imgs/bilder/windmill-2.jpeg" loading="lazy"  class="scroll-img" />
+  <img src="/imgs/bilder/windmill-6.jpeg" loading="lazy" class="scroll-img" />
+</div>
