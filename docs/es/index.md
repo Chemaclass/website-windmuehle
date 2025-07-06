@@ -1,7 +1,5 @@
 ---
 layout: home
-outline: false
-title: false
 description: Información sobre la Asociación Molino de Viento Tündern y su labor.
 head:
   - - meta

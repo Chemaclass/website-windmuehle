@@ -1,4 +1,5 @@
 ---
+layout: home
 description: So können Sie die Windmühle Tündern finanziell unterstützen.
 head:
   - - meta

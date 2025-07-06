@@ -1,6 +1,5 @@
 ---
 layout: home
-title: false
 description: Historia del Molino de Viento Tündern desde 1883.
 head:
   - - meta

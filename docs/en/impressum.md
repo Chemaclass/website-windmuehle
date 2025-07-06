@@ -1,4 +1,5 @@
 ---
+layout: home
 description: Imprint of the Windmill Tündern association.
 head:
   - - meta

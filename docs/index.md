@@ -1,7 +1,5 @@
 ---
 layout: home
-outline: false
-title: false
 description: Infos über die Windmühle Tündern und den Förderverein.
 head:
   - - meta

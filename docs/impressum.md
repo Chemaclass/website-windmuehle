@@ -1,4 +1,5 @@
 ---
+layout: home
 description: Impressum des Fördervereins Windmühle Tündern e.V.
 head:
   - - meta

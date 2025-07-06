@@ -1,7 +1,5 @@
 ---
 layout: home
-outline: false
-title: false
 description: Information about the Windmill Tündern association and its mission.
 head:
   - - meta

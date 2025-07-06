@@ -1,6 +1,5 @@
 ---
 layout: home
-title: false
 description: History of the Windmill Tündern from 1883 onward.
 head:
   - - meta

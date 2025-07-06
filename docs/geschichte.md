@@ -1,6 +1,5 @@
 ---
 layout: home
-title: false
 description: Geschichte der Windmühle Tündern von 1883 bis heute.
 head:
   - - meta

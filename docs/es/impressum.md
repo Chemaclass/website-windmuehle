@@ -1,4 +1,5 @@
 ---
+layout: home
 description: Aviso legal de la Asociación Molino de Viento Tündern.
 head:
   - - meta

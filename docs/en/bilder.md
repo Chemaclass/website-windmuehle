@@ -1,7 +1,5 @@
 ---
 layout: home
-title: false
-outline: true
 description: Gallery of pictures from Windmill Tündern.
 head:
   - - meta

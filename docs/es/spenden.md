@@ -1,4 +1,5 @@
 ---
+layout: home
 description: Cómo apoyar económicamente al Molino de Viento Tündern.
 head:
   - - meta

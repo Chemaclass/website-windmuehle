@@ -1,4 +1,5 @@
 ---
+layout: home
 description: How to support the Windmill Tündern financially.
 head:
   - - meta

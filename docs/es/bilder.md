@@ -1,7 +1,5 @@
 ---
 layout: home
-title: false
-outline: true
 description: Galería de fotos del Molino de Viento Tündern.
 head:
   - - meta
