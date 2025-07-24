@@ -242,3 +242,16 @@ img {
   text-align: center;
   pointer-events: none;
 }
+
+/* Slightly scale images on the home page when hovered */
+.home-hero img,
+.update-images img,
+.home-gallery img {
+  transition: transform 0.3s ease;
+}
+
+.home-hero img:hover,
+.update-images img:hover,
+.home-gallery img:hover {
+  transform: scale(1.05);
+}
