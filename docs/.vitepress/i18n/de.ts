@@ -21,7 +21,7 @@ export default {
       '<strong>September 2025:</strong> Neuer Putz & frischer Anstrich',
       '<strong>März 2026:</strong> Anbringen der neuen Flügel'
     ],
-    latestInfo: 'Es geht weiter: Die Windmühle wird eingerüstet',
+    latestInfo: 'Die Mühle erwacht – der erste Bauabschnitt beginnt',
     gallery: [
       {
         text: 'Erhalt und Sicherung der historischen Bausubstanz',
