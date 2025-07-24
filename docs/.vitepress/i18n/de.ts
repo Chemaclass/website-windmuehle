@@ -22,6 +22,7 @@ export default {
       '<strong>März 2026:</strong> Anbringen der neuen Flügel'
     ],
     latestInfo: 'Die Mühle erwacht – der erste Bauabschnitt beginnt',
+    updateText: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
     gallery: [
       {
         text: 'Erhalt und Sicherung der historischen Bausubstanz',

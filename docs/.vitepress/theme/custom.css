@@ -187,6 +187,11 @@ img {
   max-width: 100%;
 }
 
+.update-caption {
+  align-self: center;
+  font-weight: 600;
+}
+
 
 .home-gallery {
   display: grid;

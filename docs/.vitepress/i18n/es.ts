@@ -21,7 +21,8 @@ export default {
       '<strong>septiembre de 2025:</strong> Nuevo revestimiento y pintura',
       '<strong>marzo de 2026:</strong> Colocación de las nuevas aspas'
     ],
-    latestInfo: 'El Molino Despierta – Comienza la Primera Fase de las Obras',
+    latestInfo: 'El molino despierta: comienza la primera fase de construcción',
+    updateText: 'Ya se está montando el andamiaje, señal del inicio de la restauración.',
     gallery: [
       {
         text: 'Conservación y seguridad de la estructura histórica',

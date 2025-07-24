@@ -21,7 +21,8 @@ export default {
       '<strong>September 2025:</strong> Apply new plaster & fresh paint',
       '<strong>March 2026:</strong> Install the new blades'
     ],
-    latestInfo: 'The Mill Awakens – The First Phase of Construction Begins',
+    latestInfo: 'The mill awakens – the first construction phase begins',
+    updateText: 'Scaffolding is going up, marking the start of the restoration.',
     gallery: [
       {
         text: 'Preservation and safeguarding of the historic structure',
