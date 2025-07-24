@@ -37,7 +37,7 @@ export default {
         img: '/imgs/bilder/windmill-2.jpeg'
       },
       {
-        text: 'Educational programs on renewable energy',
+        text: 'Cultural events and workshops',
         img: '/imgs/bilder/windmill-1.jpeg'
       }
     ]
