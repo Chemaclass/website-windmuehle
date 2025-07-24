@@ -21,6 +21,7 @@ export default {
       '<strong>September 2025:</strong> Apply new plaster & fresh paint',
       '<strong>March 2026:</strong> Install the new blades'
     ],
+    latestInfo: 'Progress continues: the windmill will be scaffolded',
     gallery: [
       {
         text: 'Preservation and safeguarding of the historic structure',

@@ -16,6 +16,16 @@ const t = useT()
     <p v-html="t('home.missionText')"></p>
   </div>
 
+  <div class="home-update">
+    <h2>{{ t('home.latestInfo') }}</h2>
+    <div class="update-images">
+      <img src="/imgs/scaffolding/scaffolding2.jpeg" loading="lazy" />
+      <img src="/imgs/scaffolding/scaffolding1.jpeg" loading="lazy" />
+    </div>
+  </div>
+
+  <hr>
+
   <div class="home-grid">
     <div>
       <h3>{{ t('home.achievedTitle') }}</h3>

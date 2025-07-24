@@ -167,6 +167,26 @@ img {
   padding-left: 1.5rem;
 }
 
+.home-update {
+  max-width: 1200px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.update-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.update-images img {
+  width: 300px;
+  max-width: 100%;
+}
+
 
 .home-gallery {
   display: grid;
