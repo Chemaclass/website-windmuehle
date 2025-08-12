@@ -55,6 +55,7 @@ export default {
   gallery: {
     title: 'Imágenes del molino',
     intro: 'Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña selección de instantáneas en torno al <strong>molino de viento de Tündern</strong>.',
+    reconstructionTitle: 'En proceso de reconstruction',
     bladesTitle: 'Retirada de las aspas 2025',
     whitTitle: 'Lunes de Pentecostés en el molino',
     moodsTitle: 'Ambiente de mañana y tarde',

@@ -19,8 +19,8 @@ const t = useT()
   <div class="home-update">
     <h2>{{ t('home.latestInfo') }}</h2>
     <div class="update-images">
-      <img src="/imgs/scaffolding/scaffolding1.jpeg" loading="lazy" />
-      <img src="/imgs/scaffolding/scaffolding2.jpeg" loading="lazy" />
+      <img src="/imgs/scaffolding/scaffolding3.jpeg" loading="lazy" />
+      <img src="/imgs/scaffolding/scaffolding4.jpeg" loading="lazy" />
       <p class="update-caption">{{ t('home.updateText') }}</p>
     </div>
   </div>

@@ -56,6 +56,7 @@ export default {
     title: 'Bilder der Windmühle',
     intro: 'Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl von Momentaufnahmen rund um die <strong>Windmühle Tündern</strong>.',
     bladesTitle: 'Abbau der Flügel 2025',
+    reconstructionTitle: 'Im Wiederaufbau',
     whitTitle: 'Pfingstmontag an der Mühle',
     moodsTitle: 'Morgen- und Abendstimmung',
     historicTitle: 'Historische Aufnahmen',

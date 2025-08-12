@@ -7,6 +7,16 @@ const t = useT()
   <h1>{{ t('gallery.title') }}</h1>
   <p v-html="t('gallery.intro')"></p>
 
+  <h3>{{ t('gallery.reconstructionTitle') }}</h3>
+  <div class="scroll-gallery">
+    <img src="/imgs/scaffolding/scaffolding1.jpeg" loading="lazy" class="scroll-img" />
+    <img src="/imgs/scaffolding/scaffolding2.jpeg" loading="lazy" class="scroll-img" />
+    <img src="/imgs/scaffolding/scaffolding5.jpeg" loading="lazy" class="scroll-img" />
+    <img src="/imgs/scaffolding/scaffolding6.jpeg" loading="lazy" class="scroll-img" />
+    <img src="/imgs/scaffolding/scaffolding3.jpeg" loading="lazy" class="scroll-img" />
+    <img src="/imgs/scaffolding/scaffolding4.jpeg" loading="lazy" class="scroll-img" />
+  </div>
+
   <h3>{{ t('gallery.bladesTitle') }}</h3>
   <div class="scroll-gallery">
     <img src="/imgs/flugel-abgebaut/windmill-1.jpeg" loading="lazy" class="scroll-img" />

@@ -56,6 +56,7 @@ export default {
     title: 'Pictures of the Windmill',
     intro: 'A picture is worth a thousand words – so here is a small selection of snapshots around the <strong>Tündern windmill</strong>.',
     bladesTitle: 'Removal of the blades 2025',
+    reconstructionTitle: 'Reconstruction process',
     whitTitle: 'Whit Monday at the mill',
     moodsTitle: 'Morning and evening moods',
     historicTitle: 'Historical shots',
