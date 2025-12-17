@@ -43,13 +43,21 @@ const posts = t('newsPosts')
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  text-decoration: none;
+  text-decoration: none !important;
   transition: all 0.3s ease;
+}
+
+.news-list-item * {
+  text-decoration: none !important;
 }
 
 .news-list-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.news-list-item:hover .news-list-link {
+  text-decoration: underline !important;
 }
 
 .news-list-item img {
