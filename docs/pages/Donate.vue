@@ -30,36 +30,33 @@ function copyToClipboard(text: string, field: string) {
         <li><strong>Bank:</strong> <span>Volksbank Hameln-Stadthagen</span></li>
         <li>
           <strong>IBAN:</strong>
-          <span>DE37 2546 2160 0107 7074 00</span>
-          <button
-            class="copy-btn"
-            :class="{ copied: copiedField === 'iban' }"
+          <span
+            class="copyable"
             @click="copyToClipboard('DE37254621600107707400', 'iban')"
           >
-            {{ copiedField === 'iban' ? t('donate.copied') : t('donate.copy') }}
-          </button>
+            DE37 2546 2160 0107 7074 00
+            <span v-if="copiedField === 'iban'" class="copied-tooltip">{{ t('donate.copied') }}</span>
+          </span>
         </li>
         <li>
           <strong>BIC:</strong>
-          <span>GENODEF1HMP</span>
-          <button
-            class="copy-btn"
-            :class="{ copied: copiedField === 'bic' }"
+          <span
+            class="copyable"
             @click="copyToClipboard('GENODEF1HMP', 'bic')"
           >
-            {{ copiedField === 'bic' ? t('donate.copied') : t('donate.copy') }}
-          </button>
+            GENODEF1HMP
+            <span v-if="copiedField === 'bic'" class="copied-tooltip">{{ t('donate.copied') }}</span>
+          </span>
         </li>
         <li>
           <strong>{{ t('donate.subject') }}:</strong>
-          <span><em>Spende Windmühle Tündern</em></span>
-          <button
-            class="copy-btn"
-            :class="{ copied: copiedField === 'subject' }"
+          <span
+            class="copyable"
             @click="copyToClipboard('Spende Windmühle Tündern', 'subject')"
           >
-            {{ copiedField === 'subject' ? t('donate.copied') : t('donate.copy') }}
-          </button>
+            <em>Spende Windmühle Tündern</em>
+            <span v-if="copiedField === 'subject'" class="copied-tooltip">{{ t('donate.copied') }}</span>
+          </span>
         </li>
       </ul>
     </div>
@@ -72,24 +69,22 @@ function copyToClipboard(text: string, field: string) {
 </template>
 
 <style scoped>
-.copy-btn {
-  margin-left: auto;
-  padding: 0;
-  font-size: 0.75rem;
-  background: none;
-  color: var(--vp-c-text-2);
-  border: none;
+.copyable {
   cursor: pointer;
-  opacity: 0.6;
-  transition: opacity 0.2s;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
 }
 
-.copy-btn:hover {
-  opacity: 1;
+.copyable:hover {
+  background-color: rgba(37, 99, 168, 0.1);
 }
 
-.copy-btn.copied {
-  color: #22c55e;
-  opacity: 1;
+.copied-tooltip {
+  margin-left: 0.5rem;
+  color: #2563a8;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
 }
 </style>

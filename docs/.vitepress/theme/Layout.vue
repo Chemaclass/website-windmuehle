@@ -204,7 +204,6 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
   list-style: none;
   padding: 0;
   margin: 0;
-  flex: 1;
 }
 
 .mobile-nav-list li {
@@ -227,8 +226,9 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 }
 
 .mobile-lang-section {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
