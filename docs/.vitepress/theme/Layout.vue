@@ -228,6 +228,7 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 
 .mobile-lang-section {
   padding-top: 1rem;
+  padding-bottom: 2rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
