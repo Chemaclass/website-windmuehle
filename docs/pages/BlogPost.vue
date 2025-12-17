@@ -1,13 +1,50 @@
 <script setup lang="ts">
-defineProps<{
+import { ref, onMounted, nextTick } from 'vue'
+import Lightbox from '../components/Lightbox.vue'
+
+const props = defineProps<{
   title: string
   date: string
   image?: string
 }>()
+
+const blogPostRef = ref<HTMLElement | null>(null)
+const lightboxOpen = ref(false)
+const lightboxImages = ref<string[]>([])
+const lightboxIndex = ref(0)
+
+function openLightbox(index: number) {
+  lightboxIndex.value = index
+  lightboxOpen.value = true
+}
+
+function closeLightbox() {
+  lightboxOpen.value = false
+}
+
+onMounted(async () => {
+  await nextTick()
+
+  if (blogPostRef.value) {
+    const images = blogPostRef.value.querySelectorAll('img')
+    const imageSrcs: string[] = []
+
+    images.forEach((img, index) => {
+      const src = img.getAttribute('src')
+      if (src) {
+        imageSrcs.push(src)
+        img.style.cursor = 'pointer'
+        img.addEventListener('click', () => openLightbox(index))
+      }
+    })
+
+    lightboxImages.value = imageSrcs
+  }
+})
 </script>
 
 <template>
-  <div class="blog-post">
+  <div class="blog-post" ref="blogPostRef">
     <div class="blog-header">
       <a href="/aktuelles/" class="blog-back">← Zurück zu Aktuelles</a>
       <span class="blog-date">{{ date }}</span>
@@ -25,6 +62,13 @@ defineProps<{
       <a href="/spenden" class="blog-cta">Jetzt unterstützen →</a>
       <a href="/aktuelles/" class="blog-back-bottom">← Alle Neuigkeiten</a>
     </div>
+
+    <Lightbox
+      :images="lightboxImages"
+      :initial-index="lightboxIndex"
+      :is-open="lightboxOpen"
+      @close="closeLightbox"
+    />
   </div>
 </template>
 
@@ -75,6 +119,13 @@ defineProps<{
   border-radius: 12px;
   margin-bottom: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-hero-image:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
 }
 
 .blog-content {
@@ -112,6 +163,13 @@ defineProps<{
   border-radius: 10px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   margin: 1.5rem 0;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-content :deep(img:hover) {
+  transform: scale(1.02);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
 }
 
 .blog-content :deep(.post-images) {

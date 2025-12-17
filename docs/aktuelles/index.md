@@ -20,6 +20,13 @@ const posts = [
     excerpt: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
     image: '/imgs/scaffolding/scaffolding3.jpeg',
     link: '/aktuelles/bauabschnitt-2025'
+  },
+  {
+    title: 'Pfingstmontag an der Mühle',
+    date: 'Juni 2025',
+    excerpt: 'Traditioneller Pfingstmontag mit zahlreichen Besuchern an der historischen Windmühle.',
+    image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
+    link: '/aktuelles/pfingstmontag'
   }
 ]
 </script>

@@ -34,18 +34,6 @@ const t = useT()
     </div>
 
     <div class="gallery-section">
-      <h3>{{ t('gallery.whitTitle') }}</h3>
-      <div class="grid-gallery">
-        <img src="/imgs/pfingstmontag/pfingstmontag3.jpeg" alt="" class="grid-img" loading="lazy" />
-        <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" alt="" class="grid-img" loading="lazy" />
-        <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" alt="" class="grid-img" loading="lazy" />
-        <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" alt="" class="grid-img" loading="lazy" />
-        <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" alt="" class="grid-img" loading="lazy" />
-        <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="" class="grid-img" loading="lazy" />
-      </div>
-    </div>
-
-    <div class="gallery-section">
       <h3>{{ t('gallery.moodsTitle') }}</h3>
       <div class="scroll-gallery">
         <img src="/imgs/bilder/windmill-1.jpeg" loading="lazy" class="scroll-img" />
