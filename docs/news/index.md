@@ -6,37 +6,7 @@ title: News
 <script setup>
 import { useT } from '../.vitepress/i18n'
 const t = useT()
-
-const posts = [
-  {
-    title: 'Generous Donation for the Windmill',
-    date: 'December 2025',
-    excerpt: 'Susanne and Carsten Busse donated 1,000 euros for the renovation of the windmill.',
-    image: '/imgs/news/susanne-carsten-1000.jpg',
-    link: '/aktuelles/2025-12-spende-busse'
-  },
-  {
-    title: 'The Mill is Freshly Plastered',
-    date: 'November 2025',
-    excerpt: 'We needed a lot of patience, but now the mill is freshly plastered and the next construction phase is complete.',
-    image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
-    link: '/aktuelles/2025-11-verputzt'
-  },
-  {
-    title: 'The Mill Awakens – The First Construction Phase Begins',
-    date: 'July 2025',
-    excerpt: 'Scaffolding is going up and the restoration is gaining momentum.',
-    image: '/imgs/scaffolding/scaffolding3.jpeg',
-    link: '/aktuelles/2025-07-bauabschnitt'
-  },
-  {
-    title: 'Whit Monday at the Mill',
-    date: 'June 2025',
-    excerpt: 'Traditional Whit Monday with numerous visitors at the historic windmill.',
-    image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
-    link: '/aktuelles/2025-06-pfingstmontag'
-  }
-]
+const posts = t('newsPosts')
 </script>
 
 <div class="news-index">

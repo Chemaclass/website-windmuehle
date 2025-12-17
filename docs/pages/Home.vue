@@ -25,18 +25,11 @@ const t = useT()
     <div class="news-preview">
       <h2>{{ t('home.newsTitle') }}</h2>
       <div class="news-cards">
-        <a href="/aktuelles/2025-12-spende-busse" class="news-card">
-          <img src="/imgs/news/susanne-carsten-1000.jpg" alt="Spende" loading="lazy" />
+        <a v-for="post in t('newsPosts').slice(0, 2)" :key="post.link" :href="post.link" class="news-card">
+          <img :src="post.image" :alt="post.title" loading="lazy" />
           <div class="news-card-content">
-            <span class="news-date">Dezember 2025</span>
-            <h3>Großzügige Spende für die Windmühle</h3>
-          </div>
-        </a>
-        <a href="/aktuelles/2025-07-bauabschnitt" class="news-card">
-          <img src="/imgs/scaffolding/scaffolding3.jpeg" alt="Bauabschnitt" loading="lazy" />
-          <div class="news-card-content">
-            <span class="news-date">Juli 2025</span>
-            <h3>{{ t('home.latestInfo') }}</h3>
+            <span class="news-date">{{ post.date }}</span>
+            <h3>{{ post.title }}</h3>
           </div>
         </a>
       </div>
@@ -52,7 +45,7 @@ const t = useT()
           <li v-for="(item, i) in t('home.achievedItems')" :key="i" v-html="item"></li>
         </ul>
       </div>
-      <div class="card plan">
+      <div class="card">
         <h3>{{ t('home.planTitle') }}</h3>
         <ul>
           <li v-for="(item, i) in t('home.planItems')" :key="i" v-html="item"></li>

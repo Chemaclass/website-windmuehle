@@ -6,37 +6,7 @@ title: Noticias
 <script setup>
 import { useT } from '../.vitepress/i18n'
 const t = useT()
-
-const posts = [
-  {
-    title: 'Generosa donación para el molino',
-    date: 'Diciembre 2025',
-    excerpt: 'Susanne y Carsten Busse han donado 1.000 euros para la renovación del molino.',
-    image: '/imgs/news/susanne-carsten-1000.jpg',
-    link: '/aktuelles/2025-12-spende-busse'
-  },
-  {
-    title: 'El molino recién revocado',
-    date: 'Noviembre 2025',
-    excerpt: 'Necesitamos mucha paciencia, pero ahora el molino está recién revocado y la siguiente fase de construcción está completada.',
-    image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
-    link: '/aktuelles/2025-11-verputzt'
-  },
-  {
-    title: 'El molino despierta – Comienza la primera fase de construcción',
-    date: 'Julio 2025',
-    excerpt: 'Ya se está montando el andamiaje y la restauración toma impulso.',
-    image: '/imgs/scaffolding/scaffolding3.jpeg',
-    link: '/aktuelles/2025-07-bauabschnitt'
-  },
-  {
-    title: 'Lunes de Pentecostés en el molino',
-    date: 'Junio 2025',
-    excerpt: 'Tradicional Lunes de Pentecostés con numerosos visitantes en el histórico molino.',
-    image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
-    link: '/aktuelles/2025-06-pfingstmontag'
-  }
-]
+const posts = t('newsPosts')
 </script>
 
 <div class="news-index">

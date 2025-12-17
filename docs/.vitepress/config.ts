@@ -49,10 +49,7 @@ export default defineConfig({
                     { text: 'Bilder', link: '/bilder' },
                     { text: 'Spenden', link: '/spenden' },
                     { text: 'Impressum', link: '/impressum' }
-                ],
-                footer: {
-                    copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/impressum">Impressum</a>`
-                }
+                ]
             }
         },
         en: {
@@ -78,10 +75,7 @@ export default defineConfig({
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' },
                     { text: 'Imprint', link: '/en/impressum' }
-                ],
-                footer: {
-                    copyright: `© ${currentYear} Windmill Tündern · Built by <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/en/impressum">Imprint</a>`
-                }
+                ]
             }
         },
         es: {
@@ -107,10 +101,7 @@ export default defineConfig({
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' },
                     { text: 'Aviso legal', link: '/es/impressum' }
-                ],
-                footer: {
-                    copyright: `© ${currentYear} Molino Tündern · Desarrollado por <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/es/impressum">Aviso legal</a>`
-                }
+                ]
             }
         }
     }

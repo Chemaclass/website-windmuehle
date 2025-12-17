@@ -236,7 +236,7 @@ section {
 
 .news-card img {
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   margin: 0;
   border-radius: 0;
@@ -441,30 +441,19 @@ section {
 
 .card ul {
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 .card li {
   margin-bottom: 0.75rem;
   line-height: 1.6;
   color: #555;
-}
-
-.card li:last-child {
-  margin-bottom: 0;
-}
-
-.plan ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.plan li {
   position: relative;
   padding-left: 1.5rem;
 }
 
-.plan li::before {
+.card li::before {
   content: '';
   position: absolute;
   left: 0;
@@ -473,6 +462,10 @@ section {
   height: 8px;
   background: var(--vp-c-accent);
   border-radius: 50%;
+}
+
+.card li:last-child {
+  margin-bottom: 0;
 }
 
 /* ================================
@@ -1242,6 +1235,7 @@ html {
   }
 
   .card li {
-    padding: 0.5rem 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }

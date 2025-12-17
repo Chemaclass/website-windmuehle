@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { ref } from 'vue'
 import { useData } from 'vitepress'
+import SiteFooter from '../../components/SiteFooter.vue'
 
 const { site, localeIndex } = useData()
 const isMenuOpen = ref(false)
@@ -47,7 +48,11 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout>
+    <template #layout-bottom>
+      <SiteFooter />
+    </template>
+  </DefaultTheme.Layout>
 
   <!-- Mobile Menu Button -->
   <button
