@@ -11,7 +11,7 @@ import BlogPost from '../pages/BlogPost.vue'
   title="Pfingstmontag an der Mühle"
   date="Juni 2025"
   image="/imgs/pfingstmontag/pfingstmontag3.jpeg"
-  :next-post="{ title: 'Die Mühle erwacht – der erste Bauabschnitt beginnt', link: '/aktuelles/bauabschnitt-2025' }"
+  :next-post="{ title: 'Die Mühle erwacht – der erste Bauabschnitt beginnt', link: '/aktuelles/2025-07-bauabschnitt' }"
 >
 
 Wie jedes Jahr fand auch dieses Jahr der traditionelle **Pfingstmontag an der Mühle** statt. Bei strahlendem Sonnenschein kamen zahlreiche Besucher, um die historische Windmühle Tündern zu besichtigen und das gesellige Beisammensein zu genießen.

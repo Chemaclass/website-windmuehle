@@ -12,21 +12,28 @@ const posts = [
     date: 'Dezember 2025',
     excerpt: 'Susanne und Carsten Busse haben 1.000 Euro für die Renovierung der Windmühle gespendet.',
     image: '/imgs/news/susanne-carsten-1000.jpg',
-    link: '/aktuelles/spende-busse'
+    link: '/aktuelles/2025-12-spende-busse'
+  },
+  {
+    title: 'Die Mühle ist frisch verputzt',
+    date: 'November 2025',
+    excerpt: 'Wir brauchten ja viel Geduld, aber jetzt ist die Mühle frisch verputzt und der nächste Bauabschnitt geschafft.',
+    image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
+    link: '/aktuelles/2025-11-verputzt'
   },
   {
     title: 'Die Mühle erwacht – der erste Bauabschnitt beginnt',
     date: 'Juli 2025',
     excerpt: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
     image: '/imgs/scaffolding/scaffolding3.jpeg',
-    link: '/aktuelles/bauabschnitt-2025'
+    link: '/aktuelles/2025-07-bauabschnitt'
   },
   {
     title: 'Pfingstmontag an der Mühle',
     date: 'Juni 2025',
     excerpt: 'Traditioneller Pfingstmontag mit zahlreichen Besuchern an der historischen Windmühle.',
     image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
-    link: '/aktuelles/pfingstmontag'
+    link: '/aktuelles/2025-06-pfingstmontag'
   }
 ]
 </script>
