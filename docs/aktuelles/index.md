@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Aktuelles
 ---
 
@@ -9,8 +9,8 @@ const t = useT()
 const posts = t('newsPosts')
 </script>
 
-<div class="news-index">
-  <div class="news-index-header">
+<div class="page-wrapper">
+  <div class="page-header">
     <h1>{{ t('blog.indexTitle') }}</h1>
     <p>{{ t('blog.indexSubtitle') }}</p>
   </div>
@@ -29,28 +29,6 @@ const posts = t('newsPosts')
 </div>
 
 <style>
-.news-index {
-  max-width: 900px;
-  margin: 2rem auto 0;
-  padding: 2rem 1rem 3rem;
-}
-
-.news-index-header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.news-index-header h1 {
-  font-size: 2.5rem;
-  color: #2563a8;
-  margin: 0 0 1rem;
-}
-
-.news-index-header p {
-  font-size: 1.15rem;
-  color: #666;
-}
-
 .news-list {
   display: flex;
   flex-direction: column;
@@ -118,14 +96,6 @@ const posts = t('newsPosts')
 }
 
 @media (max-width: 768px) {
-  .news-index {
-    padding: 1.5rem 1rem 2rem;
-  }
-
-  .news-index-header h1 {
-    font-size: 2rem;
-  }
-
   .news-list-item {
     grid-template-columns: 1fr;
   }
