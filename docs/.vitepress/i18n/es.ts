@@ -41,6 +41,10 @@ export default {
     updateText: 'Ya se está montando el andamiaje, señal del inicio de la restauración.',
     newsTitle: 'Noticias',
     allNews: 'Todas las noticias',
+    ctaQuote: '«Quien preserva el pasado, moldea el futuro.»',
+    ctaMessage: 'Ayúdenos a conservar este monumento cultural único para las generaciones venideras.',
+    ctaButton: 'Apoyar ahora',
+    ctaLink: '/es/spenden',
     gallery: [
       {
         text: 'Conservación y seguridad de la estructura histórica',

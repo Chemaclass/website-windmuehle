@@ -56,4 +56,12 @@ const t = useT()
       </div>
     </div>
   </section>
+
+  <section class="section-cta">
+    <div class="cta-content">
+      <p class="cta-quote">{{ t('home.ctaQuote') }}</p>
+      <p class="cta-message">{{ t('home.ctaMessage') }}</p>
+      <a :href="t('home.ctaLink')" class="cta-button">{{ t('home.ctaButton') }}</a>
+    </div>
+  </section>
 </template>

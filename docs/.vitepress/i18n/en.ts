@@ -41,6 +41,10 @@ export default {
     updateText: 'Scaffolding is going up, marking the start of the restoration.',
     newsTitle: 'Latest News',
     allNews: 'All news',
+    ctaQuote: '"Those who preserve the past shape the future."',
+    ctaMessage: 'Help us preserve this unique cultural monument for generations to come.',
+    ctaButton: 'Support us now',
+    ctaLink: '/en/spenden',
     gallery: [
       {
         text: 'Preservation and safeguarding of the historic structure',

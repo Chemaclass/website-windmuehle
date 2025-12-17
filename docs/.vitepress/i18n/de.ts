@@ -41,6 +41,10 @@ export default {
     updateText: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
     newsTitle: 'Aktuelles',
     allNews: 'Alle Neuigkeiten',
+    ctaQuote: '„Wer die Vergangenheit bewahrt, gestaltet die Zukunft."',
+    ctaMessage: 'Helfen Sie uns, dieses einzigartige Kulturdenkmal für kommende Generationen zu erhalten.',
+    ctaButton: 'Jetzt unterstützen',
+    ctaLink: '/spenden',
     gallery: [
       {
         text: 'Erhalt und Sicherung der historischen Bausubstanz',
