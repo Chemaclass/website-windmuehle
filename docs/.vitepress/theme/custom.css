@@ -25,25 +25,10 @@ img {
 }
 
 /* ================================
-   NAVBAR SPACING FIX
-   ================================ */
-/* Add top padding to account for fixed navbar */
-.VPContent {
-  padding-top: 64px !important;
-}
-
-@media (max-width: 768px) {
-  .VPContent {
-    padding-top: 56px !important;
-  }
-}
-
-/* ================================
    HERO SECTION
    ================================ */
 .home-hero {
   background: linear-gradient(135deg, #fff 0%, #f0f5fa 50%, #e8a83815 100%);
-  margin-top: 4rem;
   padding: 4rem 1rem;
   text-align: center;
   position: relative;
@@ -695,7 +680,7 @@ section {
 
 .page-header {
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);

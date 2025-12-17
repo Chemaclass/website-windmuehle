@@ -98,7 +98,7 @@ onMounted(async () => {
 <style scoped>
 .blog-post {
   max-width: 800px;
-  margin: 6rem auto 0;
+  margin: 2rem auto 0;
   padding: 2rem 1rem 3rem;
 }
 

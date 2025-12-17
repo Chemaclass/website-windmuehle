@@ -31,7 +31,7 @@ const posts = t('newsPosts')
 <style>
 .news-index {
   max-width: 900px;
-  margin: 6rem auto 0;
+  margin: 2rem auto 0;
   padding: 2rem 1rem 3rem;
 }
 
