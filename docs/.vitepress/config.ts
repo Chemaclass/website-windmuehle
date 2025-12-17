@@ -10,6 +10,13 @@ export default defineConfig({
     appearance: false,
     cleanUrls: true,
     head: [
+        // Favicon
+        ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+
+        // Cronitor RUM
+        ['script', { async: '', src: 'https://rum.cronitor.io/script.js' }],
+        ['script', {}, `window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); }; cronitor('config', { clientKey: '3d2da17f8a39e4c1b9999593a1d14ab3' });`],
+
         // Open Graph (OG) metadata
         ['meta', { property: 'og:title', content: 'Förderverein Windmühle Tündern e.V.' }],
         ['meta', { property: 'og:description', content: 'Hier finden Sie alles über die historische Windmühle in Tündern, unseren Verein und wie Sie uns unterstützen können.' }],
