@@ -11,6 +11,8 @@ import BlogPost from '../pages/BlogPost.vue'
   title="Die Mühle erwacht – der erste Bauabschnitt beginnt"
   date="Juli 2025"
   image="/imgs/scaffolding/scaffolding3.jpeg"
+  :prev-post="{ title: 'Pfingstmontag an der Mühle', link: '/aktuelles/pfingstmontag' }"
+  :next-post="{ title: 'Großzügige Spende für die Windmühle', link: '/aktuelles/spende-busse' }"
 >
 
 Endlich ist es soweit: Die Sanierung der historischen Windmühle in Tündern hat begonnen! Schon bald steht das Gerüst und die Arbeiten nehmen Fahrt auf.

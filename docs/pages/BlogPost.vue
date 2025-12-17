@@ -6,6 +6,8 @@ const props = defineProps<{
   title: string
   date: string
   image?: string
+  prevPost?: { title: string; link: string }
+  nextPost?: { title: string; link: string }
 }>()
 
 const blogPostRef = ref<HTMLElement | null>(null)
@@ -58,10 +60,27 @@ onMounted(async () => {
       <slot />
     </div>
 
-    <div class="blog-footer">
-      <a href="/spenden" class="blog-cta">Jetzt unterstützen →</a>
+    <nav class="blog-navigation">
+      <a v-if="prevPost" :href="prevPost.link" class="blog-nav-link blog-nav-prev">
+        <span class="blog-nav-label">← Vorheriger</span>
+        <span class="blog-nav-title">{{ prevPost.title }}</span>
+      </a>
+      <div v-else class="blog-nav-spacer"></div>
+
+      <a v-if="nextPost" :href="nextPost.link" class="blog-nav-link blog-nav-next">
+        <span class="blog-nav-label">Nächster →</span>
+        <span class="blog-nav-title">{{ nextPost.title }}</span>
+      </a>
+      <div v-else class="blog-nav-spacer"></div>
+    </nav>
+
+    <footer class="blog-footer">
+      <div class="blog-footer-content">
+        <p>Gefällt Ihnen dieser Beitrag? Unterstützen Sie die Erhaltung der historischen Windmühle Tündern.</p>
+        <a href="/spenden" class="blog-cta">Jetzt unterstützen →</a>
+      </div>
       <a href="/aktuelles/" class="blog-back-bottom">← Alle Neuigkeiten</a>
-    </div>
+    </footer>
 
     <Lightbox
       :images="lightboxImages"
@@ -186,25 +205,83 @@ onMounted(async () => {
   margin: 0;
 }
 
-.blog-footer {
+.blog-navigation {
   margin-top: 3rem;
-  padding-top: 2rem;
+  padding: 1.5rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+
+.blog-nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: rgba(37, 99, 168, 0.03);
+}
+
+.blog-nav-link:hover {
+  background: rgba(37, 99, 168, 0.08);
+}
+
+.blog-nav-prev {
+  text-align: left;
+}
+
+.blog-nav-next {
+  text-align: right;
+}
+
+.blog-nav-label {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.blog-nav-title {
+  font-size: 1rem;
+  color: #2563a8;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.blog-nav-spacer {
+  min-height: 1px;
+}
+
+.blog-footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(37, 99, 168, 0.05) 0%, rgba(232, 168, 56, 0.08) 100%);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.blog-footer-content {
+  margin-bottom: 1.5rem;
+}
+
+.blog-footer-content p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 0 0 1rem;
 }
 
 .blog-cta {
   display: inline-block;
   background: linear-gradient(135deg, #e8a838 0%, #d4922a 100%);
   color: #1a1a1a;
-  padding: 0.75rem 1.5rem;
+  padding: 0.85rem 2rem;
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.05rem;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(232, 168, 56, 0.3);
 }
@@ -215,9 +292,12 @@ onMounted(async () => {
 }
 
 .blog-back-bottom {
+  display: inline-block;
+  margin-top: 1.5rem;
   color: #2563a8;
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.95rem;
 }
 
 .blog-back-bottom:hover {
@@ -248,10 +328,20 @@ onMounted(async () => {
     grid-template-columns: 1fr;
   }
 
+  .blog-navigation {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-nav-next {
+    text-align: left;
+  }
+
   .blog-footer {
-    flex-direction: column;
-    align-items: stretch;
-    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .blog-footer-content p {
+    font-size: 1rem;
   }
 }
 </style>
