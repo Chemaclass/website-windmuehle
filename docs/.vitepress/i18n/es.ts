@@ -120,7 +120,7 @@ export default {
       title: 'Generosa donación para el molino',
       date: 'Diciembre 2025',
       excerpt: 'Susanne y Carsten Busse han donado 1.000 euros para la renovación del molino.',
-      image: '/imgs/news/susanne-carsten-1000.jpg',
+      image: '/imgs/news/carsten-susanne-1000.jpg',
       link: '/es/aktuelles/2025-12-spende-busse',
       body: `<p>Estamos muy contentos: <strong>Susanne y Carsten Busse</strong> han donado 1.000 euros para la renovación del molino.</p>
 <p>¡Muchas gracias por vuestro generoso apoyo!</p>

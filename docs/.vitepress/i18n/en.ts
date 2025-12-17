@@ -120,7 +120,7 @@ export default {
       title: 'Generous Donation for the Windmill',
       date: 'December 2025',
       excerpt: 'Susanne and Carsten Busse donated 1,000 euros for the renovation of the windmill.',
-      image: '/imgs/news/susanne-carsten-1000.jpg',
+      image: '/imgs/news/carsten-susanne-1000.jpg',
       link: '/en/aktuelles/2025-12-spende-busse',
       body: `<p>We are delighted: <strong>Susanne and Carsten Busse</strong> have donated 1,000 euros for the renovation of the windmill.</p>
 <p>Thank you so much for your generous support!</p>
