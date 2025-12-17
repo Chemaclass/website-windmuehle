@@ -142,6 +142,26 @@ export default {
 <p>A big thank you to everyone involved who made this important milestone possible!</p>`
     },
     {
+      id: '2025-08-wiederaufbau',
+      title: 'The Mill Under Reconstruction',
+      date: 'August 2025',
+      excerpt: 'The restoration work on the windmill is in full swing. A look at the current state of the construction work.',
+      image: '/imgs/scaffolding/scaffolding1.jpeg',
+      link: '/en/aktuelles/2025-08-wiederaufbau',
+      body: `<p>The <strong>restoration work</strong> on our historic windmill is progressing! Now that the scaffolding has been erected, the extensive work on the masonry and plaster can begin.</p>
+<h2>Impressions from the Construction Site</h2>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding1.jpeg" alt="Scaffolding at the windmill" />
+  <img src="/imgs/scaffolding/scaffolding2.jpeg" alt="Construction work on the mill" />
+</div>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding5.jpeg" alt="Restoration work" />
+  <img src="/imgs/scaffolding/scaffolding6.jpeg" alt="Work progress" />
+</div>
+<p>The windmill is currently fully scaffolded. Step by step, the old plaster is being removed and damaged areas in the masonry are being repaired.</p>
+<p>We thank all supporters who make this important milestone possible!</p>`
+    },
+    {
       id: '2025-07-bauabschnitt',
       title: 'The Mill Awakens – The First Construction Phase Begins',
       date: 'July 2025',

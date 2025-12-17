@@ -120,7 +120,7 @@ export default {
       title: 'Großzügige Spende für die Windmühle',
       date: 'Dezember 2025',
       excerpt: 'Susanne und Carsten Busse haben 1.000 Euro für die Renovierung der Windmühle gespendet.',
-      image: '/imgs/news/susanne-carsten-1000.jpg',
+      image: '/imgs/news/carsten-susanne-1000.jpg',
       link: '/aktuelles/2025-12-spende-busse',
       body: `<p>Wir haben uns sehr gefreut: <strong>Susanne und Carsten Busse</strong> haben 1.000 Euro für die Renovierung der Windmühle gespendet.</p>
 <p>Ganz herzlichen Dank für die großzügige Unterstützung!</p>
@@ -140,6 +140,26 @@ export default {
   <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle3.jpg" alt="Detailansicht des neuen Putzes" />
 </div>
 <p>Ein großer Dank geht an alle Beteiligten, die diesen wichtigen Meilenstein möglich gemacht haben!</p>`
+    },
+    {
+      id: '2025-08-wiederaufbau',
+      title: 'Die Mühle im Wiederaufbau',
+      date: 'August 2025',
+      excerpt: 'Die Sanierungsarbeiten an der Windmühle sind in vollem Gange. Ein Blick auf den aktuellen Stand der Bauarbeiten.',
+      image: '/imgs/scaffolding/scaffolding1.jpeg',
+      link: '/aktuelles/2025-08-wiederaufbau',
+      body: `<p>Die <strong>Sanierungsarbeiten</strong> an unserer historischen Windmühle schreiten voran! Nachdem das Gerüst aufgebaut wurde, können nun die umfangreichen Arbeiten am Mauerwerk und Putz beginnen.</p>
+<h2>Eindrücke von der Baustelle</h2>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding1.jpeg" alt="Gerüst an der Windmühle" />
+  <img src="/imgs/scaffolding/scaffolding2.jpeg" alt="Bauarbeiten an der Mühle" />
+</div>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding5.jpeg" alt="Sanierungsarbeiten" />
+  <img src="/imgs/scaffolding/scaffolding6.jpeg" alt="Fortschritt der Arbeiten" />
+</div>
+<p>Die Windmühle ist derzeit komplett eingerüstet. Schritt für Schritt wird der alte Putz entfernt und schadhafte Stellen im Mauerwerk ausgebessert.</p>
+<p>Wir danken allen Unterstützern, die diesen wichtigen Meilenstein möglich machen!</p>`
     },
     {
       id: '2025-07-bauabschnitt',

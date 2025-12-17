@@ -142,6 +142,26 @@ export default {
 <p>¡Un enorme agradecimiento a todos los que han hecho posible este importante hito!</p>`
     },
     {
+      id: '2025-08-wiederaufbau',
+      title: 'El molino en reconstrucción',
+      date: 'Agosto 2025',
+      excerpt: 'Las obras de restauración del molino están en pleno apogeo. Una mirada al estado actual de las obras.',
+      image: '/imgs/scaffolding/scaffolding1.jpeg',
+      link: '/es/aktuelles/2025-08-wiederaufbau',
+      body: `<p>¡Las <strong>obras de restauración</strong> de nuestro histórico molino avanzan! Una vez montado el andamiaje, pueden comenzar los extensos trabajos de mampostería y revoque.</p>
+<h2>Impresiones de la obra</h2>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding1.jpeg" alt="Andamiaje en el molino" />
+  <img src="/imgs/scaffolding/scaffolding2.jpeg" alt="Obras de construcción en el molino" />
+</div>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding5.jpeg" alt="Trabajos de restauración" />
+  <img src="/imgs/scaffolding/scaffolding6.jpeg" alt="Progreso de las obras" />
+</div>
+<p>El molino está actualmente completamente andamiado. Paso a paso, se elimina el revoque viejo y se reparan las zonas dañadas de la mampostería.</p>
+<p>¡Agradecemos a todos los colaboradores que hacen posible este importante hito!</p>`
+    },
+    {
       id: '2025-07-bauabschnitt',
       title: 'El molino despierta – Comienza la primera fase de construcción',
       date: 'Julio 2025',
