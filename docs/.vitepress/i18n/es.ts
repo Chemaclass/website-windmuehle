@@ -79,10 +79,14 @@ export default {
     intro: 'Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña selección de instantáneas en torno al <strong>molino de viento de Tündern</strong>.',
     reconstructionTitle: 'En proceso de reconstruction',
     bladesTitle: 'Retirada de las aspas 2025',
+    bladesAlt: 'Retirada de las aspas del molino de Tündern 2025',
     whitTitle: 'Lunes de Pentecostés en el molino',
     moodsTitle: 'Ambiente de mañana y tarde',
+    moodsAlt: 'Molino de Tündern al amanecer y atardecer',
     historicTitle: 'Fotografías históricas',
-    fireTitle: 'Incendio y reconstrucción'
+    historicAlt: 'Fotografía histórica del molino de Tündern',
+    fireTitle: 'Incendio y reconstrucción',
+    fireAlt: 'Incendio y reconstrucción del molino de Tündern 1980'
   },
   donate: {
     title: 'Donaciones',

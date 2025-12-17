@@ -24,7 +24,25 @@ export default defineConfig({
         ['meta', { name: 'twitter:description', content: 'Hier finden Sie alles über die historische Windmühle in Tündern, unseren Verein und wie Sie sich engagieren oder mit einer Spende unterstützen können.' }],
         ['meta', { name: 'twitter:image', content: ogImage }],
         ['meta', { name: 'twitter:image:alt', content: logoAlt }],
-        ['meta', { name: 'twitter:creator', content: '@Chemaclass' }]
+        ['meta', { name: 'twitter:creator', content: '@Chemaclass' }],
+
+        // JSON-LD Structured Data
+        ['script', { type: 'application/ld+json' }, JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'Förderverein Windmühle Tündern e.V.',
+            url: 'https://windmuehle-tuendern.de',
+            logo: 'https://windmuehle-tuendern.de/imgs/logo.svg',
+            description: 'Verein zur Erhaltung der historischen Windmühle in Tündern, erbaut 1883.',
+            address: {
+                '@type': 'PostalAddress',
+                streetAddress: 'Linkworth 1',
+                addressLocality: 'Hameln-Tündern',
+                postalCode: '31789',
+                addressCountry: 'DE'
+            },
+            sameAs: []
+        })]
     ],
     locales: {
         root: {
@@ -63,14 +81,14 @@ export default defineConfig({
                 siteTitle: 'Windmill Tündern',
                 nav: [
                     { text: 'Home', link: '/en/' },
-                    { text: 'News', link: '/news/' },
+                    { text: 'News', link: '/en/aktuelles/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' }
                 ],
                 sidebar: [
                     { text: 'Home', link: '/en/' },
-                    { text: 'News', link: '/news/' },
+                    { text: 'News', link: '/en/aktuelles/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' },
@@ -96,7 +114,7 @@ export default defineConfig({
                 ],
                 sidebar: [
                     { text: 'Inicio', link: '/es/' },
-                    { text: 'Noticias', link: '/novedades/' },
+                    { text: 'Noticias', link: '/es/aktuelles/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' },

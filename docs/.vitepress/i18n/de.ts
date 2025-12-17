@@ -78,11 +78,15 @@ export default {
     title: 'Bilder der Windmühle',
     intro: 'Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl von Momentaufnahmen rund um die <strong>Windmühle Tündern</strong>.',
     bladesTitle: 'Abbau der Flügel 2025',
+    bladesAlt: 'Abbau der Flügel an der Windmühle Tündern 2025',
     reconstructionTitle: 'Im Wiederaufbau',
     whitTitle: 'Pfingstmontag an der Mühle',
     moodsTitle: 'Morgen- und Abendstimmung',
+    moodsAlt: 'Windmühle Tündern in Morgen- und Abendstimmung',
     historicTitle: 'Historische Aufnahmen',
-    fireTitle: 'Brand und Wiederaufbau'
+    historicAlt: 'Historische Aufnahme der Windmühle Tündern',
+    fireTitle: 'Brand und Wiederaufbau',
+    fireAlt: 'Brand und Wiederaufbau der Windmühle Tündern 1980'
   },
   donate: {
     title: 'Spenden',

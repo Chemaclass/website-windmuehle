@@ -78,11 +78,15 @@ export default {
     title: 'Pictures of the Windmill',
     intro: 'A picture is worth a thousand words – so here is a small selection of snapshots around the <strong>Tündern windmill</strong>.',
     bladesTitle: 'Removal of the blades 2025',
+    bladesAlt: 'Removal of blades at Tündern windmill 2025',
     reconstructionTitle: 'Reconstruction process',
     whitTitle: 'Whit Monday at the mill',
     moodsTitle: 'Morning and evening moods',
+    moodsAlt: 'Tündern windmill in morning and evening light',
     historicTitle: 'Historical shots',
-    fireTitle: 'Fire and reconstruction'
+    historicAlt: 'Historical photograph of Tündern windmill',
+    fireTitle: 'Fire and reconstruction',
+    fireAlt: 'Fire and reconstruction of Tündern windmill 1980'
   },
   donate: {
     title: 'Donate',
