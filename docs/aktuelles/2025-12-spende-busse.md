@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Großzügige Spende für die Windmühle
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Generous Donation for the Windmill
 ---
 

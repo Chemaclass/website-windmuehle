@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Die Mühle erwacht – der erste Bauabschnitt beginnt
 ---
 

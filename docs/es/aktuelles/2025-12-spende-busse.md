@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Generosa donación para el molino
 ---
 

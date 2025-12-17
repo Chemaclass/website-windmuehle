@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Whit Monday at the Mill
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: El molino despierta – Comienza la primera fase de construcción
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Lunes de Pentecostés en el molino
 ---
 
