@@ -3,6 +3,7 @@ export default {
     heroTitle: 'Förderverein Windmühle Tündern e.V.',
     heroSubtitle: 'Herzlich willkommen auf unserer Informationsseite!',
     heroText: 'Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich engagieren können.',
+    heroCta: 'Jetzt unterstützen',
     missionTitle: 'Unsere Mission',
     missionText: 'Der <strong>Förderverein Windmühle Tündern e.V.</strong> engagiert sich mit viel Herzblut für den Erhalt, die Pflege und Wiederbelebung der Windmühle in Tündern. Unser Ziel: Dieses besondere Kulturdenkmal <strong>bewahren</strong>, <strong>erlebbar machen</strong> und fest im Gemeindeleben verankern.',
     achievedTitle: 'Bereits erreicht',

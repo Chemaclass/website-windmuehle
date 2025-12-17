@@ -4,17 +4,29 @@ const t = useT()
 </script>
 
 <template>
-  <h1>{{ t('history.title') }}</h1>
-  <p v-html="t('history.intro')"></p>
+  <div class="page-wrapper">
+    <div class="page-header">
+      <h1>{{ t('history.title') }}</h1>
+      <p v-html="t('history.intro')"></p>
+    </div>
 
-  <h3>{{ t('history.rescueTitle') }}</h3>
-  <p v-html="t('history.rescueText')"></p>
+    <div class="history-content">
+      <div class="history-section">
+        <h3>{{ t('history.rescueTitle') }}</h3>
+        <p v-html="t('history.rescueText')"></p>
+      </div>
 
-  <h3>{{ t('history.todayTitle') }}</h3>
-  <p v-html="t('history.todayText')"></p>
+      <div class="history-section">
+        <h3>{{ t('history.todayTitle') }}</h3>
+        <p v-html="t('history.todayText')"></p>
+      </div>
 
-  <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmill" style="width: 100%; height: auto; border-radius: 8px; margin-top: 1.5rem;" />
+      <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmill" class="history-image" loading="lazy" />
 
-  <h3>{{ t('history.fairyTitle') }}</h3>
-  <p v-html="t('history.fairyText')"></p>
+      <div class="history-section">
+        <h3>{{ t('history.fairyTitle') }}</h3>
+        <p v-html="t('history.fairyText')"></p>
+      </div>
+    </div>
+  </div>
 </template>

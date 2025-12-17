@@ -3,6 +3,7 @@ export default {
     heroTitle: 'Windmill Tündern Association',
     heroSubtitle: 'Welcome to our information page!',
     heroText: 'Learn more about the <strong>historic windmill in Tündern</strong>, our association and how you can get involved.',
+    heroCta: 'Support us',
     missionTitle: 'Our Mission',
     missionText: 'The <strong>Windmill Tündern Association</strong> is passionately committed to preserving, maintaining and revitalizing the windmill in Tündern. Our goal: to <strong>preserve</strong> this unique cultural landmark, make it <strong>experienceable</strong> and anchor it firmly in the community.',
     achievedTitle: 'Already Achieved',

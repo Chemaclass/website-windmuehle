@@ -34,11 +34,19 @@ export default defineConfig({
             description: 'Förderverein zur Erhaltung der historischen Windmühle in Tündern.',
             themeConfig: {
                 logo: '/imgs/logo.svg',
+                siteTitle: 'Windmühle Tündern',
                 nav: [
                     { text: 'Start', link: '/' },
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },
                     { text: 'Spenden', link: '/spenden' }
+                ],
+                sidebar: [
+                    { text: 'Start', link: '/' },
+                    { text: 'Geschichte', link: '/geschichte' },
+                    { text: 'Bilder', link: '/bilder' },
+                    { text: 'Spenden', link: '/spenden' },
+                    { text: 'Impressum', link: '/impressum' }
                 ],
                 footer: {
                     copyright: `© ${currentYear} Windmühle Tündern · Entwickelt von <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/impressum">Impressum</a>`
@@ -53,11 +61,19 @@ export default defineConfig({
             description: 'Association dedicated to preserving the historic windmill in Tündern.',
             themeConfig: {
                 logo: '/imgs/logo.svg',
+                siteTitle: 'Windmill Tündern',
                 nav: [
                     { text: 'Home', link: '/en/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' }
+                ],
+                sidebar: [
+                    { text: 'Home', link: '/en/' },
+                    { text: 'History', link: '/en/geschichte' },
+                    { text: 'Gallery', link: '/en/bilder' },
+                    { text: 'Donate', link: '/en/spenden' },
+                    { text: 'Imprint', link: '/en/impressum' }
                 ],
                 footer: {
                     copyright: `© ${currentYear} Windmill Tündern · Built by <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/en/impressum">Imprint</a>`
@@ -72,11 +88,19 @@ export default defineConfig({
             description: 'Asociación dedicada a preservar el histórico molino de viento de Tündern.',
             themeConfig: {
                 logo: '/imgs/logo.svg',
+                siteTitle: 'Molino Tündern',
                 nav: [
                     { text: 'Inicio', link: '/es/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' }
+                ],
+                sidebar: [
+                    { text: 'Inicio', link: '/es/' },
+                    { text: 'Historia', link: '/es/geschichte' },
+                    { text: 'Galería', link: '/es/bilder' },
+                    { text: 'Donar', link: '/es/spenden' },
+                    { text: 'Aviso legal', link: '/es/impressum' }
                 ],
                 footer: {
                     copyright: `© ${currentYear} Molino Tündern · Desarrollado por <a href="https://chemaclass.com" target="_blank" rel="noopener">Chema</a> · <a href="https://github.com/Chemaclass/website-windmuehle" target="_blank" rel="noopener">GitHub</a> · <a href="/es/impressum">Aviso legal</a>`

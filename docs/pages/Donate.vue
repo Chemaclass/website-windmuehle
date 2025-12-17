@@ -6,19 +6,30 @@ const t = useT()
 </script>
 
 <template>
-  <h1>{{ t('donate.title') }}</h1>
-  <p><strong>{{ t('donate.introBold') }}</strong></p>
-  <p v-html="t('donate.introText')"></p>
+  <div class="page-wrapper">
+    <div class="page-header">
+      <h1>{{ t('donate.title') }}</h1>
+    </div>
 
-  <h3>{{ t('donate.bankTitle') }}</h3>
-  <p>{{ t('donate.donateText') }}</p>
-  <ul>
-    <li><strong>Bank:</strong> Volksbank Hameln-Stadthagen</li>
-    <li><strong>IBAN:</strong>DE37 2546 2160 0107 7074 00</li>
-    <li><strong>BIC:</strong> GENODEF1HMP</li>
-    <li><strong>{{ t('donate.subject') }}:</strong> <em>Spende Windmühle Tündern</em></li>
-  </ul>
+    <div class="donate-intro">
+      <strong>{{ t('donate.introBold') }}</strong>
+      <p v-html="t('donate.introText')"></p>
+    </div>
 
-  <h3>{{ t('donate.thanksTitle') }}</h3>
-  <p v-html="t('donate.thanksText')"></p>
+    <div class="bank-card">
+      <h3>{{ t('donate.bankTitle') }}</h3>
+      <p>{{ t('donate.donateText') }}</p>
+      <ul>
+        <li><strong>Bank:</strong> Volksbank Hameln-Stadthagen</li>
+        <li><strong>IBAN:</strong> DE37 2546 2160 0107 7074 00</li>
+        <li><strong>BIC:</strong> GENODEF1HMP</li>
+        <li><strong>{{ t('donate.subject') }}:</strong> <em>Spende Windmühle Tündern</em></li>
+      </ul>
+    </div>
+
+    <div class="thanks-section">
+      <h3>{{ t('donate.thanksTitle') }}</h3>
+      <p v-html="t('donate.thanksText')"></p>
+    </div>
+  </div>
 </template>

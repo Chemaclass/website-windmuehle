@@ -3,6 +3,7 @@ export default {
     heroTitle: 'Asociación Molino de Viento Tündern',
     heroSubtitle: '¡Bienvenido a nuestra página de información!',
     heroText: 'Conozca más sobre el <strong>molino de viento histórico de Tündern</strong>, la asociación y cómo puede participar activamente.',
+    heroCta: 'Apóyanos',
     missionTitle: 'Nuestra misión',
     missionText: 'La <strong>Asociación Molino de Viento Tündern</strong> se dedica con mucha pasión a conservar, cuidar y revitalizar el molino de Tündern. Nuestro objetivo: <strong>preservar</strong> este especial monumento cultural, hacerlo <strong>vivible</strong> y anclarlo firmemente en la vida de la comunidad.',
     achievedTitle: 'Logros',
