@@ -22,7 +22,12 @@ export default {
       'Compromisos de financiación de la <strong>UE</strong>, la <strong>Fundación de Protección del Patrimonio</strong>, la <strong>ciudad de Hameln</strong> y el <strong>distrito de Hameln-Pyrmont</strong>',
       'Licitación y ofertas para los trabajos de restauración',
       'Oferta para sustituir las aspas del molino',
-      'Retirada de las aspas antiguas'
+      'Retirada de las aspas antiguas',
+      'Andamiaje del molino',
+      'Eliminación del yeso viejo',
+      'Reparación de los muros dañados',
+      'Nuevo revestimiento',
+      '<strong>Marzo 2026:</strong> Colocación de las nuevas aspas'
     ],
     planTitle: 'El plan',
     planItems: [

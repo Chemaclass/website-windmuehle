@@ -468,6 +468,45 @@ section {
   margin-bottom: 0;
 }
 
+.home-achieved {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.card.achieved ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1.5rem;
+}
+
+.card.achieved li::before {
+  content: '✓';
+  width: auto;
+  height: auto;
+  background: none;
+  border-radius: 0;
+  color: #22c55e;
+  font-weight: 700;
+  font-size: 0.9rem;
+  top: 0.25rem;
+}
+
+.card.achieved li:last-child::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: var(--vp-c-accent);
+  border-radius: 50%;
+  top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .card.achieved ul {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ================================
    GALLERY SECTION
    ================================ */

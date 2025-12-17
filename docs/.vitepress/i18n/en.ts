@@ -22,7 +22,12 @@ export default {
       'Funding commitments from <strong>EU</strong>, <strong>Heritage Conservation Foundation</strong>, <strong>City of Hameln</strong> and <strong>Hameln-Pyrmont District</strong>',
       'Tendering and offers for the restoration work',
       "Offer for replacing the mill's blades",
-      'Remove the old blades'
+      'Remove the old blades',
+      'Scaffold the mill',
+      'Remove the old plaster',
+      'Repair damaged masonry',
+      'New plaster',
+      '<strong>March 2026:</strong> Install the new blades'
     ],
     planTitle: 'The Plan',
     planItems: [

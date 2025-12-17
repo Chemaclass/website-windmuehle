@@ -21,8 +21,13 @@ export default {
       'Erstellung eines Sachverständigengutachtens über Umfang und Kosten',
       'Förderzusagen von <strong>EU</strong>, <strong>Stiftung Denkmalschutz</strong>, <strong>Stadt Hameln</strong> und <strong>Landkreis Hameln-Pyrmont</strong>',
       'Ausschreibung und Angebote für die Sanierungsarbeiten',
-      'Angebot für den Austausch der Mühlenflügel',
-      'Abnahme der alten Flügel'
+      'Einholen von Angeboten für den Austausch der Mühlenflügel',
+      'Abnahme der alten Flügel',
+      'Einrüsten der Mühle',
+      'Entfernung des alten Putzes',
+      'Ausbessern schadhafter Mauerstellen',
+      'Neuer Putz',
+      '<strong>März 2026:</strong> Anbringen der neuen Flügel'
     ],
     planTitle: 'Der Plan',
     planItems: [

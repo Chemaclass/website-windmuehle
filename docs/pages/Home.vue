@@ -38,17 +38,11 @@ const t = useT()
   </section>
 
   <section class="section-light">
-    <div class="home-grid">
-      <div class="card">
+    <div class="home-achieved">
+      <div class="card achieved">
         <h3>{{ t('home.achievedTitle') }}</h3>
         <ul>
           <li v-for="(item, i) in t('home.achievedItems')" :key="i" v-html="item"></li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>{{ t('home.planTitle') }}</h3>
-        <ul>
-          <li v-for="(item, i) in t('home.planItems')" :key="i" v-html="item"></li>
         </ul>
       </div>
     </div>
