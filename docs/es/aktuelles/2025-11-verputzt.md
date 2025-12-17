@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Die Mühle ist frisch verputzt
+title: El molino recién revocado
 ---
 
 <script setup>
-import BlogPost from '../pages/BlogPost.vue'
+import BlogPost from '../../pages/BlogPost.vue'
 </script>
 
 <BlogPost post-id="2025-11-verputzt" />

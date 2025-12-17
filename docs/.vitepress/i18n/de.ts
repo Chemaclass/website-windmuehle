@@ -2,7 +2,7 @@ export default {
   footer: {
     association: 'Förderverein Windmühle Tündern e.V.',
     copyright: '© 2025 Förderverein Windmühle Tündern e.V.',
-    builtBy: 'Entwickelt von',
+    builtBy: 'Gemeinnützig entwickelt von',
     links: {
       donate: { text: 'Spenden', href: '/spenden' },
       news: { text: 'Aktuelles', href: '/aktuelles/' },
@@ -92,7 +92,9 @@ export default {
     subject: 'Konzept',
     donateText: 'Bitte richten Sie Ihre Spende an folgendes Konto:',
     thanksTitle: 'Herzlichen Dank!',
-    thanksText: 'Wir danken Ihnen herzlich für Ihre Unterstützung und Ihr Vertrauen in unsere Arbeit. Gemeinsam können wir dieses besondere Stück Heimat erhalten.'
+    thanksText: 'Wir danken Ihnen herzlich für Ihre Unterstützung und Ihr Vertrauen in unsere Arbeit. Gemeinsam können wir dieses besondere Stück Heimat erhalten.',
+    copy: 'Kopieren',
+    copied: 'Kopiert!'
   },
   imprint: {
     title: 'Impressum',
@@ -114,32 +116,75 @@ export default {
   },
   newsPosts: [
     {
+      id: '2025-12-spende-busse',
       title: 'Großzügige Spende für die Windmühle',
       date: 'Dezember 2025',
       excerpt: 'Susanne und Carsten Busse haben 1.000 Euro für die Renovierung der Windmühle gespendet.',
       image: '/imgs/news/susanne-carsten-1000.jpg',
-      link: '/aktuelles/2025-12-spende-busse'
+      link: '/aktuelles/2025-12-spende-busse',
+      body: `<p>Wir haben uns sehr gefreut: <strong>Susanne und Carsten Busse</strong> haben 1.000 Euro für die Renovierung der Windmühle gespendet.</p>
+<p>Ganz herzlichen Dank für die großzügige Unterstützung!</p>
+<p>Solche Spenden helfen uns enorm, unser Ziel zu erreichen: die historische Windmühle in Tündern zu erhalten und für kommende Generationen erlebbar zu machen.</p>
+<p>Jeder Beitrag – ob groß oder klein – bringt uns einen Schritt näher an unser Ziel. Gemeinsam können wir dieses wertvolle Kulturdenkmal bewahren.</p>`
     },
     {
+      id: '2025-11-verputzt',
       title: 'Die Mühle ist frisch verputzt',
       date: 'November 2025',
       excerpt: 'Wir brauchten ja viel Geduld, aber jetzt ist die Mühle frisch verputzt und der nächste Bauabschnitt geschafft.',
-      image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
-      link: '/aktuelles/2025-11-verputzt'
+      image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle2.jpg',
+      link: '/aktuelles/2025-11-verputzt',
+      body: `<p>Wir brauchten ja viel Geduld, aber jetzt ist die Mühle frisch verputzt und der nächste Bauabschnitt geschafft.</p>
+<div class="post-images">
+  <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg" alt="Die frisch verputzte Mühle" />
+  <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle3.jpg" alt="Detailansicht des neuen Putzes" />
+</div>
+<p>Ein großer Dank geht an alle Beteiligten, die diesen wichtigen Meilenstein möglich gemacht haben!</p>`
     },
     {
+      id: '2025-07-bauabschnitt',
       title: 'Die Mühle erwacht – der erste Bauabschnitt beginnt',
       date: 'Juli 2025',
       excerpt: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
       image: '/imgs/scaffolding/scaffolding3.jpeg',
-      link: '/aktuelles/2025-07-bauabschnitt'
+      link: '/aktuelles/2025-07-bauabschnitt',
+      body: `<p>Endlich ist es soweit: Die Sanierung der historischen Windmühle in Tündern hat begonnen! Schon bald steht das Gerüst und die Arbeiten nehmen Fahrt auf.</p>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding3.jpeg" alt="Gerüst an der Windmühle" />
+  <img src="/imgs/scaffolding/scaffolding4.jpeg" alt="Sanierungsarbeiten" />
+</div>
+<h2>Der Zeitplan</h2>
+<p>Die Sanierung erfolgt in mehreren Phasen:</p>
+<ul>
+  <li><strong>Juli 2025:</strong> Einrüsten der Mühle</li>
+  <li>Entfernung des alten Putzes</li>
+  <li>Ausbessern schadhafter Mauerstellen</li>
+  <li><strong>September 2025:</strong> Neuer Putz & frischer Anstrich</li>
+  <li><strong>März 2026:</strong> Anbringen der neuen Flügel</li>
+</ul>
+<h2>Ein Meilenstein</h2>
+<p>Dank der Unterstützung vieler Spender und Förderer – darunter die EU, die Stiftung Denkmalschutz, die Stadt Hameln und der Landkreis Hameln-Pyrmont – kann die historische Windmühle nun endlich restauriert werden.</p>
+<p>Wir freuen uns, dass es losgeht und halten Sie über den Fortschritt auf dem Laufenden!</p>`
     },
     {
+      id: '2025-06-pfingstmontag',
       title: 'Pfingstmontag an der Mühle',
       date: 'Juni 2025',
       excerpt: 'Traditioneller Pfingstmontag mit zahlreichen Besuchern an der historischen Windmühle.',
       image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
-      link: '/aktuelles/2025-06-pfingstmontag'
+      link: '/aktuelles/2025-06-pfingstmontag',
+      body: `<p>Wie jedes Jahr fand auch dieses Jahr der traditionelle <strong>Pfingstmontag an der Mühle</strong> statt. Bei strahlendem Sonnenschein kamen zahlreiche Besucher, um die historische Windmühle Tündern zu besichtigen und das gesellige Beisammensein zu genießen.</p>
+<h2>Impressionen vom Tag</h2>
+<div class="post-images">
+  <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" alt="Pfingstmontag an der Mühle" />
+  <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" alt="Pfingstmontag an der Mühle" />
+</div>
+<div class="post-images">
+  <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" alt="Pfingstmontag an der Mühle" />
+  <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" alt="Pfingstmontag an der Mühle" />
+</div>
+<img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Pfingstmontag an der Mühle" />
+<p>Wir danken allen Besuchern und Helfern für diesen wunderbaren Tag!</p>`
     }
   ]
 } as const

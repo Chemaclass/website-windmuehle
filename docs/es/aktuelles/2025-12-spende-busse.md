@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Großzügige Spende für die Windmühle
+title: Generosa donación para el molino
 ---
 
 <script setup>
-import BlogPost from '../pages/BlogPost.vue'
+import BlogPost from '../../pages/BlogPost.vue'
 </script>
 
 <BlogPost post-id="2025-12-spende-busse" />

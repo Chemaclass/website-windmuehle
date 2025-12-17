@@ -2,10 +2,10 @@ export default {
   footer: {
     association: 'Windmill Tündern Association',
     copyright: '© 2025 Windmill Tündern Association',
-    builtBy: 'Built by',
+    builtBy: 'Non-profit development by',
     links: {
       donate: { text: 'Donate', href: '/en/spenden' },
-      news: { text: 'News', href: '/aktuelles/' },
+      news: { text: 'News', href: '/en/aktuelles/' },
       imprint: { text: 'Imprint', href: '/en/impressum' }
     }
   },
@@ -92,7 +92,9 @@ export default {
     subject: 'Concept',
     donateText: 'Please send your donation to the following account:',
     thanksTitle: 'Thank you very much!',
-    thanksText: 'We sincerely thank you for your support and trust in our work. Together we can preserve this special piece of heritage.'
+    thanksText: 'We sincerely thank you for your support and trust in our work. Together we can preserve this special piece of heritage.',
+    copy: 'Copy',
+    copied: 'Copied!'
   },
   imprint: {
     title: 'Imprint',
@@ -114,32 +116,75 @@ export default {
   },
   newsPosts: [
     {
+      id: '2025-12-spende-busse',
       title: 'Generous Donation for the Windmill',
       date: 'December 2025',
       excerpt: 'Susanne and Carsten Busse donated 1,000 euros for the renovation of the windmill.',
       image: '/imgs/news/susanne-carsten-1000.jpg',
-      link: '/aktuelles/2025-12-spende-busse'
+      link: '/en/aktuelles/2025-12-spende-busse',
+      body: `<p>We are delighted: <strong>Susanne and Carsten Busse</strong> have donated 1,000 euros for the renovation of the windmill.</p>
+<p>Thank you so much for your generous support!</p>
+<p>Donations like this help us enormously in achieving our goal: preserving the historic windmill in Tündern and making it accessible for future generations.</p>
+<p>Every contribution – big or small – brings us one step closer to our goal. Together we can preserve this precious cultural monument.</p>`
     },
     {
+      id: '2025-11-verputzt',
       title: 'The Mill is Freshly Plastered',
       date: 'November 2025',
       excerpt: 'We needed a lot of patience, but now the mill is freshly plastered and the next construction phase is complete.',
-      image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
-      link: '/aktuelles/2025-11-verputzt'
+      image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle2.jpg',
+      link: '/en/aktuelles/2025-11-verputzt',
+      body: `<p>We needed a lot of patience, but now the mill is freshly plastered and the next construction phase is complete.</p>
+<div class="post-images">
+  <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg" alt="The freshly plastered mill" />
+  <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle3.jpg" alt="Detail of the new plaster" />
+</div>
+<p>A big thank you to everyone involved who made this important milestone possible!</p>`
     },
     {
+      id: '2025-07-bauabschnitt',
       title: 'The Mill Awakens – The First Construction Phase Begins',
       date: 'July 2025',
       excerpt: 'Scaffolding is going up and the restoration is gaining momentum.',
       image: '/imgs/scaffolding/scaffolding3.jpeg',
-      link: '/aktuelles/2025-07-bauabschnitt'
+      link: '/en/aktuelles/2025-07-bauabschnitt',
+      body: `<p>The time has finally come: the restoration of the historic windmill in Tündern has begun! Scaffolding is going up and the work is gaining momentum.</p>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding3.jpeg" alt="Scaffolding at the windmill" />
+  <img src="/imgs/scaffolding/scaffolding4.jpeg" alt="Restoration work" />
+</div>
+<h2>The Schedule</h2>
+<p>The restoration is being carried out in several phases:</p>
+<ul>
+  <li><strong>July 2025:</strong> Scaffold the mill</li>
+  <li>Remove the old plaster</li>
+  <li>Repair damaged masonry</li>
+  <li><strong>September 2025:</strong> Apply new plaster & fresh paint</li>
+  <li><strong>March 2026:</strong> Install the new blades</li>
+</ul>
+<h2>A Milestone</h2>
+<p>Thanks to the support of many donors and sponsors – including the EU, the Heritage Conservation Foundation, the City of Hameln and the Hameln-Pyrmont District – the historic windmill can finally be restored.</p>
+<p>We are excited that it's starting and will keep you updated on the progress!</p>`
     },
     {
+      id: '2025-06-pfingstmontag',
       title: 'Whit Monday at the Mill',
       date: 'June 2025',
       excerpt: 'Traditional Whit Monday with numerous visitors at the historic windmill.',
       image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
-      link: '/aktuelles/2025-06-pfingstmontag'
+      link: '/en/aktuelles/2025-06-pfingstmontag',
+      body: `<p>As every year, this year the traditional <strong>Whit Monday at the Mill</strong> took place. In glorious sunshine, numerous visitors came to see the historic Tündern windmill and enjoy the convivial gathering.</p>
+<h2>Impressions of the Day</h2>
+<div class="post-images">
+  <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" alt="Whit Monday at the Mill" />
+  <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" alt="Whit Monday at the Mill" />
+</div>
+<div class="post-images">
+  <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" alt="Whit Monday at the Mill" />
+  <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" alt="Whit Monday at the Mill" />
+</div>
+<img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Whit Monday at the Mill" />
+<p>We thank all visitors and helpers for this wonderful day!</p>`
     }
   ]
 } as const

@@ -1,18 +1,38 @@
 <script setup lang="ts">
-import { ref, onMounted, nextTick } from 'vue'
+import { ref, onMounted, nextTick, computed } from 'vue'
 import Lightbox from '../components/Lightbox.vue'
 import { useT } from '../.vitepress/i18n'
 
 const t = useT()
 
 const props = defineProps<{
+  postId: string
+}>()
+
+// Find post by ID from i18n
+const posts = computed(() => t('newsPosts') as Array<{
+  id: string
   title: string
   date: string
-  image?: string
-  prevPost?: { title: string; link: string }
-  nextPost?: { title: string; link: string }
-  blogPath?: string
-}>()
+  image: string
+  link: string
+  body: string
+}>)
+
+const postIndex = computed(() => posts.value.findIndex(p => p.id === props.postId))
+const post = computed(() => posts.value[postIndex.value])
+
+// Compute prev/next from array (newer posts come first, so prev is index+1, next is index-1)
+const prevPost = computed(() => postIndex.value < posts.value.length - 1 ? posts.value[postIndex.value + 1] : null)
+const nextPost = computed(() => postIndex.value > 0 ? posts.value[postIndex.value - 1] : null)
+
+// Get blog path based on current language
+const blogPath = computed(() => {
+  const link = post.value?.link || ''
+  if (link.startsWith('/en/aktuelles/')) return '/en/aktuelles/'
+  if (link.startsWith('/es/aktuelles/')) return '/es/aktuelles/'
+  return '/aktuelles/'
+})
 
 const blogPostRef = ref<HTMLElement | null>(null)
 const lightboxOpen = ref(false)
@@ -50,19 +70,17 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="blog-post" ref="blogPostRef">
+  <div class="blog-post" ref="blogPostRef" v-if="post">
     <div class="blog-header">
-      <a :href="blogPath || '/aktuelles/'" class="blog-back">{{ t('blog.backToList') }}</a>
-      <span class="blog-date">{{ date }}</span>
+      <a :href="blogPath" class="blog-back">{{ t('blog.backToList') }}</a>
+      <span class="blog-date">{{ post.date }}</span>
     </div>
 
-    <h1 class="blog-title">{{ title }}</h1>
+    <h1 class="blog-title">{{ post.title }}</h1>
 
-    <img v-if="image" :src="image" :alt="title" class="blog-hero-image" />
+    <img v-if="post.image" :src="post.image" :alt="post.title" class="blog-hero-image" />
 
-    <div class="blog-content">
-      <slot />
-    </div>
+    <div class="blog-content" v-html="post.body"></div>
 
     <nav class="blog-navigation">
       <a v-if="prevPost" :href="prevPost.link" class="blog-nav-link blog-nav-prev">
@@ -81,9 +99,9 @@ onMounted(async () => {
     <footer class="blog-footer">
       <div class="blog-footer-content">
         <p>{{ t('blog.supportMessage') }}</p>
-        <a href="/spenden" class="blog-cta">{{ t('blog.supportCta') }}</a>
+        <a :href="t('home.ctaLink')" class="blog-cta">{{ t('blog.supportCta') }}</a>
       </div>
-      <a :href="blogPath || '/aktuelles/'" class="blog-back-bottom">{{ t('blog.allNews') }}</a>
+      <a :href="blogPath" class="blog-back-bottom">{{ t('blog.allNews') }}</a>
     </footer>
 
     <Lightbox

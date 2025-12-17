@@ -33,7 +33,7 @@ const t = useT()
           </div>
         </a>
       </div>
-      <a href="/aktuelles/" class="news-link">{{ t('home.allNews') }} →</a>
+      <a :href="t('footer.links.news.href')" class="news-link">{{ t('home.allNews') }} →</a>
     </div>
   </section>
 

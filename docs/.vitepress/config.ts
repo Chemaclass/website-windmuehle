@@ -89,7 +89,7 @@ export default defineConfig({
                 siteTitle: 'Molino Tündern',
                 nav: [
                     { text: 'Inicio', link: '/es/' },
-                    { text: 'Noticias', link: '/novedades/' },
+                    { text: 'Noticias', link: '/es/aktuelles/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' }

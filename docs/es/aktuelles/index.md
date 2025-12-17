@@ -4,7 +4,7 @@ title: Noticias
 ---
 
 <script setup>
-import { useT } from '../.vitepress/i18n'
+import { useT } from '../../.vitepress/i18n'
 const t = useT()
 const posts = t('newsPosts')
 </script>

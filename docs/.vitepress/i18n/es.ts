@@ -2,10 +2,10 @@ export default {
   footer: {
     association: 'Asociación Molino de Viento Tündern',
     copyright: '© 2025 Asociación Molino de Viento Tündern',
-    builtBy: 'Desarrollado por',
+    builtBy: 'Desarrollado sin ánimo de lucro por',
     links: {
       donate: { text: 'Donar', href: '/es/spenden' },
-      news: { text: 'Noticias', href: '/aktuelles/' },
+      news: { text: 'Noticias', href: '/es/aktuelles/' },
       imprint: { text: 'Aviso legal', href: '/es/impressum' }
     }
   },
@@ -92,7 +92,9 @@ export default {
     subject: 'Concepto',
     donateText: 'Por favor envíe su donación a la siguiente cuenta:',
     thanksTitle: '¡Muchas gracias!',
-    thanksText: 'Le agradecemos sinceramente su apoyo y la confianza en nuestro trabajo. Juntos podremos conservar este pedazo tan especial de nuestra tierra.'
+    thanksText: 'Le agradecemos sinceramente su apoyo y la confianza en nuestro trabajo. Juntos podremos conservar este pedazo tan especial de nuestra tierra.',
+    copy: 'Copiar',
+    copied: '¡Copiado!'
   },
   imprint: {
     title: 'Aviso legal',
@@ -114,32 +116,75 @@ export default {
   },
   newsPosts: [
     {
+      id: '2025-12-spende-busse',
       title: 'Generosa donación para el molino',
       date: 'Diciembre 2025',
       excerpt: 'Susanne y Carsten Busse han donado 1.000 euros para la renovación del molino.',
       image: '/imgs/news/susanne-carsten-1000.jpg',
-      link: '/aktuelles/2025-12-spende-busse'
+      link: '/es/aktuelles/2025-12-spende-busse',
+      body: `<p>Estamos muy contentos: <strong>Susanne y Carsten Busse</strong> han donado 1.000 euros para la renovación del molino.</p>
+<p>¡Muchas gracias por vuestro generoso apoyo!</p>
+<p>Donaciones como esta nos ayudan enormemente a alcanzar nuestro objetivo: conservar el histórico molino de Tündern y hacerlo accesible para las generaciones futuras.</p>
+<p>Cada aportación – grande o pequeña – nos acerca un paso más a nuestra meta. Juntos podemos preservar este valioso monumento cultural.</p>`
     },
     {
+      id: '2025-11-verputzt',
       title: 'El molino recién revocado',
       date: 'Noviembre 2025',
       excerpt: 'Necesitamos mucha paciencia, pero ahora el molino está recién revocado y la siguiente fase de construcción está completada.',
-      image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
-      link: '/aktuelles/2025-11-verputzt'
+      image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle2.jpg',
+      link: '/es/aktuelles/2025-11-verputzt',
+      body: `<p>Necesitamos mucha paciencia, pero ahora el molino está recién revocado y la siguiente fase de construcción está completada.</p>
+<div class="post-images">
+  <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg" alt="El molino recién revocado" />
+  <img src="/imgs/news/2025-nov/aktuelles-nob-windmuhle3.jpg" alt="Detalle del nuevo revoque" />
+</div>
+<p>¡Un enorme agradecimiento a todos los que han hecho posible este importante hito!</p>`
     },
     {
+      id: '2025-07-bauabschnitt',
       title: 'El molino despierta – Comienza la primera fase de construcción',
       date: 'Julio 2025',
       excerpt: 'Ya se está montando el andamiaje y la restauración toma impulso.',
       image: '/imgs/scaffolding/scaffolding3.jpeg',
-      link: '/aktuelles/2025-07-bauabschnitt'
+      link: '/es/aktuelles/2025-07-bauabschnitt',
+      body: `<p>Por fin ha llegado el momento: ¡ha comenzado la restauración del histórico molino de Tündern! Ya se está montando el andamiaje y los trabajos avanzan.</p>
+<div class="post-images">
+  <img src="/imgs/scaffolding/scaffolding3.jpeg" alt="Andamiaje en el molino" />
+  <img src="/imgs/scaffolding/scaffolding4.jpeg" alt="Trabajos de restauración" />
+</div>
+<h2>El cronograma</h2>
+<p>La restauración se realiza en varias fases:</p>
+<ul>
+  <li><strong>Julio 2025:</strong> Montaje del andamiaje</li>
+  <li>Eliminación del viejo revoque</li>
+  <li>Reparación de los muros dañados</li>
+  <li><strong>Septiembre 2025:</strong> Nuevo revoque y pintura</li>
+  <li><strong>Marzo 2026:</strong> Instalación de las nuevas aspas</li>
+</ul>
+<h2>Un hito</h2>
+<p>Gracias al apoyo de numerosos donantes y patrocinadores – incluyendo la UE, la Fundación de Protección del Patrimonio, la ciudad de Hameln y el distrito de Hameln-Pyrmont – el histórico molino por fin puede ser restaurado.</p>
+<p>¡Estamos emocionados de que todo comience y os mantendremos informados del progreso!</p>`
     },
     {
+      id: '2025-06-pfingstmontag',
       title: 'Lunes de Pentecostés en el molino',
       date: 'Junio 2025',
       excerpt: 'Tradicional Lunes de Pentecostés con numerosos visitantes en el histórico molino.',
       image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
-      link: '/aktuelles/2025-06-pfingstmontag'
+      link: '/es/aktuelles/2025-06-pfingstmontag',
+      body: `<p>Como cada año, este año también se celebró el tradicional <strong>Lunes de Pentecostés en el molino</strong>. Con un sol radiante, numerosos visitantes acudieron a ver el histórico molino de Tündern y disfrutar del encuentro social.</p>
+<h2>Impresiones del día</h2>
+<div class="post-images">
+  <img src="/imgs/pfingstmontag/pfingstmontag1.jpeg" alt="Lunes de Pentecostés en el molino" />
+  <img src="/imgs/pfingstmontag/pfingstmontag2.jpeg" alt="Lunes de Pentecostés en el molino" />
+</div>
+<div class="post-images">
+  <img src="/imgs/pfingstmontag/pfingstmontag4.jpeg" alt="Lunes de Pentecostés en el molino" />
+  <img src="/imgs/pfingstmontag/pfingstmontag5.jpeg" alt="Lunes de Pentecostés en el molino" />
+</div>
+<img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Lunes de Pentecostés en el molino" />
+<p>¡Agradecemos a todos los visitantes y colaboradores por este maravilloso día!</p>`
     }
   ]
 } as const
