@@ -81,5 +81,16 @@ export default {
     chairman: 'Chairman',
     name: 'Karl-Friedrich Meyer',
     address: 'Linkworth 1\n31789 Hameln-Tündern'
+  },
+  blog: {
+    backToList: '← Back to News',
+    allNews: '← All News',
+    prevPost: '← Previous',
+    nextPost: 'Next →',
+    supportMessage: 'Did you enjoy this post? Support the preservation of the historic Tündern windmill.',
+    supportCta: 'Support us →',
+    indexTitle: 'News',
+    indexSubtitle: 'Here you will find the latest news about the Tündern windmill.',
+    readMore: 'Read more →'
   }
 } as const

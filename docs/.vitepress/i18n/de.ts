@@ -81,5 +81,16 @@ export default {
     chairman: 'Vorsitzender',
     name: 'Karl-Friedrich Meyer',
     address: 'Linkworth 1\n31789 Hameln-Tündern'
+  },
+  blog: {
+    backToList: '← Zurück zu Aktuelles',
+    allNews: '← Alle Neuigkeiten',
+    prevPost: '← Vorheriger',
+    nextPost: 'Nächster →',
+    supportMessage: 'Gefällt Ihnen dieser Beitrag? Unterstützen Sie die Erhaltung der historischen Windmühle Tündern.',
+    supportCta: 'Jetzt unterstützen →',
+    indexTitle: 'Aktuelles',
+    indexSubtitle: 'Hier finden Sie die neuesten Nachrichten rund um die Windmühle Tündern.',
+    readMore: 'Weiterlesen →'
   }
 } as const

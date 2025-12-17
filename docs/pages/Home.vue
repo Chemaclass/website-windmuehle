@@ -25,14 +25,14 @@ const t = useT()
     <div class="news-preview">
       <h2>{{ t('home.newsTitle') }}</h2>
       <div class="news-cards">
-        <a href="/aktuelles/spende-busse" class="news-card">
+        <a href="/aktuelles/2025-12-spende-busse" class="news-card">
           <img src="/imgs/news/susanne-carsten-1000.jpg" alt="Spende" loading="lazy" />
           <div class="news-card-content">
-            <span class="news-date">Dezember 2024</span>
+            <span class="news-date">Dezember 2025</span>
             <h3>Großzügige Spende für die Windmühle</h3>
           </div>
         </a>
-        <a href="/aktuelles/bauabschnitt-2025" class="news-card">
+        <a href="/aktuelles/2025-07-bauabschnitt" class="news-card">
           <img src="/imgs/scaffolding/scaffolding3.jpeg" alt="Bauabschnitt" loading="lazy" />
           <div class="news-card-content">
             <span class="news-date">Juli 2025</span>

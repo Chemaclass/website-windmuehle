@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aktuelles
+title: Noticias
 ---
 
 <script setup>
@@ -9,30 +9,30 @@ const t = useT()
 
 const posts = [
   {
-    title: 'Großzügige Spende für die Windmühle',
-    date: 'Dezember 2025',
-    excerpt: 'Susanne und Carsten Busse haben 1.000 Euro für die Renovierung der Windmühle gespendet.',
+    title: 'Generosa donación para el molino',
+    date: 'Diciembre 2025',
+    excerpt: 'Susanne y Carsten Busse han donado 1.000 euros para la renovación del molino.',
     image: '/imgs/news/susanne-carsten-1000.jpg',
     link: '/aktuelles/2025-12-spende-busse'
   },
   {
-    title: 'Die Mühle ist frisch verputzt',
-    date: 'November 2025',
-    excerpt: 'Wir brauchten ja viel Geduld, aber jetzt ist die Mühle frisch verputzt und der nächste Bauabschnitt geschafft.',
+    title: 'El molino recién revocado',
+    date: 'Noviembre 2025',
+    excerpt: 'Necesitamos mucha paciencia, pero ahora el molino está recién revocado y la siguiente fase de construcción está completada.',
     image: '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
     link: '/aktuelles/2025-11-verputzt'
   },
   {
-    title: 'Die Mühle erwacht – der erste Bauabschnitt beginnt',
-    date: 'Juli 2025',
-    excerpt: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
+    title: 'El molino despierta – Comienza la primera fase de construcción',
+    date: 'Julio 2025',
+    excerpt: 'Ya se está montando el andamiaje y la restauración toma impulso.',
     image: '/imgs/scaffolding/scaffolding3.jpeg',
     link: '/aktuelles/2025-07-bauabschnitt'
   },
   {
-    title: 'Pfingstmontag an der Mühle',
-    date: 'Juni 2025',
-    excerpt: 'Traditioneller Pfingstmontag mit zahlreichen Besuchern an der historischen Windmühle.',
+    title: 'Lunes de Pentecostés en el molino',
+    date: 'Junio 2025',
+    excerpt: 'Tradicional Lunes de Pentecostés con numerosos visitantes en el histórico molino.',
     image: '/imgs/pfingstmontag/pfingstmontag3.jpeg',
     link: '/aktuelles/2025-06-pfingstmontag'
   }

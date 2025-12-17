@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref, onMounted, nextTick } from 'vue'
 import Lightbox from '../components/Lightbox.vue'
+import { useT } from '../.vitepress/i18n'
+
+const t = useT()
 
 const props = defineProps<{
   title: string
@@ -8,6 +11,7 @@ const props = defineProps<{
   image?: string
   prevPost?: { title: string; link: string }
   nextPost?: { title: string; link: string }
+  blogPath?: string
 }>()
 
 const blogPostRef = ref<HTMLElement | null>(null)
@@ -48,7 +52,7 @@ onMounted(async () => {
 <template>
   <div class="blog-post" ref="blogPostRef">
     <div class="blog-header">
-      <a href="/aktuelles/" class="blog-back">← Zurück zu Aktuelles</a>
+      <a :href="blogPath || '/aktuelles/'" class="blog-back">{{ t('blog.backToList') }}</a>
       <span class="blog-date">{{ date }}</span>
     </div>
 
@@ -62,13 +66,13 @@ onMounted(async () => {
 
     <nav class="blog-navigation">
       <a v-if="prevPost" :href="prevPost.link" class="blog-nav-link blog-nav-prev">
-        <span class="blog-nav-label">← Vorheriger</span>
+        <span class="blog-nav-label">{{ t('blog.prevPost') }}</span>
         <span class="blog-nav-title">{{ prevPost.title }}</span>
       </a>
       <div v-else class="blog-nav-spacer"></div>
 
       <a v-if="nextPost" :href="nextPost.link" class="blog-nav-link blog-nav-next">
-        <span class="blog-nav-label">Nächster →</span>
+        <span class="blog-nav-label">{{ t('blog.nextPost') }}</span>
         <span class="blog-nav-title">{{ nextPost.title }}</span>
       </a>
       <div v-else class="blog-nav-spacer"></div>
@@ -76,10 +80,10 @@ onMounted(async () => {
 
     <footer class="blog-footer">
       <div class="blog-footer-content">
-        <p>Gefällt Ihnen dieser Beitrag? Unterstützen Sie die Erhaltung der historischen Windmühle Tündern.</p>
-        <a href="/spenden" class="blog-cta">Jetzt unterstützen →</a>
+        <p>{{ t('blog.supportMessage') }}</p>
+        <a href="/spenden" class="blog-cta">{{ t('blog.supportCta') }}</a>
       </div>
-      <a href="/aktuelles/" class="blog-back-bottom">← Alle Neuigkeiten</a>
+      <a :href="blogPath || '/aktuelles/'" class="blog-back-bottom">{{ t('blog.allNews') }}</a>
     </footer>
 
     <Lightbox

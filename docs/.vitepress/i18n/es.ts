@@ -81,5 +81,16 @@ export default {
     chairman: 'Presidente',
     name: 'Karl-Friedrich Meyer',
     address: 'Linkworth 1\n31789 Hameln-Tündern'
+  },
+  blog: {
+    backToList: '← Volver a Noticias',
+    allNews: '← Todas las noticias',
+    prevPost: '← Anterior',
+    nextPost: 'Siguiente →',
+    supportMessage: '¿Te ha gustado este artículo? Apoya la conservación del histórico molino de Tündern.',
+    supportCta: 'Apóyanos →',
+    indexTitle: 'Noticias',
+    indexSubtitle: 'Aquí encontrará las últimas noticias sobre el molino de Tündern.',
+    readMore: 'Leer más →'
   }
 } as const

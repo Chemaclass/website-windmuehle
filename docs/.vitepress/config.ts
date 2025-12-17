@@ -66,12 +66,14 @@ export default defineConfig({
                 siteTitle: 'Windmill Tündern',
                 nav: [
                     { text: 'Home', link: '/en/' },
+                    { text: 'News', link: '/news/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' }
                 ],
                 sidebar: [
                     { text: 'Home', link: '/en/' },
+                    { text: 'News', link: '/news/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' },
@@ -93,12 +95,14 @@ export default defineConfig({
                 siteTitle: 'Molino Tündern',
                 nav: [
                     { text: 'Inicio', link: '/es/' },
+                    { text: 'Noticias', link: '/novedades/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' }
                 ],
                 sidebar: [
                     { text: 'Inicio', link: '/es/' },
+                    { text: 'Noticias', link: '/novedades/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' },
