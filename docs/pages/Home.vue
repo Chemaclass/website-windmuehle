@@ -21,14 +21,26 @@ const t = useT()
     </div>
   </section>
 
-  <section class="section-accent">
-    <div class="home-update">
-      <h2>{{ t('home.latestInfo') }}</h2>
-      <div class="update-images">
-        <img src="/imgs/scaffolding/scaffolding3.jpeg" loading="lazy" />
-        <img src="/imgs/scaffolding/scaffolding4.jpeg" loading="lazy" />
+  <section class="section-news">
+    <div class="news-preview">
+      <h2>{{ t('home.newsTitle') }}</h2>
+      <div class="news-cards">
+        <a href="/aktuelles/spende-busse" class="news-card">
+          <img src="/imgs/news/susanne-carsten-1000.jpg" alt="Spende" loading="lazy" />
+          <div class="news-card-content">
+            <span class="news-date">Dezember 2024</span>
+            <h3>Großzügige Spende für die Windmühle</h3>
+          </div>
+        </a>
+        <a href="/aktuelles/bauabschnitt-2025" class="news-card">
+          <img src="/imgs/scaffolding/scaffolding3.jpeg" alt="Bauabschnitt" loading="lazy" />
+          <div class="news-card-content">
+            <span class="news-date">Juli 2025</span>
+            <h3>{{ t('home.latestInfo') }}</h3>
+          </div>
+        </a>
       </div>
-      <p class="update-caption">{{ t('home.updateText') }}</p>
+      <a href="/aktuelles/" class="news-link">{{ t('home.allNews') }} →</a>
     </div>
   </section>
 

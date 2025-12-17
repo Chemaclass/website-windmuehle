@@ -24,6 +24,8 @@ export default {
     ],
     latestInfo: 'El molino despierta: comienza la primera fase de construcción',
     updateText: 'Ya se está montando el andamiaje, señal del inicio de la restauración.',
+    newsTitle: 'Noticias',
+    allNews: 'Todas las noticias',
     gallery: [
       {
         text: 'Conservación y seguridad de la estructura histórica',

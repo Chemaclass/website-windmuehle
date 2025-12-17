@@ -24,6 +24,8 @@ export default {
     ],
     latestInfo: 'The mill awakens – the first construction phase begins',
     updateText: 'Scaffolding is going up, marking the start of the restoration.',
+    newsTitle: 'Latest News',
+    allNews: 'All news',
     gallery: [
       {
         text: 'Preservation and safeguarding of the historic structure',

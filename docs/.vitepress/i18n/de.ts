@@ -24,6 +24,8 @@ export default {
     ],
     latestInfo: 'Die Mühle erwacht – der erste Bauabschnitt beginnt',
     updateText: 'Schon bald steht das Gerüst und die Sanierung nimmt Fahrt auf.',
+    newsTitle: 'Aktuelles',
+    allNews: 'Alle Neuigkeiten',
     gallery: [
       {
         text: 'Erhalt und Sicherung der historischen Bausubstanz',

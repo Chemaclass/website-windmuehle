@@ -37,12 +37,14 @@ export default defineConfig({
                 siteTitle: 'Windmühle Tündern',
                 nav: [
                     { text: 'Start', link: '/' },
+                    { text: 'Aktuelles', link: '/aktuelles/' },
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },
                     { text: 'Spenden', link: '/spenden' }
                 ],
                 sidebar: [
                     { text: 'Start', link: '/' },
+                    { text: 'Aktuelles', link: '/aktuelles/' },
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },
                     { text: 'Spenden', link: '/spenden' },

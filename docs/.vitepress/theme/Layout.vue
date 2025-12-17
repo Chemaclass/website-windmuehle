@@ -19,6 +19,7 @@ const closeMenu = () => {
 const navItems = {
   'root': [
     { text: 'Start', link: '/' },
+    { text: 'Aktuelles', link: '/aktuelles/' },
     { text: 'Geschichte', link: '/geschichte' },
     { text: 'Bilder', link: '/bilder' },
     { text: 'Spenden', link: '/spenden' },
@@ -26,6 +27,7 @@ const navItems = {
   ],
   'en': [
     { text: 'Home', link: '/en/' },
+    { text: 'News', link: '/aktuelles/' },
     { text: 'History', link: '/en/geschichte' },
     { text: 'Gallery', link: '/en/bilder' },
     { text: 'Donate', link: '/en/spenden' },
@@ -33,6 +35,7 @@ const navItems = {
   ],
   'es': [
     { text: 'Inicio', link: '/es/' },
+    { text: 'Noticias', link: '/aktuelles/' },
     { text: 'Historia', link: '/es/geschichte' },
     { text: 'Galería', link: '/es/bilder' },
     { text: 'Donar', link: '/es/spenden' },
