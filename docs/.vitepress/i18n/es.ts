@@ -83,6 +83,8 @@ export default {
     reconstructionTitle: 'En proceso de reconstruction',
     bladesTitle: 'Retirada de las aspas 2025',
     bladesAlt: 'Retirada de las aspas del molino de Tündern 2025',
+    eventsTitle: 'Eventos',
+    eventsAlt: 'Eventos en el molino de Tündern',
     whitTitle: 'Lunes de Pentecostés en el molino',
     moodsTitle: 'Ambiente de mañana y tarde',
     moodsAlt: 'Molino de Tündern al amanecer y atardecer',

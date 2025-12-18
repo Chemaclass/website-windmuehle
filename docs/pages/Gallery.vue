@@ -8,24 +8,33 @@ const t = useT()
 // Gallery sections with images
 const sections = [
   {
+    id: 'events',
+    titleKey: 'gallery.eventsTitle',
+    altKey: 'gallery.eventsAlt',
+    images: [
+      '/imgs/pfingstmontag/pfingstmontag1.jpeg',
+      '/imgs/pfingstmontag/pfingstmontag2.jpeg',
+      '/imgs/pfingstmontag/pfingstmontag3.jpeg',
+      '/imgs/pfingstmontag/pfingstmontag4.jpeg',
+      '/imgs/pfingstmontag/pfingstmontag5.jpeg',
+      '/imgs/pfingstmontag/pfingstmontag6.jpeg'
+    ]
+  },
+  {
     id: 'renovation',
     titleKey: 'gallery.renovationTitle',
     altKey: 'gallery.renovationAlt',
     images: [
+      '/imgs/news/2025-nov/aktuelles-nob-windmuhle1.jpg',
+      '/imgs/news/2025-nov/aktuelles-nob-windmuhle2.jpg',
+      '/imgs/news/2025-nov/aktuelles-nob-windmuhle3.jpg',
       '/imgs/scaffolding/scaffolding1.jpeg',
       '/imgs/scaffolding/scaffolding2.jpeg',
       '/imgs/scaffolding/scaffolding3.jpeg',
       '/imgs/scaffolding/scaffolding4.jpeg',
       '/imgs/scaffolding/scaffolding5.jpeg',
       '/imgs/scaffolding/scaffolding6.jpeg',
-      '/imgs/scaffolding/scaffolding7.jpeg'
-    ]
-  },
-  {
-    id: 'blades',
-    titleKey: 'gallery.bladesTitle',
-    altKey: 'gallery.bladesAlt',
-    images: [
+      '/imgs/scaffolding/scaffolding7.jpeg',
       '/imgs/flugel-abgebaut/windmill-1.jpeg',
       '/imgs/flugel-abgebaut/windmill-2.jpeg',
       '/imgs/flugel-abgebaut/windmill-3.jpeg',
@@ -34,37 +43,24 @@ const sections = [
     ]
   },
   {
-    id: 'moods',
-    titleKey: 'gallery.moodsTitle',
-    altKey: 'gallery.moodsAlt',
-    images: [
-      '/imgs/bilder/windmill-1.jpeg',
-      '/imgs/bilder/windmill-2.jpeg',
-      '/imgs/bilder/windmill-6.jpeg',
-      '/imgs/bilder/windmill-4.jpeg',
-      '/imgs/bilder/windmill-5.jpeg'
-    ]
-  },
-  {
     id: 'historic',
     titleKey: 'gallery.historicTitle',
     altKey: 'gallery.historicAlt',
     images: [
+      '/imgs/bilder/windmill-1.jpeg',
+      '/imgs/bilder/windmill-2.jpeg',
+      '/imgs/bilder/windmill-3.jpeg',
+      '/imgs/bilder/windmill-4.jpeg',
+      '/imgs/bilder/windmill-5.jpeg',
+      '/imgs/bilder/windmill-6.jpeg',
+      '/imgs/bilder/windmill-7.jpeg',
       '/imgs/bilder/windmill-8.jpeg',
-      '/imgs/bilder/windmill-13.jpeg',
-      '/imgs/bilder/windmill-14.jpeg',
-      '/imgs/bilder/windmill-3.jpeg'
-    ]
-  },
-  {
-    id: 'fire',
-    titleKey: 'gallery.fireTitle',
-    altKey: 'gallery.fireAlt',
-    images: [
-      '/imgs/bilder/windmill-11.jpeg',
-      '/imgs/bilder/windmill-12.jpeg',
       '/imgs/bilder/windmill-9.jpeg',
       '/imgs/bilder/windmill-10.jpeg',
+      '/imgs/bilder/windmill-11.jpeg',
+      '/imgs/bilder/windmill-12.jpeg',
+      '/imgs/bilder/windmill-13.jpeg',
+      '/imgs/bilder/windmill-14.jpeg',
       '/imgs/bilder/windmill-15.jpeg',
       '/imgs/bilder/windmill-16.jpeg'
     ]

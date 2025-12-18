@@ -82,6 +82,8 @@ export default {
     renovationAlt: 'Renovation works at Tündern windmill 2025',
     bladesTitle: 'Removal of the blades 2025',
     bladesAlt: 'Removal of blades at Tündern windmill 2025',
+    eventsTitle: 'Events',
+    eventsAlt: 'Events at Tündern windmill',
     reconstructionTitle: 'Reconstruction process',
     whitTitle: 'Whit Monday at the mill',
     moodsTitle: 'Morning and evening moods',

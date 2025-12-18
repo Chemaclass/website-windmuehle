@@ -82,6 +82,8 @@ export default {
     renovationAlt: 'Sanierungsarbeiten an der Windmühle Tündern 2025',
     bladesTitle: 'Abbau der Flügel 2025',
     bladesAlt: 'Abbau der Flügel an der Windmühle Tündern 2025',
+    eventsTitle: 'Veranstaltungen',
+    eventsAlt: 'Veranstaltungen an der Windmühle Tündern',
     reconstructionTitle: 'Im Wiederaufbau',
     whitTitle: 'Pfingstmontag an der Mühle',
     moodsTitle: 'Morgen- und Abendstimmung',
