@@ -103,13 +103,16 @@ img {
 /* ================================
    CTA BUTTON
    ================================ */
-.cta-button {
+.cta-button,
+.cta-button:hover,
+.cta-button:active,
+.cta-button:visited {
   display: inline-block;
   background: linear-gradient(135deg, #e8a838 0%, #d4922a 100%);
   color: #1a1a1a;
   padding: 1rem 2.5rem;
   border-radius: 50px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: 700;
   font-size: 1.1rem;
   letter-spacing: 0.02em;
@@ -135,6 +138,18 @@ img {
   transform: translateY(-3px);
   box-shadow: 0 8px 30px rgba(232, 168, 56, 0.5);
   background: linear-gradient(135deg, #f0b442 0%, #e8a838 100%);
+  text-decoration: none !important;
+}
+
+/* Override VitePress default link styles for CTA button */
+.vp-doc a.cta-button,
+.vp-doc a.cta-button:hover,
+.VPDoc a.cta-button,
+.VPDoc a.cta-button:hover,
+a.cta-button,
+a.cta-button:hover {
+  text-decoration: none !important;
+  color: #1a1a1a !important;
 }
 
 .cta-button:hover::before {
