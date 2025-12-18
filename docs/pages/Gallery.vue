@@ -288,8 +288,7 @@ function closeLightbox() {
   }
 
   .image-overlay {
-    opacity: 0.7;
-    background: rgba(37, 99, 168, 0.4);
+    opacity: 0;
   }
 
   .image-overlay svg {

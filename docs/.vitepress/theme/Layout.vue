@@ -78,7 +78,6 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
   <Transition name="slide">
     <nav v-if="isMenuOpen" class="mobile-menu">
       <div class="mobile-menu-header">
-        <img src="/imgs/logo.svg" alt="Logo" class="mobile-logo" />
         <span class="mobile-title">{{ site.title }}</span>
       </div>
       <ul class="mobile-nav-list">
@@ -189,11 +188,6 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
   padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
-}
-
-.mobile-logo {
-  width: 40px;
-  height: auto;
 }
 
 .mobile-title {

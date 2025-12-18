@@ -1037,6 +1037,28 @@ section {
   color: var(--vp-c-brand-1);
 }
 
+/* Language switcher icon - replace default with globe */
+.VPNavBarExtra .VPFlyout button .icon {
+  display: none !important;
+}
+
+.VPNavBarExtra .VPFlyout button::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%232563a8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.VPNavBarExtra .VPFlyout button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Mobile: Hide VitePress default elements, use custom menu */
 @media (max-width: 768px) {
   /* Hide all right-side nav elements on mobile */
