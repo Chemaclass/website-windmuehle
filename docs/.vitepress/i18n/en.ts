@@ -223,6 +223,7 @@ export default {
     contrastOn: 'High contrast',
     contrastOff: 'Normal contrast',
     spacingOn: 'More line spacing',
-    spacingOff: 'Normal line spacing'
+    spacingOff: 'Normal line spacing',
+    skipToContent: 'Skip to content'
   }
 } as const

@@ -223,6 +223,7 @@ export default {
     contrastOn: 'Alto contraste',
     contrastOff: 'Contraste normal',
     spacingOn: 'Más espaciado',
-    spacingOff: 'Espaciado normal'
+    spacingOff: 'Espaciado normal',
+    skipToContent: 'Ir al contenido'
   }
 } as const

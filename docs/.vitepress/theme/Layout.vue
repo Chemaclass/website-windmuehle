@@ -4,6 +4,9 @@ import { ref } from 'vue'
 import { useData } from 'vitepress'
 import SiteFooter from '../../components/SiteFooter.vue'
 import AccessibilityControls from '../../components/AccessibilityControls.vue'
+import BackToTop from '../../components/BackToTop.vue'
+import ReadingProgress from '../../components/ReadingProgress.vue'
+import SkipToContent from '../../components/SkipToContent.vue'
 
 const { site, localeIndex } = useData()
 const isMenuOpen = ref(false)
@@ -46,14 +49,22 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 </script>
 
 <template>
+  <SkipToContent />
+  <ReadingProgress />
+
   <DefaultTheme.Layout>
     <template #nav-bar-content-after>
       <AccessibilityControls class="desktop-a11y" />
+    </template>
+    <template #doc-before>
+      <div id="main-content"></div>
     </template>
     <template #layout-bottom>
       <SiteFooter />
     </template>
   </DefaultTheme.Layout>
+
+  <BackToTop />
 
   <!-- Mobile Menu Button -->
   <button
