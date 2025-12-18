@@ -77,6 +77,9 @@ export default {
   gallery: {
     title: 'Bilder der Windmühle',
     intro: 'Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl von Momentaufnahmen rund um die <strong>Windmühle Tündern</strong>.',
+    photos: 'Fotos',
+    renovationTitle: 'Sanierung 2025',
+    renovationAlt: 'Sanierungsarbeiten an der Windmühle Tündern 2025',
     bladesTitle: 'Abbau der Flügel 2025',
     bladesAlt: 'Abbau der Flügel an der Windmühle Tündern 2025',
     reconstructionTitle: 'Im Wiederaufbau',

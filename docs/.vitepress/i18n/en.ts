@@ -77,6 +77,9 @@ export default {
   gallery: {
     title: 'Pictures of the Windmill',
     intro: 'A picture is worth a thousand words – so here is a small selection of snapshots around the <strong>Tündern windmill</strong>.',
+    photos: 'Photos',
+    renovationTitle: 'Renovation 2025',
+    renovationAlt: 'Renovation works at Tündern windmill 2025',
     bladesTitle: 'Removal of the blades 2025',
     bladesAlt: 'Removal of blades at Tündern windmill 2025',
     reconstructionTitle: 'Reconstruction process',
