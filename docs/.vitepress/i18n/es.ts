@@ -210,5 +210,14 @@ export default {
 <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Lunes de Pentecostés en el molino" />
 <p>¡Agradecemos a todos los visitantes y colaboradores por este maravilloso día!</p>`
     }
-  ]
+  ],
+  accessibility: {
+    fontSmaller: 'Texto más pequeño',
+    fontNormal: 'Texto normal',
+    fontLarger: 'Texto más grande',
+    contrastOn: 'Alto contraste',
+    contrastOff: 'Contraste normal',
+    spacingOn: 'Más espaciado',
+    spacingOff: 'Espaciado normal'
+  }
 } as const

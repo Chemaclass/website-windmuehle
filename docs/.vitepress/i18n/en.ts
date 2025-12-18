@@ -210,5 +210,14 @@ export default {
 <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Whit Monday at the Mill" />
 <p>We thank all visitors and helpers for this wonderful day!</p>`
     }
-  ]
+  ],
+  accessibility: {
+    fontSmaller: 'Smaller text',
+    fontNormal: 'Normal text',
+    fontLarger: 'Larger text',
+    contrastOn: 'High contrast',
+    contrastOff: 'Normal contrast',
+    spacingOn: 'More line spacing',
+    spacingOff: 'Normal line spacing'
+  }
 } as const

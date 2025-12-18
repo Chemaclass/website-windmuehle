@@ -1327,3 +1327,90 @@ html {
     padding-bottom: 0.5rem;
   }
 }
+
+/* ================================
+   ACCESSIBILITY FEATURES
+   ================================ */
+
+/* Font size scaling */
+html.a11y-font-large {
+  font-size: 120%;
+}
+
+html.a11y-font-xlarge {
+  font-size: 140%;
+}
+
+/* High contrast mode */
+html.a11y-high-contrast {
+  --vp-c-text-1: #111;
+  --vp-c-text-2: #222;
+  --vp-c-text-3: #333;
+}
+
+html.a11y-high-contrast .hero-text,
+html.a11y-high-contrast .hero-subtitle,
+html.a11y-high-contrast p,
+html.a11y-high-contrast .card li,
+html.a11y-high-contrast .news-date,
+html.a11y-high-contrast .blog-date {
+  color: #111 !important;
+}
+
+html.a11y-high-contrast .home-intro p,
+html.a11y-high-contrast .history-content p,
+html.a11y-high-contrast .content-section p,
+html.a11y-high-contrast .blog-content {
+  color: #111 !important;
+}
+
+html.a11y-high-contrast a {
+  text-decoration: underline;
+}
+
+html.a11y-high-contrast .cta-button,
+html.a11y-high-contrast .cta-button:hover {
+  text-decoration: none !important;
+}
+
+/* Line spacing */
+html.a11y-spacing p,
+html.a11y-spacing li,
+html.a11y-spacing .blog-content,
+html.a11y-spacing .history-content,
+html.a11y-spacing .home-intro p {
+  line-height: 2.2 !important;
+}
+
+/* Reduced motion - respects OS preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hero-logo:hover,
+  .news-card:hover,
+  .card:hover,
+  .home-gallery-item:hover,
+  .blog-hero-image:hover {
+    transform: none !important;
+  }
+}
+
+/* Focus indicators for keyboard navigation */
+:focus-visible {
+  outline: 3px solid var(--vp-c-brand-1) !important;
+  outline-offset: 2px !important;
+}
+
+.a11y-btn:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--vp-c-brand-1) !important;
+  outline-offset: 2px !important;
+}

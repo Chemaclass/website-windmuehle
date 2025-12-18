@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { ref } from 'vue'
 import { useData } from 'vitepress'
 import SiteFooter from '../../components/SiteFooter.vue'
+import AccessibilityControls from '../../components/AccessibilityControls.vue'
 
 const { site, localeIndex } = useData()
 const isMenuOpen = ref(false)
@@ -49,6 +50,9 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 
 <template>
   <DefaultTheme.Layout>
+    <template #nav-bar-content-after>
+      <AccessibilityControls class="desktop-a11y" />
+    </template>
     <template #layout-bottom>
       <SiteFooter />
     </template>
@@ -100,6 +104,7 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
           <a href="/es/" @click="closeMenu">ES</a>
         </div>
       </div>
+      <AccessibilityControls class="mobile-a11y" />
     </nav>
   </Transition>
 </template>
@@ -288,5 +293,24 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 .slide-enter-from,
 .slide-leave-to {
   transform: translateX(100%);
+}
+
+/* Accessibility controls visibility */
+.desktop-a11y {
+  display: flex;
+}
+
+.mobile-a11y {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-a11y {
+    display: none;
+  }
+
+  .mobile-a11y {
+    display: flex;
+  }
 }
 </style>

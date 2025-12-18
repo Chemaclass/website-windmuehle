@@ -210,5 +210,14 @@ export default {
 <img src="/imgs/pfingstmontag/pfingstmontag6.jpeg" alt="Pfingstmontag an der Mühle" />
 <p>Wir danken allen Besuchern und Helfern für diesen wunderbaren Tag!</p>`
     }
-  ]
+  ],
+  accessibility: {
+    fontSmaller: 'Kleinere Schrift',
+    fontNormal: 'Normale Schrift',
+    fontLarger: 'Größere Schrift',
+    contrastOn: 'Hoher Kontrast',
+    contrastOff: 'Normaler Kontrast',
+    spacingOn: 'Mehr Zeilenabstand',
+    spacingOff: 'Normaler Zeilenabstand'
+  }
 } as const
