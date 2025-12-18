@@ -20,7 +20,6 @@ const closeMenu = () => {
 
 const navItems = {
   'root': [
-    { text: 'Start', link: '/' },
     { text: 'Aktuelles', link: '/aktuelles/' },
     { text: 'Geschichte', link: '/geschichte' },
     { text: 'Bilder', link: '/bilder' },
@@ -28,7 +27,6 @@ const navItems = {
     { text: 'Impressum', link: '/impressum' }
   ],
   'en': [
-    { text: 'Home', link: '/en/' },
     { text: 'News', link: '/en/aktuelles/' },
     { text: 'History', link: '/en/geschichte' },
     { text: 'Gallery', link: '/en/bilder' },
@@ -36,7 +34,6 @@ const navItems = {
     { text: 'Imprint', link: '/en/impressum' }
   ],
   'es': [
-    { text: 'Inicio', link: '/es/' },
     { text: 'Noticias', link: '/es/aktuelles/' },
     { text: 'Historia', link: '/es/geschichte' },
     { text: 'Galería', link: '/es/bilder' },

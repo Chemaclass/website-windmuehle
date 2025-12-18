@@ -61,14 +61,12 @@ export default defineConfig({
                 logo: '/imgs/logo.svg',
                 siteTitle: 'Windmühle Tündern',
                 nav: [
-                    { text: 'Start', link: '/' },
                     { text: 'Aktuelles', link: '/aktuelles/' },
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },
                     { text: 'Spenden', link: '/spenden' }
                 ],
                 sidebar: [
-                    { text: 'Start', link: '/' },
                     { text: 'Aktuelles', link: '/aktuelles/' },
                     { text: 'Geschichte', link: '/geschichte' },
                     { text: 'Bilder', link: '/bilder' },
@@ -87,14 +85,12 @@ export default defineConfig({
                 logo: '/imgs/logo.svg',
                 siteTitle: 'Windmill Tündern',
                 nav: [
-                    { text: 'Home', link: '/en/' },
                     { text: 'News', link: '/en/aktuelles/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
                     { text: 'Donate', link: '/en/spenden' }
                 ],
                 sidebar: [
-                    { text: 'Home', link: '/en/' },
                     { text: 'News', link: '/en/aktuelles/' },
                     { text: 'History', link: '/en/geschichte' },
                     { text: 'Gallery', link: '/en/bilder' },
@@ -113,14 +109,12 @@ export default defineConfig({
                 logo: '/imgs/logo.svg',
                 siteTitle: 'Molino Tündern',
                 nav: [
-                    { text: 'Inicio', link: '/es/' },
                     { text: 'Noticias', link: '/es/aktuelles/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
                     { text: 'Donar', link: '/es/spenden' }
                 ],
                 sidebar: [
-                    { text: 'Inicio', link: '/es/' },
                     { text: 'Noticias', link: '/es/aktuelles/' },
                     { text: 'Historia', link: '/es/geschichte' },
                     { text: 'Galería', link: '/es/bilder' },
