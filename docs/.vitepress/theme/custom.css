@@ -1363,36 +1363,99 @@ html.a11y-font-xlarge {
   font-size: 140%;
 }
 
-/* High contrast mode */
+/* High contrast mode - Black & White */
 html.a11y-high-contrast {
-  --vp-c-text-1: #111;
-  --vp-c-text-2: #222;
-  --vp-c-text-3: #333;
+  --vp-c-text-1: #000;
+  --vp-c-text-2: #000;
+  --vp-c-text-3: #000;
+  --vp-c-brand-1: #000;
+  --vp-c-brand-2: #000;
 }
 
+/* All text pure black */
+html.a11y-high-contrast p,
+html.a11y-high-contrast li,
+html.a11y-high-contrast span,
 html.a11y-high-contrast .hero-text,
 html.a11y-high-contrast .hero-subtitle,
-html.a11y-high-contrast p,
 html.a11y-high-contrast .card li,
 html.a11y-high-contrast .news-date,
-html.a11y-high-contrast .blog-date {
-  color: #111 !important;
-}
-
+html.a11y-high-contrast .blog-date,
 html.a11y-high-contrast .home-intro p,
 html.a11y-high-contrast .history-content p,
 html.a11y-high-contrast .content-section p,
 html.a11y-high-contrast .blog-content {
-  color: #111 !important;
+  color: #000 !important;
 }
 
+/* Headings pure black */
+html.a11y-high-contrast h1,
+html.a11y-high-contrast h2,
+html.a11y-high-contrast h3,
+html.a11y-high-contrast .hero-title,
+html.a11y-high-contrast .card h3 {
+  color: #000 !important;
+}
+
+/* Links black with underline */
 html.a11y-high-contrast a {
-  text-decoration: underline;
+  color: #000 !important;
+  text-decoration: underline !important;
 }
 
+/* Cards & sections with solid black borders */
+html.a11y-high-contrast .card,
+html.a11y-high-contrast .news-card,
+html.a11y-high-contrast .bank-card,
+html.a11y-high-contrast .gallery-category {
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  box-shadow: none !important;
+}
+
+/* CTA button high contrast */
 html.a11y-high-contrast .cta-button,
 html.a11y-high-contrast .cta-button:hover {
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #000 !important;
   text-decoration: none !important;
+}
+
+/* Sections pure white background */
+html.a11y-high-contrast section,
+html.a11y-high-contrast .section-light,
+html.a11y-high-contrast .section-accent,
+html.a11y-high-contrast .section-cta,
+html.a11y-high-contrast .home-hero {
+  background: #fff !important;
+}
+
+/* Dark sections inverted */
+html.a11y-high-contrast .section-dark {
+  background: #000 !important;
+}
+
+html.a11y-high-contrast .section-dark h2 {
+  color: #fff !important;
+}
+
+/* Gallery image borders */
+html.a11y-high-contrast .home-gallery-item,
+html.a11y-high-contrast .image-item {
+  border: 2px solid #000 !important;
+}
+
+/* Focus text on images */
+html.a11y-high-contrast .focus-text {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+/* Navbar */
+html.a11y-high-contrast .VPNav {
+  background: #fff !important;
+  border-bottom: 2px solid #000 !important;
 }
 
 /* Line spacing */
