@@ -3,7 +3,13 @@ import { computed } from 'vue'
 import { useT } from '../.vitepress/i18n'
 const t = useT()
 
-const isDecember = computed(() => new Date().getMonth() === 11)
+const isChristmasSeason = computed(() => {
+  const now = new Date()
+  const month = now.getMonth()
+  const day = now.getDate()
+  // Dec 15-31 (month 11, day >= 15) OR Jan 1-7 (month 0, day <= 7)
+  return (month === 11 && day >= 15) || (month === 0 && day <= 7)
+})
 </script>
 
 <template>
@@ -17,7 +23,7 @@ const isDecember = computed(() => new Date().getMonth() === 11)
     </div>
   </div>
 
-  <section v-if="isDecember" class="section-seasonal">
+  <section v-if="isChristmasSeason" class="section-seasonal">
     <div class="seasonal-banner">
       {{ t('home.christmasGreeting') }}
     </div>
