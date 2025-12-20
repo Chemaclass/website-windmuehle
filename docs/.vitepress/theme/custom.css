@@ -157,7 +157,6 @@ img {
 @media (max-width: 768px) {
   .section-seasonal {
     padding: 4rem 1rem;
-    background-attachment: scroll; /* Fallback for mobile */
   }
 
   .seasonal-banner {
@@ -1414,6 +1413,13 @@ html {
 
   .card.achieved li:nth-last-child(-n+2)::before {
     top: 0.75rem;
+  }
+
+  /* Disable image hover scale on mobile */
+  .update-images img:hover,
+  .scroll-img:hover,
+  .grid-gallery img:hover {
+    transform: none;
   }
 }
 

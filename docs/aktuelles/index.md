@@ -166,7 +166,6 @@ const posts = t('newsPosts')
 @media (max-width: 768px) {
   .news-hero {
     padding: 4rem 1rem;
-    background-attachment: scroll;
   }
 
   .news-hero h1 {

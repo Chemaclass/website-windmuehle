@@ -411,5 +411,11 @@ onUnmounted(() => {
   .blog-footer-content p {
     font-size: 1rem;
   }
+
+  /* Disable image hover scale on mobile */
+  .blog-hero-image:hover,
+  .blog-content :deep(img:hover) {
+    transform: none;
+  }
 }
 </style>

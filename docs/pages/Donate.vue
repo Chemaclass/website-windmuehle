@@ -539,7 +539,6 @@ function copyToClipboard(text: string, field: string) {
 @media (max-width: 768px) {
   .donate-hero {
     padding: 3rem 1rem;
-    background-attachment: scroll;
     background-size: cover;
     background-position: center center;
   }

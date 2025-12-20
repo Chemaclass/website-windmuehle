@@ -304,7 +304,6 @@ function closeLightbox() {
 @media (max-width: 768px) {
   .gallery-hero {
     padding: 3rem 1rem;
-    background-attachment: scroll;
     background-size: cover;
     background-position: center center;
   }
@@ -346,6 +345,11 @@ function closeLightbox() {
   .image-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
+  }
+
+  /* Disable image hover scale on mobile */
+  .image-item:hover img {
+    transform: none;
   }
 
   .image-overlay {

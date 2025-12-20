@@ -188,7 +188,6 @@ const t = useT()
 @media (max-width: 768px) {
   .imprint-hero {
     padding: 3rem 1rem;
-    background-attachment: scroll;
     background-size: cover;
     background-position: center center;
   }
