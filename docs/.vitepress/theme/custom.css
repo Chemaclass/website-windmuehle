@@ -69,11 +69,6 @@ img {
   width: 160px;
   margin-bottom: 1.5rem;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
-  transition: var(--transition-smooth);
-}
-
-.hero-logo:hover {
-  transform: scale(1.05) rotate(2deg);
 }
 
 .hero-title {
@@ -103,12 +98,24 @@ img {
 /* ================================
    SEASONAL BANNER (Christmas)
    ================================ */
-.section-seasonal {
+.section-seasonal,
+.section-seasonal:hover,
+.section-seasonal:visited,
+.section-seasonal:active {
+  display: block;
   background: linear-gradient(135deg, #2d6a4f 0%, #40916c 50%, #2d6a4f 100%);
   padding: 1.5rem 1rem;
   text-align: center;
+  text-decoration: none !important;
   border-top: 3px solid var(--vp-c-accent);
   border-bottom: 3px solid var(--vp-c-accent);
+  transition: all 0.2s ease;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.section-seasonal:hover {
+  background: linear-gradient(135deg, #40916c 0%, #52b788 50%, #40916c 100%);
 }
 
 .seasonal-banner {

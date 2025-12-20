@@ -10,7 +10,8 @@ export default {
     }
   },
   home: {
-    christmasGreeting: 'Merry Christmas and a Happy New Year!',
+    christmasGreeting: '🎄 Merry Christmas from the Association! 🎄',
+    christmasLink: '/en/aktuelles/2025-12-weihnachten',
     heroTitle: 'Windmill Tündern Association',
     heroSubtitle: 'Welcome to our information page!',
     heroText: 'Learn more about the <strong>historic windmill in Tündern</strong>, our association and how you can get involved.',
@@ -125,6 +126,32 @@ export default {
     readMore: 'Read more →'
   },
   newsPosts: [
+    {
+      id: '2025-12-weihnachten',
+      title: 'Merry Christmas from the Association!',
+      date: 'December 2025',
+      excerpt: 'A look back at a successful year and warm Christmas greetings from the Windmill Tündern Association.',
+      image: '/imgs/bilder/windmill-7.jpeg',
+      link: '/en/aktuelles/2025-12-weihnachten',
+      body: `<p>Dear friends and supporters of the Tündern Windmill,</p>
+<p>The <strong>Windmill Tündern Association</strong> wishes you and your families a Merry Christmas and a Happy New Year 2026!</p>
+<h2>Looking Back at 2025</h2>
+<p>This year was a <strong>milestone</strong> for our historic windmill:</p>
+<ul>
+  <li><strong>July 2025:</strong> Scaffolding erected</li>
+  <li>Old plaster removed and damaged masonry repaired</li>
+  <li><strong>November 2025:</strong> Fresh plaster applied</li>
+</ul>
+<h2>Looking Ahead to 2026</h2>
+<ul>
+  <li><strong>January 2026:</strong> New coat of paint</li>
+  <li><strong>March 2026:</strong> Installation of new blades</li>
+</ul>
+<h2>Thank You!</h2>
+<p>We thank all donors, sponsors and supporters – especially the <strong>EU</strong>, the <strong>Heritage Conservation Foundation</strong>, the <strong>City of Hameln</strong> and the <strong>Hameln-Pyrmont District</strong> – for their trust and generous support.</p>
+<p>Together we are preserving this valuable cultural monument for future generations!</p>
+<p><strong>Merry Christmas and a Happy New Year 2026!</strong></p>`
+    },
     {
       id: '2025-12-spende-busse',
       title: 'Generous Donation for the Windmill',

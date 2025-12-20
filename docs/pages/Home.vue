@@ -23,11 +23,11 @@ const isChristmasSeason = computed(() => {
     </div>
   </div>
 
-  <section v-if="isChristmasSeason" class="section-seasonal">
+  <a v-if="isChristmasSeason" :href="t('home.christmasLink')" class="section-seasonal">
     <div class="seasonal-banner">
       {{ t('home.christmasGreeting') }}
     </div>
-  </section>
+  </a>
 
   <section class="section-light">
     <div class="home-intro">

@@ -10,7 +10,8 @@ export default {
     }
   },
   home: {
-    christmasGreeting: '¡Feliz Navidad y próspero Año Nuevo!',
+    christmasGreeting: '🎄 ¡Feliz Navidad de la Asociación! 🎄',
+    christmasLink: '/es/aktuelles/2025-12-weihnachten',
     heroTitle: 'Asociación Molino de Viento Tündern',
     heroSubtitle: '¡Bienvenido a nuestra página de información!',
     heroText: 'Conozca más sobre el <strong>molino de viento histórico de Tündern</strong>, la asociación y cómo puede participar activamente.',
@@ -125,6 +126,32 @@ export default {
     readMore: 'Leer más →'
   },
   newsPosts: [
+    {
+      id: '2025-12-weihnachten',
+      title: '¡Feliz Navidad de la Asociación!',
+      date: 'Diciembre 2025',
+      excerpt: 'Un repaso a un año exitoso y cálidos saludos navideños de la Asociación Molino de Viento Tündern.',
+      image: '/imgs/bilder/windmill-7.jpeg',
+      link: '/es/aktuelles/2025-12-weihnachten',
+      body: `<p>Queridos amigos y colaboradores del Molino de Tündern,</p>
+<p>La <strong>Asociación Molino de Viento Tündern</strong> les desea a ustedes y sus familias una Feliz Navidad y un próspero Año Nuevo 2026.</p>
+<h2>Balance de 2025</h2>
+<p>Este año ha sido un <strong>hito</strong> para nuestro histórico molino:</p>
+<ul>
+  <li><strong>Julio 2025:</strong> Montaje del andamiaje</li>
+  <li>Eliminación del yeso viejo y reparación de los muros dañados</li>
+  <li><strong>Noviembre 2025:</strong> Aplicación del nuevo revestimiento</li>
+</ul>
+<h2>Perspectivas para 2026</h2>
+<ul>
+  <li><strong>Enero 2026:</strong> Nueva capa de pintura</li>
+  <li><strong>Marzo 2026:</strong> Instalación de las nuevas aspas</li>
+</ul>
+<h2>¡Muchas gracias!</h2>
+<p>Agradecemos a todos los donantes, patrocinadores y colaboradores – especialmente a la <strong>UE</strong>, la <strong>Fundación de Protección del Patrimonio</strong>, la <strong>ciudad de Hameln</strong> y el <strong>distrito de Hameln-Pyrmont</strong> – por su confianza y generoso apoyo.</p>
+<p>¡Juntos preservamos este valioso monumento cultural para las generaciones futuras!</p>
+<p><strong>¡Feliz Navidad y próspero Año Nuevo 2026!</strong></p>`
+    },
     {
       id: '2025-12-spende-busse',
       title: 'Generosa donación para el molino',

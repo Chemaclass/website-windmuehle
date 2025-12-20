@@ -10,7 +10,8 @@ export default {
     }
   },
   home: {
-    christmasGreeting: 'Frohe Weihnachten und einen guten Rutsch ins neue Jahr!',
+    christmasGreeting: '🎄 Frohe Weihnachten vom Förderverein! 🎄',
+    christmasLink: '/aktuelles/2025-12-weihnachten',
     heroTitle: 'Förderverein Windmühle Tündern e.V.',
     heroSubtitle: 'Herzlich willkommen auf unserer Informationsseite!',
     heroText: 'Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich engagieren können.',
@@ -125,6 +126,32 @@ export default {
     readMore: 'Weiterlesen →'
   },
   newsPosts: [
+    {
+      id: '2025-12-weihnachten',
+      title: 'Frohe Weihnachten vom Förderverein!',
+      date: 'Dezember 2025',
+      excerpt: 'Ein Rückblick auf ein erfolgreiches Jahr und herzliche Weihnachtsgrüße vom Förderverein Windmühle Tündern.',
+      image: '/imgs/bilder/windmill-7.jpeg',
+      link: '/aktuelles/2025-12-weihnachten',
+      body: `<p>Liebe Freunde und Unterstützer der Windmühle Tündern,</p>
+<p>der <strong>Förderverein Windmühle Tündern e.V.</strong> wünscht Ihnen und Ihren Familien ein frohes Weihnachtsfest und einen guten Start ins neue Jahr 2026!</p>
+<h2>Rückblick auf 2025</h2>
+<p>Dieses Jahr war ein <strong>Meilenstein</strong> für unsere historische Windmühle:</p>
+<ul>
+  <li><strong>Juli 2025:</strong> Einrüstung der Mühle</li>
+  <li>Entfernung des alten Putzes und Ausbesserung schadhafter Mauerstellen</li>
+  <li><strong>November 2025:</strong> Frischer Putz aufgetragen</li>
+</ul>
+<h2>Ausblick auf 2026</h2>
+<ul>
+  <li><strong>Januar 2026:</strong> Neuer Anstrich</li>
+  <li><strong>März 2026:</strong> Anbringen der neuen Flügel</li>
+</ul>
+<h2>Herzlichen Dank!</h2>
+<p>Wir danken allen Spendern, Förderern und Unterstützern – insbesondere der <strong>EU</strong>, der <strong>Stiftung Denkmalschutz</strong>, der <strong>Stadt Hameln</strong> und dem <strong>Landkreis Hameln-Pyrmont</strong> – für ihr Vertrauen und ihre großzügige Unterstützung.</p>
+<p>Gemeinsam bewahren wir dieses wertvolle Kulturdenkmal für kommende Generationen!</p>
+<p><strong>Frohe Weihnachten und ein glückliches neues Jahr 2026!</strong></p>`
+    },
     {
       id: '2025-12-spende-busse',
       title: 'Großzügige Spende für die Windmühle',
