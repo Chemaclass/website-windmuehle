@@ -28,9 +28,26 @@ function copyToClipboard(text: string, field: string) {
         <p v-html="t('donate.introText')"></p>
       </div>
 
+      <!-- Support Section -->
+      <div class="donate-support">
+        <h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          {{ t('donate.supportTitle') }}
+        </h2>
+        <p v-html="t('donate.supportText')"></p>
+      </div>
+
       <!-- Impact Section -->
       <div class="donate-impact">
-        <h2>{{ t('donate.impactTitle') || 'Ihre Spende bewirkt' }}</h2>
+        <h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+          </svg>
+          {{ t('donate.impactTitle') || 'Ihre Spende bewirkt' }}
+        </h2>
         <div class="impact-grid">
           <div class="impact-item">
             <div class="impact-icon">
@@ -254,15 +271,42 @@ function copyToClipboard(text: string, field: string) {
 
 /* Intro Section */
 .donate-intro {
-  text-align: center;
   padding: 2rem 2.5rem;
   background: linear-gradient(135deg, rgba(37, 99, 168, 0.05) 0%, rgba(232, 168, 56, 0.05) 100%);
   border-radius: 20px;
   margin-bottom: 3rem;
+  text-align: left;
 }
 
 .donate-intro p {
   font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+}
+
+/* Support Section */
+.donate-support {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.05);
+  border-left: 4px solid var(--vp-c-brand-1);
+}
+
+.donate-support h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--vp-c-brand-1);
+  font-size: 1.4rem;
+  margin: 0 0 1rem;
+}
+
+.donate-support p {
+  font-size: 1.05rem;
   line-height: 1.8;
   color: #444;
   margin: 0;
@@ -274,10 +318,12 @@ function copyToClipboard(text: string, field: string) {
 }
 
 .donate-impact h2 {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   color: var(--vp-c-brand-1);
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
 }
 
 .impact-grid {
@@ -424,20 +470,19 @@ function copyToClipboard(text: string, field: string) {
 
 /* Thanks Section */
 .thanks-section {
-  text-align: center;
   padding: 2rem;
   background: linear-gradient(135deg, rgba(37, 99, 168, 0.08) 0%, rgba(26, 74, 122, 0.08) 100%);
   border-radius: 20px;
   border-left: 5px solid var(--vp-c-brand-1);
+  text-align: left;
 }
 
 .thanks-section h3 {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.5rem;
   color: var(--vp-c-brand-1);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0 0 1rem;
 }
 
@@ -469,6 +514,18 @@ function copyToClipboard(text: string, field: string) {
 
   .donate-intro {
     padding: 1.5rem;
+  }
+
+  .donate-support {
+    padding: 1.5rem;
+  }
+
+  .donate-support h2 {
+    font-size: 1.2rem;
+  }
+
+  .donate-support p {
+    font-size: 1rem;
   }
 
   .impact-grid {

@@ -196,7 +196,6 @@ function closeLightbox() {
 }
 
 .gallery-intro {
-  text-align: center;
   padding: 2rem;
   background: linear-gradient(135deg, rgba(37, 99, 168, 0.05) 0%, rgba(232, 168, 56, 0.05) 100%);
   border-radius: 16px;
@@ -208,8 +207,6 @@ function closeLightbox() {
   line-height: 1.8;
   color: #444;
   margin: 0;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .gallery-sections {
