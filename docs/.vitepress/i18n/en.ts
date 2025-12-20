@@ -24,9 +24,9 @@ export default {
       "Offer for replacing the mill's blades",
       'Remove the old blades',
       'Scaffold the mill',
-      'Remove the old plaster',
-      'Repair damaged masonry',
+      'Remove the old plaster and repair damaged masonry',
       'New plaster',
+      'January 2026: New coat of paint',
       '<strong>March 2026:</strong> Install the new blades'
     ],
     planTitle: 'The Plan',

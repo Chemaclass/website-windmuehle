@@ -24,9 +24,9 @@ export default {
       'Einholen von Angeboten für den Austausch der Mühlenflügel',
       'Abnahme der alten Flügel',
       'Einrüsten der Mühle',
-      'Entfernung des alten Putzes',
-      'Ausbessern schadhafter Mauerstellen',
+      'Entfernung des alten Putzes und Ausbessern schadhafter Mauerstellen',
       'Neuer Putz',
+      'Januar 2026: Neuer Anstrich',
       '<strong>März 2026:</strong> Anbringen der neuen Flügel'
     ],
     planTitle: 'Der Plan',

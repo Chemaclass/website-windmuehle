@@ -24,9 +24,9 @@ export default {
       'Oferta para sustituir las aspas del molino',
       'Retirada de las aspas antiguas',
       'Andamiaje del molino',
-      'Eliminación del yeso viejo',
-      'Reparación de los muros dañados',
+      'Eliminación del yeso viejo y reparación de los muros dañados',
       'Nuevo revestimiento',
+      'Enero 2026: Nueva capa de pintura',
       '<strong>Marzo 2026:</strong> Colocación de las nuevas aspas'
     ],
     planTitle: 'El plan',

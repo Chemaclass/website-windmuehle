@@ -223,14 +223,21 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.news-card {
+.news-card,
+.news-card:hover,
+.news-card:active,
+.news-card:visited {
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--card-shadow);
-  text-decoration: none;
+  text-decoration: none !important;
   transition: var(--transition-smooth);
   display: block;
+}
+
+.news-card h3 {
+  text-decoration: none !important;
 }
 
 .news-card:hover {
@@ -540,7 +547,7 @@ section {
   top: 0.25rem;
 }
 
-.card.achieved li:last-child::before {
+.card.achieved li:nth-last-child(-n+2)::before {
   content: '';
   width: 8px;
   height: 8px;
