@@ -206,7 +206,7 @@ const t = useT()
   .history-hero {
     padding: 3rem 1rem;
     background-attachment: scroll;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center center;
   }
 

@@ -125,7 +125,7 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
   z-index: 100;
   width: 48px;
   height: 48px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   cursor: pointer;
