@@ -2,7 +2,7 @@ export default {
   footer: {
     association: 'Förderverein Windmühle Tündern e.V.',
     copyright: '© 2025 Förderverein Windmühle Tündern e.V.',
-    builtBy: 'Gemeinnützig entwickelt von',
+    builtBy: 'Entwickelt von',
     links: {
       donate: { text: 'Spenden', href: '/spenden' },
       news: { text: 'Aktuelles', href: '/aktuelles/' },

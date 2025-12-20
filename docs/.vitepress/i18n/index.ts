@@ -11,7 +11,9 @@ const translations = {
 
 export function useT() {
   const { site } = useData()
-  const locale = site.value.lang as keyof typeof translations
-  const dict = translations[locale] || en
-  return (key: string) => key.split('.').reduce<any>((o, i) => (o ? o[i] : undefined), dict)
+  return (key: string) => {
+    const locale = site.value.lang as keyof typeof translations
+    const dict = translations[locale] || de
+    return key.split('.').reduce<any>((o, i) => (o ? o[i] : undefined), dict)
+  }
 }
