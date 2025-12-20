@@ -96,36 +96,54 @@ img {
 }
 
 /* ================================
-   SEASONAL BANNER (Christmas)
+   SEASONAL BANNER (Christmas) - Parallax Effect
    ================================ */
 .section-seasonal,
 .section-seasonal:hover,
 .section-seasonal:visited,
 .section-seasonal:active {
   display: block;
-  background: linear-gradient(135deg, #2d6a4f 0%, #40916c 50%, #2d6a4f 100%);
-  padding: 1.5rem 1rem;
+  background: url('/imgs/bilder/windmill-7.jpeg') center center / cover no-repeat fixed;
+  padding: 5rem 1rem;
   text-align: center;
   text-decoration: none !important;
   border-top: 3px solid var(--vp-c-accent);
   border-bottom: 3px solid var(--vp-c-accent);
-  transition: all 0.2s ease;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
+  position: relative;
 }
 
-.section-seasonal:hover {
-  background: linear-gradient(135deg, #40916c 0%, #52b788 50%, #40916c 100%);
+.section-seasonal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  transition: background 0.3s ease;
+}
+
+.section-seasonal:hover::before {
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .seasonal-banner {
   max-width: 900px;
   margin: 0 auto;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   letter-spacing: 0.02em;
+  position: relative;
+  z-index: 1;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  display: inline-block;
 }
 
 .seasonal-banner::before,
@@ -136,11 +154,13 @@ img {
 
 @media (max-width: 768px) {
   .section-seasonal {
-    padding: 1.25rem 1rem;
+    padding: 4rem 1rem;
+    background-attachment: scroll; /* Fallback for mobile */
   }
 
   .seasonal-banner {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
   }
 
   .seasonal-banner::before,
