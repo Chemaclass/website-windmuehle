@@ -21,22 +21,22 @@ const t = useT()
 
       <div class="history-content">
         <div class="history-section">
-          <div class="section-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
             </svg>
-          </div>
-          <h3>{{ t('history.rescueTitle') }}</h3>
+            {{ t('history.rescueTitle') }}
+          </h3>
           <p v-html="t('history.rescueText')"></p>
         </div>
 
         <div class="history-section">
-          <div class="section-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
             </svg>
-          </div>
-          <h3>{{ t('history.todayTitle') }}</h3>
+            {{ t('history.todayTitle') }}
+          </h3>
           <p v-html="t('history.todayText')"></p>
         </div>
 
@@ -45,13 +45,13 @@ const t = useT()
         </div>
 
         <div class="history-section">
-          <div class="section-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
               <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
             </svg>
-          </div>
-          <h3>{{ t('history.fairyTitle') }}</h3>
+            {{ t('history.fairyTitle') }}
+          </h3>
           <p v-html="t('history.fairyText')"></p>
         </div>
       </div>
@@ -147,19 +147,10 @@ const t = useT()
   position: relative;
 }
 
-.section-icon {
-  width: 56px;
-  height: 56px;
+.history-section h3 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-2) 100%);
-  border-radius: 12px;
-  color: #fff;
-  margin-bottom: 1.25rem;
-}
-
-.history-section h3 {
+  gap: 0.5rem;
   font-size: 1.5rem;
   color: var(--vp-c-brand-1);
   margin: 0 0 1rem;
@@ -215,18 +206,13 @@ const t = useT()
     padding: 1.5rem;
   }
 
-  .section-icon {
-    width: 48px;
-    height: 48px;
-  }
-
-  .section-icon svg {
-    width: 24px;
-    height: 24px;
-  }
-
   .history-section h3 {
     font-size: 1.25rem;
+  }
+
+  .history-section h3 svg {
+    width: 20px;
+    height: 20px;
   }
 
   .history-section p {

@@ -25,11 +25,6 @@ function copyToClipboard(text: string, field: string) {
     <div class="donate-content">
       <!-- Intro Section -->
       <div class="donate-intro">
-        <div class="intro-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
-          </svg>
-        </div>
         <p v-html="t('donate.introText')"></p>
       </div>
 
@@ -189,12 +184,12 @@ function copyToClipboard(text: string, field: string) {
 
       <!-- Thanks Section -->
       <div class="thanks-section">
-        <div class="thanks-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
           </svg>
-        </div>
-        <h3>{{ t('donate.thanksTitle') }}</h3>
+          {{ t('donate.thanksTitle') }}
+        </h3>
         <p v-html="t('donate.thanksText')"></p>
       </div>
     </div>
@@ -260,15 +255,10 @@ function copyToClipboard(text: string, field: string) {
 /* Intro Section */
 .donate-intro {
   text-align: center;
-  padding: 2.5rem;
+  padding: 2rem 2.5rem;
   background: linear-gradient(135deg, rgba(37, 99, 168, 0.05) 0%, rgba(232, 168, 56, 0.05) 100%);
   border-radius: 20px;
   margin-bottom: 3rem;
-}
-
-.intro-icon {
-  color: var(--vp-c-brand-1);
-  margin-bottom: 1rem;
 }
 
 .donate-intro p {
@@ -435,18 +425,17 @@ function copyToClipboard(text: string, field: string) {
 /* Thanks Section */
 .thanks-section {
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 2rem;
   background: linear-gradient(135deg, rgba(37, 99, 168, 0.08) 0%, rgba(26, 74, 122, 0.08) 100%);
   border-radius: 20px;
   border-left: 5px solid var(--vp-c-brand-1);
 }
 
-.thanks-icon {
-  color: var(--vp-c-brand-1);
-  margin-bottom: 1rem;
-}
-
 .thanks-section h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   color: var(--vp-c-brand-1);
   font-size: 1.5rem;
   margin: 0 0 1rem;
@@ -502,7 +491,7 @@ function copyToClipboard(text: string, field: string) {
   }
 
   .thanks-section {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem;
   }
 }
 

@@ -43,7 +43,7 @@ const posts = t('newsPosts')
 .news-hero {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background: url('/imgs/bilder/windmill-2.jpeg') center center / cover no-repeat fixed;
+  background: url('/imgs/flugel-abgebaut/windmill-1.jpeg') center 8% / cover no-repeat fixed;
   padding: 6rem 1rem;
   position: relative;
   text-align: center;
