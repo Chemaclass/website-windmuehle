@@ -123,7 +123,8 @@ export default {
     chairman: 'Chairman',
     name: 'Karl-Friedrich Meyer',
     addressLabel: 'Address',
-    address: 'Linkworth 1\n31789 Hameln-Tündern'
+    address: 'Linkworth 1\n31789 Hameln-Tündern',
+    openMap: 'Open in Google Maps'
   },
   blog: {
     backToList: '← Back to News',

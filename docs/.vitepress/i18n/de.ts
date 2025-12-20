@@ -123,7 +123,8 @@ export default {
     chairman: 'Vorsitzender',
     name: 'Karl-Friedrich Meyer',
     addressLabel: 'Adresse',
-    address: 'Linkworth 1\n31789 Hameln-Tündern'
+    address: 'Linkworth 1\n31789 Hameln-Tündern',
+    openMap: 'In Google Maps öffnen'
   },
   blog: {
     backToList: '← Zurück zu Aktuelles',
