@@ -649,13 +649,8 @@ section {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: var(--transition-smooth);
 }
 
-.home-gallery-item:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
-}
 
 .home-gallery-item img {
   width: 100%;
@@ -663,12 +658,8 @@ section {
   object-fit: cover;
   border-radius: 0;
   margin: 0;
-  transition: var(--transition-smooth);
 }
 
-.home-gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 .focus-text {
   position: absolute;
@@ -682,14 +673,9 @@ section {
   font-size: 0.95rem;
   text-align: center;
   pointer-events: none;
-  transform: translateY(0);
-  transition: var(--transition-smooth);
   border-radius: 0;
 }
 
-.home-gallery-item:hover .focus-text {
-  padding-bottom: 1.25rem;
-}
 
 @media (max-width: 1024px) {
   .home-gallery {
@@ -1554,7 +1540,6 @@ html.a11y-spacing .home-intro p {
   .hero-logo:hover,
   .news-card:hover,
   .card:hover,
-  .home-gallery-item:hover,
   .blog-hero-image:hover {
     transform: none !important;
   }
@@ -1571,4 +1556,99 @@ button:focus-visible,
 a:focus-visible {
   outline: 3px solid var(--vp-c-brand-1) !important;
   outline-offset: 2px !important;
+}
+
+/* Print styles */
+@media print {
+  /* Hide navigation and interactive elements */
+  .VPNav,
+  .VPSidebar,
+  .VPLocalNav,
+  .mobile-menu-btn,
+  .mobile-menu,
+  .mobile-overlay,
+  .back-to-top,
+  .reading-progress-container,
+  .a11y-controls,
+  .skip-to-content,
+  footer,
+  .blog-navigation,
+  .blog-footer {
+    display: none !important;
+  }
+
+  /* Reset backgrounds and colors for printing */
+  body,
+  .VPContent,
+  .VPDoc {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Ensure content is full width */
+  .VPDoc .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* Hero sections - simplified for print */
+  .home-hero,
+  .donate-hero,
+  .history-hero,
+  .gallery-hero,
+  .imprint-hero {
+    background: #f5f5f5 !important;
+    padding: 2rem !important;
+  }
+
+  .home-hero::before,
+  .donate-hero::before,
+  .history-hero::before,
+  .gallery-hero::before,
+  .imprint-hero::before {
+    display: none !important;
+  }
+
+  .home-hero h1,
+  .donate-hero h1,
+  .history-hero h1,
+  .gallery-hero h1,
+  .imprint-hero h1 {
+    color: #000 !important;
+    text-shadow: none !important;
+  }
+
+  /* Cards and sections */
+  .donate-support,
+  .bank-card,
+  .thanks-section,
+  .history-section,
+  .imprint-card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    break-inside: avoid;
+  }
+
+  /* Images */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* Links - show URLs */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Avoid page breaks inside important elements */
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
 }

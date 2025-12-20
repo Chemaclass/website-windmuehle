@@ -1,6 +1,6 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { ref } from 'vue'
+import { ref, watch, nextTick, onMounted, onUnmounted } from 'vue'
 import { useData } from 'vitepress'
 import SiteFooter from '../../components/SiteFooter.vue'
 import AccessibilityControls from '../../components/AccessibilityControls.vue'
@@ -10,6 +10,9 @@ import SkipToContent from '../../components/SkipToContent.vue'
 
 const { site, localeIndex } = useData()
 const isMenuOpen = ref(false)
+const mobileMenuRef = ref(null)
+const menuButtonRef = ref(null)
+let previousActiveElement = null
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
@@ -20,6 +23,54 @@ const closeMenu = () => {
   isMenuOpen.value = false
   document.body.style.overflow = ''
 }
+
+// Focus management for accessibility
+watch(isMenuOpen, async (open) => {
+  if (open) {
+    previousActiveElement = document.activeElement
+    await nextTick()
+    const firstLink = mobileMenuRef.value?.querySelector('a')
+    firstLink?.focus()
+  } else {
+    previousActiveElement?.focus()
+  }
+})
+
+// Focus trap for mobile menu
+function handleKeydown(e) {
+  if (!isMenuOpen.value) return
+
+  if (e.key === 'Escape') {
+    closeMenu()
+    return
+  }
+
+  if (e.key !== 'Tab') return
+
+  const focusableElements = mobileMenuRef.value?.querySelectorAll(
+    'a, button:not([disabled])'
+  )
+  if (!focusableElements?.length) return
+
+  const firstElement = focusableElements[0]
+  const lastElement = focusableElements[focusableElements.length - 1]
+
+  if (e.shiftKey && document.activeElement === firstElement) {
+    e.preventDefault()
+    lastElement.focus()
+  } else if (!e.shiftKey && document.activeElement === lastElement) {
+    e.preventDefault()
+    firstElement.focus()
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown)
+})
 
 const navItems = {
   'root': [
@@ -87,7 +138,14 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 
   <!-- Mobile Menu Panel -->
   <Transition name="slide">
-    <nav v-if="isMenuOpen" class="mobile-menu">
+    <nav
+      v-if="isMenuOpen"
+      ref="mobileMenuRef"
+      class="mobile-menu"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Navigation menu"
+    >
       <div class="mobile-menu-header">
         <span class="mobile-title">{{ site.title }}</span>
       </div>

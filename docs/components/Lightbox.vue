@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, watch } from 'vue'
+import { ref, onMounted, onUnmounted, watch, nextTick } from 'vue'
 
 const props = defineProps<{
   images: string[]
@@ -12,18 +12,46 @@ const emit = defineEmits<{
 }>()
 
 const currentIndex = ref(props.initialIndex)
+const closeButtonRef = ref<HTMLButtonElement | null>(null)
+const lightboxRef = ref<HTMLDivElement | null>(null)
+let previousActiveElement: HTMLElement | null = null
 
 watch(() => props.initialIndex, (newIndex) => {
   currentIndex.value = newIndex
 })
 
-watch(() => props.isOpen, (isOpen) => {
+watch(() => props.isOpen, async (isOpen) => {
   if (isOpen) {
+    previousActiveElement = document.activeElement as HTMLElement
     document.body.style.overflow = 'hidden'
+    await nextTick()
+    closeButtonRef.value?.focus()
   } else {
     document.body.style.overflow = ''
+    previousActiveElement?.focus()
   }
 })
+
+// Focus trap for accessibility
+function handleFocusTrap(e: KeyboardEvent) {
+  if (!props.isOpen || e.key !== 'Tab') return
+
+  const focusableElements = lightboxRef.value?.querySelectorAll<HTMLElement>(
+    'button:not([disabled])'
+  )
+  if (!focusableElements?.length) return
+
+  const firstElement = focusableElements[0]
+  const lastElement = focusableElements[focusableElements.length - 1]
+
+  if (e.shiftKey && document.activeElement === firstElement) {
+    e.preventDefault()
+    lastElement.focus()
+  } else if (!e.shiftKey && document.activeElement === lastElement) {
+    e.preventDefault()
+    firstElement.focus()
+  }
+}
 
 function next() {
   if (currentIndex.value < props.images.length - 1) {
@@ -55,6 +83,8 @@ function handleKeydown(e: KeyboardEvent) {
   } else if (e.key === 'Escape') {
     close()
   }
+
+  handleFocusTrap(e)
 }
 
 onMounted(() => {
@@ -69,8 +99,16 @@ onUnmounted(() => {
 
 <template>
   <Teleport to="body">
-    <div v-if="isOpen" class="lightbox-overlay" @click.self="close">
-      <button class="lightbox-close" @click="close" aria-label="Close">
+    <div
+      v-if="isOpen"
+      ref="lightboxRef"
+      class="lightbox-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image gallery"
+      @click.self="close"
+    >
+      <button ref="closeButtonRef" class="lightbox-close" @click="close" aria-label="Close">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>

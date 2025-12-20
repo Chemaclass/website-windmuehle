@@ -11,13 +11,27 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
+// Throttle function for performance
+function throttle(fn, wait) {
+  let lastTime = 0
+  return function() {
+    const now = Date.now()
+    if (now - lastTime >= wait) {
+      lastTime = now
+      fn()
+    }
+  }
+}
+
+const throttledCheck = throttle(checkScroll, 100)
+
 onMounted(() => {
-  window.addEventListener('scroll', checkScroll)
+  window.addEventListener('scroll', throttledCheck, { passive: true })
   checkScroll()
 })
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', checkScroll)
+  window.removeEventListener('scroll', throttledCheck)
 })
 </script>
 

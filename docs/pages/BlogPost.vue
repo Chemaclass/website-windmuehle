@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted, nextTick, computed } from 'vue'
+import { ref, onMounted, onUnmounted, nextTick, computed } from 'vue'
 import Lightbox from '../components/Lightbox.vue'
 import { useT } from '../.vitepress/i18n'
 
 const t = useT()
+const siteUrl = 'https://windmuehle-tuendern.de'
+let schemaScript: HTMLScriptElement | null = null
 
 const props = defineProps<{
   postId: string
@@ -39,6 +41,35 @@ const lightboxOpen = ref(false)
 const lightboxImages = ref<string[]>([])
 const lightboxIndex = ref(0)
 
+// NewsArticle JSON-LD schema for SEO
+const articleSchema = computed(() => {
+  if (!post.value) return ''
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: post.value.title,
+    image: post.value.image ? `${siteUrl}${post.value.image}` : undefined,
+    datePublished: post.value.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Förderverein Windmühle Tündern e.V.',
+      url: siteUrl
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Förderverein Windmühle Tündern e.V.',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/imgs/logo.svg`
+      }
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${siteUrl}${post.value.link}`
+    }
+  })
+})
+
 function openLightbox(index: number) {
   lightboxIndex.value = index
   lightboxOpen.value = true
@@ -66,6 +97,21 @@ onMounted(async () => {
 
     lightboxImages.value = imageSrcs
   }
+
+  // Inject NewsArticle JSON-LD schema for SEO
+  if (post.value && articleSchema.value) {
+    schemaScript = document.createElement('script')
+    schemaScript.type = 'application/ld+json'
+    schemaScript.textContent = articleSchema.value
+    document.head.appendChild(schemaScript)
+  }
+})
+
+onUnmounted(() => {
+  // Clean up the schema script when leaving the page
+  if (schemaScript && schemaScript.parentNode) {
+    schemaScript.parentNode.removeChild(schemaScript)
+  }
 })
 </script>
 
@@ -78,7 +124,7 @@ onMounted(async () => {
 
     <h1 class="blog-title">{{ post.title }}</h1>
 
-    <img v-if="post.image" :src="post.image" :alt="post.title" class="blog-hero-image" />
+    <img v-if="post.image" :src="post.image" :alt="post.title" class="blog-hero-image" loading="lazy" />
 
     <div class="blog-content" v-html="post.body"></div>
 

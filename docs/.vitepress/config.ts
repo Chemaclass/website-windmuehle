@@ -1,6 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, HeadConfig } from 'vitepress'
 
-const currentYear = new Date().getFullYear()
 const siteUrl = 'https://windmuehle-tuendern.de'
 const ogImage = `${siteUrl}/imgs/og-image.jpg`
 const logoAlt = 'Logo der Windmühle Tündern mit Vereinsname'
@@ -24,6 +23,10 @@ export default defineConfig({
         ['meta', { property: 'og:image:alt', content: logoAlt }],
         ['meta', { property: 'og:url', content: siteUrl }],
         ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:site_name', content: 'Förderverein Windmühle Tündern e.V.' }],
+        ['meta', { property: 'og:locale', content: 'de_DE' }],
+        ['meta', { property: 'og:locale:alternate', content: 'en_US' }],
+        ['meta', { property: 'og:locale:alternate', content: 'es_ES' }],
 
         // Twitter Card metadata
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -123,5 +126,46 @@ export default defineConfig({
                 ]
             }
         }
+    },
+
+    // Dynamic head tags for SEO (hreflang, canonical)
+    transformHead({ pageData }) {
+        const head: HeadConfig[] = []
+        const pagePath = pageData.relativePath
+            .replace(/\.md$/, '')
+            .replace(/index$/, '')
+
+        // Determine current locale and base path
+        let currentLocale = 'de'
+        let basePath = pagePath
+
+        if (pagePath.startsWith('en/')) {
+            currentLocale = 'en'
+            basePath = pagePath.replace(/^en\//, '')
+        } else if (pagePath.startsWith('es/')) {
+            currentLocale = 'es'
+            basePath = pagePath.replace(/^es\//, '')
+        }
+
+        // Build canonical URL
+        const canonicalUrl = `${siteUrl}/${pagePath}`
+        head.push(['link', { rel: 'canonical', href: canonicalUrl }])
+
+        // Build hreflang URLs
+        const deUrl = `${siteUrl}/${basePath}`
+        const enUrl = `${siteUrl}/en/${basePath}`
+        const esUrl = `${siteUrl}/es/${basePath}`
+
+        head.push(['link', { rel: 'alternate', hreflang: 'de', href: deUrl }])
+        head.push(['link', { rel: 'alternate', hreflang: 'en', href: enUrl }])
+        head.push(['link', { rel: 'alternate', hreflang: 'es', href: esUrl }])
+        head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: deUrl }])
+
+        return head
+    },
+
+    // Sitemap configuration
+    sitemap: {
+        hostname: siteUrl
     }
 })

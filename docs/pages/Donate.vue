@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useT } from '../.vitepress/i18n'
 
 const t = useT()
 const copiedField = ref<string | null>(null)
+
+// Aria-live announcement for screen readers
+const copyAnnouncement = computed(() => {
+  if (!copiedField.value) return ''
+  return t('donate.copied') || 'Copied!'
+})
 
 function copyToClipboard(text: string, field: string) {
   navigator.clipboard.writeText(text)
@@ -14,6 +20,11 @@ function copyToClipboard(text: string, field: string) {
 
 <template>
   <div class="donate-page">
+    <!-- Screen reader announcement for copy feedback -->
+    <div class="sr-only" role="status" aria-live="polite" aria-atomic="true">
+      {{ copyAnnouncement }}
+    </div>
+
     <!-- Hero Section with Parallax -->
     <div class="donate-hero">
       <div class="donate-hero-content">
@@ -214,6 +225,19 @@ function copyToClipboard(text: string, field: string) {
 </template>
 
 <style scoped>
+/* Screen reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .donate-page {
   margin: 0;
   padding: 0;

@@ -9,13 +9,27 @@ function updateProgress() {
   progress.value = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0
 }
 
+// Throttle function for performance
+function throttle(fn, wait) {
+  let lastTime = 0
+  return function() {
+    const now = Date.now()
+    if (now - lastTime >= wait) {
+      lastTime = now
+      fn()
+    }
+  }
+}
+
+const throttledUpdate = throttle(updateProgress, 50)
+
 onMounted(() => {
-  window.addEventListener('scroll', updateProgress)
+  window.addEventListener('scroll', throttledUpdate, { passive: true })
   updateProgress()
 })
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', updateProgress)
+  window.removeEventListener('scroll', throttledUpdate)
 })
 </script>
 

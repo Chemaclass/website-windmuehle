@@ -31,8 +31,8 @@ const t = useT()
         </div>
 
         <div class="history-image-row">
-          <img src="/imgs/bilder/windmill-12.jpeg" alt="Windmill" class="history-image history-image-top" loading="lazy" />
-          <img src="/imgs/bilder/windmill-9.jpeg" alt="Windmill" class="history-image history-image-top" loading="lazy" />
+          <img src="/imgs/bilder/windmill-12.jpeg" alt="Historische Windmühle Tündern nach dem Wiederaufbau 1981" class="history-image history-image-top" loading="lazy" />
+          <img src="/imgs/bilder/windmill-9.jpeg" alt="Windmühle Tündern am Weserradweg" class="history-image history-image-top" loading="lazy" />
         </div>
 
         <div class="history-section">
@@ -46,7 +46,7 @@ const t = useT()
         </div>
 
         <div class="history-image-section">
-          <img src="/imgs/scaffolding/scaffolding2.jpeg" alt="Windmill" class="history-image history-image-center" loading="lazy" />
+          <img src="/imgs/scaffolding/scaffolding2.jpeg" alt="Sanierungsarbeiten an der Windmühle Tündern 2025 mit Gerüst" class="history-image history-image-center" loading="lazy" />
         </div>
 
         <div class="history-section">
@@ -61,7 +61,7 @@ const t = useT()
         </div>
 
         <div class="history-image-section">
-          <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmill" class="history-image" loading="lazy" />
+          <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmühle Tündern in der Abenddämmerung" class="history-image" loading="lazy" />
         </div>
       </div>
     </div>

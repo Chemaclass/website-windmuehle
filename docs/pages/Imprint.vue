@@ -213,6 +213,15 @@ const t = useT()
   .imprint-label {
     min-width: auto;
   }
+
+  .imprint-value-with-action {
+    width: 100%;
+  }
+
+  .map-link {
+    width: 44px;
+    height: 44px;
+  }
 }
 
 @media (max-width: 480px) {
