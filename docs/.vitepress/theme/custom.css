@@ -614,7 +614,7 @@ section {
   color: #22c55e;
   font-weight: 700;
   font-size: 0.9rem;
-  top: 0.25rem;
+  top: 0.1rem;
 }
 
 .card.achieved li:nth-last-child(-n+2)::before {
@@ -1406,6 +1406,14 @@ html {
   .card li {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .card.achieved li::before {
+    top: 0.6rem;
+  }
+
+  .card.achieved li:nth-last-child(-n+2)::before {
+    top: 0.75rem;
   }
 }
 
