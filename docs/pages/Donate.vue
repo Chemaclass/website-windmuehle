@@ -298,11 +298,17 @@ function copyToClipboard(text: string, field: string) {
 
 .donate-support h2 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
   color: var(--vp-c-brand-1);
   font-size: 1.4rem;
   margin: 0 0 1rem;
+}
+
+.donate-support h2 svg {
+  min-width: 20px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
 }
 
 .donate-support p {
@@ -319,11 +325,17 @@ function copyToClipboard(text: string, field: string) {
 
 .donate-impact h2 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
   color: var(--vp-c-brand-1);
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
+}
+
+.donate-impact h2 svg {
+  min-width: 20px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
 }
 
 .impact-grid {
@@ -479,11 +491,17 @@ function copyToClipboard(text: string, field: string) {
 
 .thanks-section h3 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
   color: var(--vp-c-brand-1);
   font-size: 1.4rem;
   margin: 0 0 1rem;
+}
+
+.thanks-section h3 svg {
+  min-width: 20px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
 }
 
 .thanks-section p {

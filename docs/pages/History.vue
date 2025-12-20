@@ -156,12 +156,18 @@ const t = useT()
 
 .history-section h3 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
   font-size: 1.5rem;
   color: var(--vp-c-brand-1);
   margin: 0 0 1rem;
   font-weight: 700;
+}
+
+.history-section h3 svg {
+  min-width: 20px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
 }
 
 .history-section p {
