@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onBeforeUnmount } from 'vue'
 import { useT } from '../.vitepress/i18n'
 
 const t = useT()
 const copiedField = ref<string | null>(null)
+let copyTimeout: ReturnType<typeof setTimeout> | null = null
 
 // Aria-live announcement for screen readers
 const copyAnnouncement = computed(() => {
@@ -12,10 +13,15 @@ const copyAnnouncement = computed(() => {
 })
 
 function copyToClipboard(text: string, field: string) {
+  if (copyTimeout) clearTimeout(copyTimeout)
   navigator.clipboard.writeText(text)
   copiedField.value = field
-  setTimeout(() => copiedField.value = null, 2000)
+  copyTimeout = setTimeout(() => copiedField.value = null, 2000)
 }
+
+onBeforeUnmount(() => {
+  if (copyTimeout) clearTimeout(copyTimeout)
+})
 </script>
 
 <template>

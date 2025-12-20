@@ -65,10 +65,10 @@ const isChristmasSeason = computed(() => {
 
   <section class="section-dark">
     <div class="home-gallery">
-      <div class="home-gallery-item" v-for="(item, i) in t('home.gallery')" :key="i">
-        <img :src="item.img" loading="lazy" />
+      <a :href="t('footer.links.gallery.href')" class="home-gallery-item" v-for="(item, i) in t('home.gallery')" :key="i" :aria-label="item.text">
+        <img :src="item.img" :alt="item.text" loading="lazy" />
         <div class="focus-text">{{ item.text }}</div>
-      </div>
+      </a>
     </div>
   </section>
 

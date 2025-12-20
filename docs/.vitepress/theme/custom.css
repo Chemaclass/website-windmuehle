@@ -144,6 +144,7 @@ img {
   padding: 1rem 2rem;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 12px;
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   display: inline-block;
 }
@@ -726,7 +727,7 @@ section {
   overflow-x: auto;
   white-space: nowrap;
   padding: 1rem 0;
-  margin-bottom: 2rem;
+  margin: 1rem 0 2rem;
   scroll-snap-type: x mandatory;
 }
 
@@ -737,11 +738,6 @@ section {
   display: inline-block;
   object-fit: cover;
   scroll-snap-align: start;
-}
-
-.scroll-gallery {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
 }
 
 .grid-gallery {

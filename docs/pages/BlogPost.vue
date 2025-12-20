@@ -40,6 +40,7 @@ const blogPostRef = ref<HTMLElement | null>(null)
 const lightboxOpen = ref(false)
 const lightboxImages = ref<string[]>([])
 const lightboxIndex = ref(0)
+const imageClickHandlers: Array<{ img: HTMLImageElement; handler: () => void }> = []
 
 // NewsArticle JSON-LD schema for SEO
 const articleSchema = computed(() => {
@@ -91,7 +92,9 @@ onMounted(async () => {
       if (src) {
         imageSrcs.push(src)
         img.style.cursor = 'pointer'
-        img.addEventListener('click', () => openLightbox(index))
+        const handler = () => openLightbox(index)
+        img.addEventListener('click', handler)
+        imageClickHandlers.push({ img: img as HTMLImageElement, handler })
       }
     })
 
@@ -108,6 +111,12 @@ onMounted(async () => {
 })
 
 onUnmounted(() => {
+  // Clean up image click event listeners
+  imageClickHandlers.forEach(({ img, handler }) => {
+    img.removeEventListener('click', handler)
+  })
+  imageClickHandlers.length = 0
+
   // Clean up the schema script when leaving the page
   if (schemaScript && schemaScript.parentNode) {
     schemaScript.parentNode.removeChild(schemaScript)
