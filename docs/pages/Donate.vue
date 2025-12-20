@@ -206,7 +206,7 @@ function copyToClipboard(text: string, field: string) {
 .donate-hero {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background: url('/imgs/bilder/windmill-7.jpeg') center center / cover no-repeat fixed;
+  background: url('/imgs/pfingstmontag/pfingstmontag3.jpeg') center top / cover no-repeat fixed;
   padding: 6rem 1rem;
   position: relative;
   text-align: center;
