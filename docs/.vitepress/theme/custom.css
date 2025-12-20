@@ -101,6 +101,48 @@ img {
 }
 
 /* ================================
+   SEASONAL BANNER (Christmas)
+   ================================ */
+.section-seasonal {
+  background: linear-gradient(135deg, #1a472a 0%, #2d5a3f 50%, #1a472a 100%);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border-top: 3px solid var(--vp-c-accent);
+  border-bottom: 3px solid var(--vp-c-accent);
+}
+
+.seasonal-banner {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.02em;
+}
+
+.seasonal-banner::before,
+.seasonal-banner::after {
+  content: '✨';
+  margin: 0 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .section-seasonal {
+    padding: 1.25rem 1rem;
+  }
+
+  .seasonal-banner {
+    font-size: 1.15rem;
+  }
+
+  .seasonal-banner::before,
+  .seasonal-banner::after {
+    margin: 0 0.5rem;
+  }
+}
+
+/* ================================
    CTA BUTTON
    ================================ */
 .cta-button,
@@ -1044,26 +1086,35 @@ section {
   color: var(--vp-c-brand-1);
 }
 
-/* Language switcher icon - replace default with globe */
-.VPNavBarExtra .VPFlyout button .icon {
-  display: none !important;
+/* Language switcher styling - match accessibility controls */
+.VPNavBarTranslations .VPFlyout .button,
+.VPNavBarExtra .VPFlyout .button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #2563a8 !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  gap: 4px !important;
+  transition: all 0.2s ease !important;
 }
 
-.VPNavBarExtra .VPFlyout button::before {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%232563a8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.VPNavBarTranslations .VPFlyout .button:hover,
+.VPNavBarExtra .VPFlyout .button:hover {
+  background: #1a4a7a !important;
 }
 
-.VPNavBarExtra .VPFlyout button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.VPNavBarTranslations .VPFlyout .button .text,
+.VPNavBarExtra .VPFlyout .button .text {
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+.VPNavBarTranslations .VPFlyout .button .icon,
+.VPNavBarExtra .VPFlyout .button .icon {
+  color: #fff !important;
+  fill: #fff !important;
 }
 
 /* Mobile: Hide VitePress default elements, use custom menu */

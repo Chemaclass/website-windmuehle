@@ -184,12 +184,14 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
   width: 280px;
   max-width: 85vw;
   height: 100vh;
+  max-height: 100vh;
   background: #fff;
   z-index: 99;
   padding: 1.5rem;
   box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .mobile-menu-header {
