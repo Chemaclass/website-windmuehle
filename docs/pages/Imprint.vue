@@ -139,8 +139,10 @@ const t = useT()
 /* Responsive */
 @media (max-width: 768px) {
   .imprint-hero {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     background-attachment: scroll;
+    background-size: auto 100%;
+    background-position: center center;
   }
 
   .imprint-hero h1 {

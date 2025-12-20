@@ -28,7 +28,7 @@ export default {
       'Scaffold the mill',
       'Remove the old plaster and repair damaged masonry',
       'New plaster',
-      'January 2026: New coat of paint',
+      '<strong>January 2026:</strong> New coat of paint',
       '<strong>March 2026:</strong> Install the new blades'
     ],
     planTitle: 'The Plan',

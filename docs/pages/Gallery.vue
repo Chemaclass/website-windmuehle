@@ -303,8 +303,10 @@ function closeLightbox() {
 
 @media (max-width: 768px) {
   .gallery-hero {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     background-attachment: scroll;
+    background-size: auto 100%;
+    background-position: center center;
   }
 
   .gallery-hero h1 {

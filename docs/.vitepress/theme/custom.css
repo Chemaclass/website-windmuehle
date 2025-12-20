@@ -1,4 +1,6 @@
 :root {
+  --vp-nav-height: 70px;
+
   /* Primary blue palette - classic and trustworthy */
   --vp-c-brand-1: #2563a8;
   --vp-c-brand-2: #1a4a7a;
@@ -310,7 +312,6 @@ section {
 }
 
 .news-card:hover {
-  transform: translateY(-5px);
   box-shadow: var(--card-shadow-hover);
 }
 
@@ -1035,19 +1036,6 @@ section {
   font-size: 1.5rem;
   color: var(--vp-c-brand-1);
   margin-bottom: 1rem;
-  position: relative;
-  padding-left: 1rem;
-}
-
-.history-section h3::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.25rem;
-  bottom: 0.25rem;
-  width: 4px;
-  background: linear-gradient(180deg, var(--vp-c-brand-1), var(--vp-c-accent));
-  border-radius: 2px;
 }
 
 /* ================================

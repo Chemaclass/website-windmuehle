@@ -30,6 +30,11 @@ const t = useT()
           <p v-html="t('history.rescueText')"></p>
         </div>
 
+        <div class="history-image-row">
+          <img src="/imgs/bilder/windmill-12.jpeg" alt="Windmill" class="history-image history-image-top" loading="lazy" />
+          <img src="/imgs/bilder/windmill-9.jpeg" alt="Windmill" class="history-image history-image-top" loading="lazy" />
+        </div>
+
         <div class="history-section">
           <h3>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -41,7 +46,7 @@ const t = useT()
         </div>
 
         <div class="history-image-section">
-          <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmill" class="history-image" loading="lazy" />
+          <img src="/imgs/scaffolding/scaffolding2.jpeg" alt="Windmill" class="history-image history-image-center" loading="lazy" />
         </div>
 
         <div class="history-section">
@@ -53,6 +58,10 @@ const t = useT()
             {{ t('history.fairyTitle') }}
           </h3>
           <p v-html="t('history.fairyText')"></p>
+        </div>
+
+        <div class="history-image-section">
+          <img src="/imgs/bilder/windmill-7.jpeg" alt="Windmill" class="history-image" loading="lazy" />
         </div>
       </div>
     </div>
@@ -142,7 +151,6 @@ const t = useT()
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-  border: 1px solid rgba(0,0,0,0.05);
   position: relative;
 }
 
@@ -165,20 +173,41 @@ const t = useT()
 
 /* Image Section */
 .history-image-section {
-  padding: 1rem 0;
+  padding: 0;
 }
 
 .history-image {
   width: 100%;
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  margin: 0;
+}
+
+.history-image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.history-image-top {
+  height: 500px;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.history-image-center {
+  height: 500px;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .history-hero {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     background-attachment: scroll;
+    background-size: auto 100%;
+    background-position: center center;
   }
 
   .history-hero h1 {
@@ -212,6 +241,15 @@ const t = useT()
   .history-section h3 svg {
     width: 20px;
     height: 20px;
+  }
+
+  .history-image-row {
+    grid-template-columns: 1fr;
+  }
+
+  .history-image-top,
+  .history-image-center {
+    height: 300px;
   }
 
   .history-section p {

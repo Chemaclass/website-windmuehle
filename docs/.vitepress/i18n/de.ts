@@ -28,7 +28,7 @@ export default {
       'Einrüsten der Mühle',
       'Entfernung des alten Putzes und Ausbessern schadhafter Mauerstellen',
       'Neuer Putz',
-      'Januar 2026: Neuer Anstrich',
+      '<strong>Januar 2026:</strong> Neuer Anstrich',
       '<strong>März 2026:</strong> Anbringen der neuen Flügel'
     ],
     planTitle: 'Der Plan',

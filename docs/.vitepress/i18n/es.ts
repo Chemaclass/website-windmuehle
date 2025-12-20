@@ -28,7 +28,7 @@ export default {
       'Andamiaje del molino',
       'Eliminación del yeso viejo y reparación de los muros dañados',
       'Nuevo revestimiento',
-      'Enero 2026: Nueva capa de pintura',
+      '<strong>Enero 2026:</strong> Nueva capa de pintura',
       '<strong>Marzo 2026:</strong> Colocación de las nuevas aspas'
     ],
     planTitle: 'El plan',

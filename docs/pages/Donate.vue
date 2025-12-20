@@ -496,8 +496,10 @@ function copyToClipboard(text: string, field: string) {
 /* Responsive */
 @media (max-width: 768px) {
   .donate-hero {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     background-attachment: scroll;
+    background-size: auto 100%;
+    background-position: center center;
   }
 
   .donate-hero h1 {
