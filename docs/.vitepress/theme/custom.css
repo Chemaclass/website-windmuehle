@@ -104,7 +104,7 @@ img {
    SEASONAL BANNER (Christmas)
    ================================ */
 .section-seasonal {
-  background: linear-gradient(135deg, #1a472a 0%, #2d5a3f 50%, #1a472a 100%);
+  background: linear-gradient(135deg, #2d6a4f 0%, #40916c 50%, #2d6a4f 100%);
   padding: 1.5rem 1rem;
   text-align: center;
   border-top: 3px solid var(--vp-c-accent);
