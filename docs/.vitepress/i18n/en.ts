@@ -10,6 +10,7 @@ export default {
     }
   },
   home: {
+    christmasGreeting: 'Merry Christmas and a Happy New Year!',
     heroTitle: 'Windmill Tündern Association',
     heroSubtitle: 'Welcome to our information page!',
     heroText: 'Learn more about the <strong>historic windmill in Tündern</strong>, our association and how you can get involved.',

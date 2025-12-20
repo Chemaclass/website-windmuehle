@@ -1,6 +1,9 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useT } from '../.vitepress/i18n'
 const t = useT()
+
+const isDecember = computed(() => new Date().getMonth() === 11)
 </script>
 
 <template>
@@ -13,6 +16,12 @@ const t = useT()
       <a href="spenden" class="cta-button">{{ t('home.heroCta') }}</a>
     </div>
   </div>
+
+  <section v-if="isDecember" class="section-seasonal">
+    <div class="seasonal-banner">
+      {{ t('home.christmasGreeting') }}
+    </div>
+  </section>
 
   <section class="section-light">
     <div class="home-intro">

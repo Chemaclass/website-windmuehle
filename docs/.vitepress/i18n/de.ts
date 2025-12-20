@@ -10,6 +10,7 @@ export default {
     }
   },
   home: {
+    christmasGreeting: 'Frohe Weihnachten und einen guten Rutsch ins neue Jahr!',
     heroTitle: 'Förderverein Windmühle Tündern e.V.',
     heroSubtitle: 'Herzlich willkommen auf unserer Informationsseite!',
     heroText: 'Erfahren Sie mehr über die <strong>historische Windmühle in Tündern</strong>, den Förderverein und wie Sie sich engagieren können.',

@@ -10,6 +10,7 @@ export default {
     }
   },
   home: {
+    christmasGreeting: '¡Feliz Navidad y próspero Año Nuevo!',
     heroTitle: 'Asociación Molino de Viento Tündern',
     heroSubtitle: '¡Bienvenido a nuestra página de información!',
     heroText: 'Conozca más sobre el <strong>molino de viento histórico de Tündern</strong>, la asociación y cómo puede participar activamente.',
