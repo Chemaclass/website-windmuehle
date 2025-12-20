@@ -100,7 +100,7 @@ export default {
   donate: {
     title: 'Donate',
     introBold: 'Help keep the Tündern windmill alive!',
-    introText: 'With your donation you support the preservation, care and further development of our historic windmill – a valuable cultural monument and landmark of our village. Every contribution – big or small – helps us bring history to life and make it accessible for future generations.',
+    introText: 'With your donation you support the preservation, care and further development of our historic windmill – a valuable cultural monument and landmark of our village. Every contribution – big or small – helps us bring history to life – for generations to come.',
     supportTitle: 'Official Support',
     supportText: 'The windmill restoration is budgeted at <strong>€166,600</strong>. Thanks to funding commitments from the <strong>EU (LEADER)</strong>, <strong>State</strong>, <strong>Hameln-Pyrmont District</strong> and the <strong>City of Hameln</strong>, this important project can be realized. The <strong>German Foundation for Monument Protection</strong> also supports us.',
     impactTitle: 'Your donation makes a difference',

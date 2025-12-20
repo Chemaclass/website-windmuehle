@@ -100,7 +100,7 @@ export default {
   donate: {
     title: 'Spenden',
     introBold: 'Tragen Sie dazu bei, die Windmühle Tündern lebendig zu halten!',
-    introText: 'Mit Ihrer Spende unterstützen Sie den Erhalt, die Pflege und die Weiterentwicklung unserer historischen Windmühle – ein wertvolles Kulturdenkmal und Wahrzeichen unseres Dorfes. Jeder Beitrag – ob groß oder klein – hilft uns dabei, Geschichte erlebbar zu machen und auch kommenden Generationen zugänglich zu halten.',
+    introText: 'Mit Ihrer Spende unterstützen Sie den Erhalt, die Pflege und die Weiterentwicklung unserer historischen Windmühle – ein wertvolles Kulturdenkmal und Wahrzeichen unseres Dorfes. Jeder Beitrag – ob groß oder klein – hilft uns dabei, Geschichte erlebbar zu machen – auch für kommende Generationen.',
     supportTitle: 'Öffentliche Unterstützung',
     supportText: 'Die Sanierung der Windmühle wird mit insgesamt <strong>166.600 Euro</strong> veranschlagt. Dank Förderzusagen von <strong>EU (LEADER)</strong>, <strong>Land</strong>, <strong>Landkreis Hameln-Pyrmont</strong> und der <strong>Stadt Hameln</strong> kann dieses wichtige Projekt realisiert werden. Auch die <strong>Deutsche Stiftung Denkmalschutz</strong> unterstützt uns.',
     impactTitle: 'Ihre Spende bewirkt',
