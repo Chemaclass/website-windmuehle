@@ -67,7 +67,8 @@ export default {
     ]
   },
   history: {
-    title: 'History of the Windmill in Tündern',
+    title: 'History of the Windmill',
+    subtitle: 'From 1883 to today',
     intro: 'The so-called Dutch windmill on the Weser embankment in Tündern was built in <strong>1883</strong>. At first, the village\'s four bakeries obtained their flour directly from the mill. Until <strong>1960</strong> grain continued to be milled there for animal feed. Originally powered by wind, a motor was installed in an outbuilding as early as <strong>1921</strong> – an early step toward independence from wind and weather.',
     rescueTitle: 'From decay to rescue',
     rescueText: 'After the <strong>Second World War</strong> the mill began to fall into disrepair. Only with the founding of the local heritage association <strong>“Tundirum” in 1974</strong> did a new era begin. Thanks to numerous donations the mill was reopened in <strong>1979</strong> with a new roof and fresh plaster. But a year later, on the evening of <strong>19 July 1980</strong>, lightning struck. The mill was almost completely destroyed by fire – roof, fantail, cap and milling machinery were lost. Thanks to tremendous commitment and many helping hands, reconstruction was completed by <strong>1981</strong>. Since then it has been regarded as a landmark of Tündern and a popular waypoint on the Weser Cycle Route.',
@@ -78,6 +79,7 @@ export default {
   },
   gallery: {
     title: 'Pictures of the Windmill',
+    subtitle: 'Pictures and impressions',
     intro: 'A picture is worth a thousand words – so here is a small selection of snapshots around the <strong>Tündern windmill</strong>.',
     photos: 'Photos',
     renovationTitle: 'Renovation 2025',
@@ -99,8 +101,13 @@ export default {
     title: 'Donate',
     introBold: 'Help keep the Tündern windmill alive!',
     introText: 'With your donation you support the preservation, care and further development of our historic windmill – a valuable cultural monument and landmark of our village. Every contribution – big or small – helps us bring history to life and make it accessible for future generations.',
+    impactTitle: 'Your donation makes a difference',
+    impact1: 'Preservation of historic building fabric',
+    impact2: 'Restoration of blades and masonry',
+    impact3: 'Events and guided tours',
+    impact4: 'Safeguarding for future generations',
     bankTitle: 'Bank Details',
-    subject: 'Concept',
+    subject: 'Reference',
     donateText: 'Please send your donation to the following account:',
     thanksTitle: 'Thank you very much!',
     thanksText: 'We sincerely thank you for your support and trust in our work. Together we can preserve this special piece of heritage.',

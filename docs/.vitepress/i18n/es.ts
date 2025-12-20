@@ -67,7 +67,8 @@ export default {
     ]
   },
   history: {
-    title: 'Historia del molino de viento de Tündern',
+    title: 'Historia del molino de viento',
+    subtitle: 'Desde 1883 hasta hoy',
     intro: 'El llamado molino de viento holandés junto al dique del Weser en Tündern se construyó en <strong>1883</strong>. Al principio, las cuatro panaderías del pueblo obtenían su harina directamente del molino. Hasta <strong>1960</strong> se siguió moliendo grano allí para pienso. Aunque al principio funcionaba con la fuerza del viento, ya en <strong>1921</strong> se instaló un motor en un edificio anexo, una medida temprana para independizarse del viento y el clima.',
     rescueTitle: 'Del abandono a la salvación',
     rescueText: 'Tras la <strong>Segunda Guerra Mundial</strong>, el molino comenzó a deteriorarse. Solo con la fundación de la asociación local de historia <strong>"Tundirum" en 1974</strong> comenzó una nueva era. Gracias a numerosas donaciones, el molino pudo reabrirse en <strong>1979</strong> con un nuevo tejado y un revoque renovado. Pero un año después, la noche del <strong>19 de julio de 1980</strong>, cayó un rayo. El molino se quemó casi por completo: se destruyeron el tejado, la rosa de los vientos, la caperuza y el mecanismo de molienda. Gracias al enorme compromiso y a muchas manos voluntarias, la reconstrucción se completó ya en <strong>1981</strong>. Desde entonces es considerado un símbolo de Tündern y un punto de referencia popular en la Ruta Ciclista del Weser.',
@@ -78,6 +79,7 @@ export default {
   },
   gallery: {
     title: 'Imágenes del molino',
+    subtitle: 'Imágenes e impresiones',
     intro: 'Una imagen dice más que mil palabras; por eso le mostramos aquí una pequeña selección de instantáneas en torno al <strong>molino de viento de Tündern</strong>.',
     photos: 'Fotos',
     renovationTitle: 'Restauración 2025',
@@ -99,6 +101,11 @@ export default {
     title: 'Donaciones',
     introBold: '¡Contribuya a mantener vivo el molino de Tündern!',
     introText: 'Con su donación apoya la conservación, el cuidado y el desarrollo continuo de nuestro histórico molino de viento, un valioso monumento cultural y símbolo de nuestro pueblo. Cada aportación –grande o pequeña– nos ayuda a hacer tangible la historia y conservarla para las próximas generaciones.',
+    impactTitle: 'Su donación hace posible',
+    impact1: 'Conservación de la estructura histórica',
+    impact2: 'Restauración de aspas y mampostería',
+    impact3: 'Eventos y visitas guiadas',
+    impact4: 'Preservación para futuras generaciones',
     bankTitle: 'Datos bancarios',
     subject: 'Concepto',
     donateText: 'Por favor envíe su donación a la siguiente cuenta:',

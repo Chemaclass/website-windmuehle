@@ -85,40 +85,49 @@ function closeLightbox() {
 
 <template>
   <div class="gallery-page">
-    <div class="gallery-header">
-      <h1>{{ t('gallery.title') }}</h1>
-      <p v-html="t('gallery.intro')"></p>
+    <!-- Hero Section with Parallax -->
+    <div class="gallery-hero">
+      <div class="gallery-hero-content">
+        <h1>{{ t('gallery.title') }}</h1>
+        <p>{{ t('gallery.subtitle') }}</p>
+      </div>
     </div>
 
-    <div class="gallery-sections">
-      <section v-for="section in sections" :key="section.id" class="gallery-category">
-        <div class="category-header">
-          <h2>{{ t(section.titleKey) }}</h2>
-          <span class="image-count">{{ section.images.length }} {{ t('gallery.photos') }}</span>
-        </div>
+    <div class="gallery-wrapper">
+      <div class="gallery-intro">
+        <p v-html="t('gallery.intro')"></p>
+      </div>
 
-        <div class="image-grid">
-          <div
-            v-for="(image, index) in section.images"
-            :key="image"
-            class="image-item"
-            @click="openLightbox(section.images, index)"
-          >
-            <img
-              :src="image"
-              :alt="t(section.altKey)"
-              loading="lazy"
-            />
-            <div class="image-overlay">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"/>
-                <path d="m21 21-4.3-4.3"/>
-                <path d="M11 8v6M8 11h6"/>
-              </svg>
+      <div class="gallery-sections">
+        <section v-for="section in sections" :key="section.id" class="gallery-category">
+          <div class="category-header">
+            <h2>{{ t(section.titleKey) }}</h2>
+            <span class="image-count">{{ section.images.length }} {{ t('gallery.photos') }}</span>
+          </div>
+
+          <div class="image-grid">
+            <div
+              v-for="(image, index) in section.images"
+              :key="image"
+              class="image-item"
+              @click="openLightbox(section.images, index)"
+            >
+              <img
+                :src="image"
+                :alt="t(section.altKey)"
+                loading="lazy"
+              />
+              <div class="image-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"/>
+                  <path d="m21 21-4.3-4.3"/>
+                  <path d="M11 8v6M8 11h6"/>
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
 
     <Lightbox
@@ -132,30 +141,75 @@ function closeLightbox() {
 
 <style scoped>
 .gallery-page {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.gallery-hero {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: url('/imgs/bilder/windmill-6.jpeg') center center / cover no-repeat fixed;
+  padding: 6rem 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.gallery-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.6));
+}
+
+.gallery-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery-hero h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.gallery-hero-content p {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0;
+  text-shadow: 0 1px 5px rgba(0,0,0,0.3);
+  line-height: 1.6;
+}
+
+/* Content Wrapper */
+.gallery-wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem 4rem;
+  padding: 3rem 1rem 4rem;
 }
 
-.gallery-header {
+.gallery-intro {
   text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(37, 99, 168, 0.05) 0%, rgba(232, 168, 56, 0.05) 100%);
+  border-radius: 16px;
   margin-bottom: 3rem;
-  padding-top: 2rem;
 }
 
-.gallery-header h1 {
-  font-size: 2.5rem;
-  color: #2563a8;
-  margin: 0 0 1rem;
-  font-weight: 800;
-}
-
-.gallery-header p {
+.gallery-intro p {
   font-size: 1.15rem;
-  color: #555;
-  max-width: 600px;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+  max-width: 800px;
   margin: 0 auto;
-  line-height: 1.7;
 }
 
 .gallery-sections {
@@ -251,20 +305,28 @@ function closeLightbox() {
 }
 
 @media (max-width: 768px) {
-  .gallery-page {
-    padding: 1.5rem 1rem 3rem;
+  .gallery-hero {
+    padding: 4rem 1rem;
+    background-attachment: scroll;
   }
 
-  .gallery-header {
-    margin-bottom: 2rem;
-    padding-top: 1rem;
-  }
-
-  .gallery-header h1 {
+  .gallery-hero h1 {
     font-size: 2rem;
   }
 
-  .gallery-header p {
+  .gallery-hero-content p {
+    font-size: 1rem;
+  }
+
+  .gallery-wrapper {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .gallery-intro {
+    padding: 1.5rem;
+  }
+
+  .gallery-intro p {
     font-size: 1rem;
   }
 
@@ -298,6 +360,10 @@ function closeLightbox() {
 }
 
 @media (max-width: 480px) {
+  .gallery-hero h1 {
+    font-size: 1.75rem;
+  }
+
   .image-grid {
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;

@@ -67,7 +67,8 @@ export default {
     ]
   },
   history: {
-    title: 'Geschichte der Windmühle in Tündern',
+    title: 'Geschichte der Windmühle',
+    subtitle: 'Von 1883 bis heute',
     intro: 'Die sogenannte Holländer-Windmühle am Weserdamm in Tündern wurde im Jahr <strong>1883</strong> erbaut. Anfangs bezogen die vier Bäckereien im Ort ihr Mehl direkt aus der Mühle. Bis <strong>1960</strong> wurde dort weiterhin Getreide geschrotet und als Futtermittel verwendet. Ursprünglich angetrieben durch Windkraft, wurde bereits <strong>1921</strong> ein Motor in einem Nebengebäude installiert – eine frühe Maßnahme zur Unabhängigkeit von Wind und Wetter.',
     rescueTitle: 'Vom Verfall zur Rettung',
     rescueText: 'Nach dem <strong>Zweiten Weltkrieg</strong> begann der allmähliche Verfall der Mühle. Erst mit der Gründung des Heimatvereins <strong>„Tundirum“ im Jahr 1974</strong> begann eine neue Ära. Durch zahlreiche Spenden konnte die Mühle <strong>1979</strong> mit einem neuen Dach und frischem Putz wiedereröffnet werden. Doch ein Jahr später, am Abend des <strong>19. Juli 1980</strong>, schlug ein Blitz ein. Die Mühle brannte nahezu vollständig nieder – Dach, Windrose, Mühlenkrone und Mahlwerk wurden zerstört. Dank überwältigendem Engagement und vielen helfenden Händen konnte der Wiederaufbau schon <strong>1981</strong> abgeschlossen werden. Seither gilt sie als Wahrzeichen Tünderns und beliebte Wegmarke am Weserradweg.',
@@ -78,6 +79,7 @@ export default {
   },
   gallery: {
     title: 'Bilder der Windmühle',
+    subtitle: 'Bilder und Impressionen',
     intro: 'Ein Bild sagt mehr als tausend Worte – deshalb zeigen wir Ihnen hier eine kleine Auswahl von Momentaufnahmen rund um die <strong>Windmühle Tündern</strong>.',
     photos: 'Fotos',
     renovationTitle: 'Sanierung 2025',
@@ -99,8 +101,13 @@ export default {
     title: 'Spenden',
     introBold: 'Tragen Sie dazu bei, die Windmühle Tündern lebendig zu halten!',
     introText: 'Mit Ihrer Spende unterstützen Sie den Erhalt, die Pflege und die Weiterentwicklung unserer historischen Windmühle – ein wertvolles Kulturdenkmal und Wahrzeichen unseres Dorfes. Jeder Beitrag – ob groß oder klein – hilft uns dabei, Geschichte erlebbar zu machen und auch kommenden Generationen zugänglich zu halten.',
+    impactTitle: 'Ihre Spende bewirkt',
+    impact1: 'Erhalt der historischen Bausubstanz',
+    impact2: 'Sanierung von Flügeln und Mauerwerk',
+    impact3: 'Veranstaltungen und Führungen',
+    impact4: 'Bewahrung für kommende Generationen',
     bankTitle: 'Bankverbindung',
-    subject: 'Konzept',
+    subject: 'Verwendungszweck',
     donateText: 'Bitte richten Sie Ihre Spende an folgendes Konto:',
     thanksTitle: 'Herzlichen Dank!',
     thanksText: 'Wir danken Ihnen herzlich für Ihre Unterstützung und Ihr Vertrauen in unsere Arbeit. Gemeinsam können wir dieses besondere Stück Heimat erhalten.',
