@@ -20,7 +20,7 @@ const t = useT()
               <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
               <polyline points="9 22 9 12 15 12 15 22"/>
             </svg>
-            Verein
+            {{ t('imprint.associationLabel') }}
           </div>
           <div class="imprint-value">{{ t('imprint.association') }}</div>
         </div>
@@ -42,7 +42,7 @@ const t = useT()
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
               <circle cx="12" cy="10" r="3"/>
             </svg>
-            Adresse
+            {{ t('imprint.addressLabel') }}
           </div>
           <div class="imprint-value" style="white-space: pre-line;">{{ t('imprint.address') }}</div>
         </div>

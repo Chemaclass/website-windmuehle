@@ -541,12 +541,37 @@ function copyToClipboard(text: string, field: string) {
   .bank-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.75rem;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 1px dashed rgba(37, 99, 168, 0.3);
+  }
+
+  .bank-row.copyable-row:active {
+    background: rgba(37, 99, 168, 0.15);
+    transform: scale(0.98);
+    border-color: var(--vp-c-brand-1);
   }
 
   .bank-value-copy {
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .bank-value-copy span {
+    font-size: 0.95rem;
+    word-break: break-all;
+  }
+
+  .copy-btn {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+
+  .copy-btn svg {
+    width: 20px;
+    height: 20px;
   }
 
   .thanks-section {

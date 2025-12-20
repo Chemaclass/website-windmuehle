@@ -118,9 +118,11 @@ export default {
   },
   imprint: {
     title: 'Imprint',
+    associationLabel: 'Association',
     association: 'Windmill Tündern Association',
     chairman: 'Chairman',
     name: 'Karl-Friedrich Meyer',
+    addressLabel: 'Address',
     address: 'Linkworth 1\n31789 Hameln-Tündern'
   },
   blog: {

@@ -118,9 +118,11 @@ export default {
   },
   imprint: {
     title: 'Aviso legal',
+    associationLabel: 'Asociación',
     association: 'Asociación Molino de Viento Tündern',
     chairman: 'Presidente',
     name: 'Karl-Friedrich Meyer',
+    addressLabel: 'Dirección',
     address: 'Linkworth 1\n31789 Hameln-Tündern'
   },
   blog: {

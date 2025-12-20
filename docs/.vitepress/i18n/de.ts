@@ -118,9 +118,11 @@ export default {
   },
   imprint: {
     title: 'Impressum',
+    associationLabel: 'Verein',
     association: 'Förderverein Windmühle Tündern e.V.',
     chairman: 'Vorsitzender',
     name: 'Karl-Friedrich Meyer',
+    addressLabel: 'Adresse',
     address: 'Linkworth 1\n31789 Hameln-Tündern'
   },
   blog: {
