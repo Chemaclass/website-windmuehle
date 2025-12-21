@@ -143,26 +143,15 @@ export default {
       title: 'Frohe Weihnachten vom Förderverein!',
       date: 'Dezember 2025',
       excerpt: 'Ein Rückblick auf ein erfolgreiches Jahr und herzliche Weihnachtsgrüße vom Förderverein Windmühle Tündern.',
-      image: '/imgs/bilder/windmill-7.jpeg',
+      image: '/imgs/winter/windmuelle-snow2.jpg',
       link: '/aktuelles/2025-12-weihnachten',
-      body: `<p>Liebe Freunde und Unterstützer der Windmühle Tündern,</p>
-<p>der <strong>Förderverein Windmühle Tündern e.V.</strong> wünscht Ihnen und Ihren Familien ein frohes Weihnachtsfest und einen guten Start ins neue Jahr 2026!</p>
-<h2>Rückblick auf 2025</h2>
-<p>Dieses Jahr war ein <strong>Meilenstein</strong> für unsere historische Windmühle:</p>
-<ul>
-  <li><strong>Juli 2025:</strong> Einrüstung der Mühle</li>
-  <li>Entfernung des alten Putzes und Ausbesserung schadhafter Mauerstellen</li>
-  <li><strong>November 2025:</strong> Frischer Putz aufgetragen</li>
-</ul>
-<h2>Ausblick auf 2026</h2>
-<ul>
-  <li><strong>Januar 2026:</strong> Neuer Anstrich</li>
-  <li><strong>März 2026:</strong> Anbringen der neuen Flügel</li>
-</ul>
-<h2>Herzlichen Dank!</h2>
-<p>Wir danken allen Spendern, Förderern und Unterstützern – insbesondere der <strong>EU</strong>, der <strong>Stiftung Denkmalschutz</strong>, der <strong>Stadt Hameln</strong> und dem <strong>Landkreis Hameln-Pyrmont</strong> – für ihr Vertrauen und ihre großzügige Unterstützung.</p>
-<p>Gemeinsam bewahren wir dieses wertvolle Kulturdenkmal für kommende Generationen!</p>
-<p><strong>Frohe Weihnachten und ein glückliches neues Jahr 2026!</strong></p>`
+      body: `<p>Liebe Mitglieder im Förderverein Windmühle Tündern e.V., liebe Förderer, Unterstützer, Bauarbeiter und Handwerker,</p>
+<p>ein ereignisreiches Jahr neigt sich dem Ende entgegen und wir freuen uns sehr, dass unser Projekt „Windmühle" so gute Fortschritte gemacht hat.</p>
+<p>Nach den doch recht aufwendigen Putzarbeiten und mit neuen Fenstern wartet die Mühle jetzt auf den neuen Anstrich. Wenn uns das Wetter wie bisher „zuarbeitet", sollten die Malerarbeiten Anfang des Jahres beginnen können. Die neuen Flügel sind bereits gefertigt und werden nach Abbau des Gerüsts angebracht werden können.</p>
+<p>Wir danken allen beteiligten Handwerkern und Unternehmen für ihren Einsatz und die geleistete gute Arbeit.</p>
+<p>Bei Ihnen allen bedanken wir uns für Ihre Unterstützung und wünschen Ihnen und Ihren Familien mit einem herzlichen „Glück zu" ein schönes Weihnachtsfest und für das neue Jahr alles Gute!</p>
+<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Die Windmühle Tündern im Winter" />
+<p class="signature">Im Namen des Vorstandes<br/>Karl-Friedrich Meyer<br/>1. Vorsitzender</p>`
     },
     {
       id: '2025-12-spende-busse',

@@ -143,26 +143,15 @@ export default {
       title: 'Merry Christmas from the Association!',
       date: 'December 2025',
       excerpt: 'A look back at a successful year and warm Christmas greetings from the Windmill Tündern Association.',
-      image: '/imgs/bilder/windmill-7.jpeg',
+      image: '/imgs/winter/windmuelle-snow2.jpg',
       link: '/en/aktuelles/2025-12-weihnachten',
-      body: `<p>Dear friends and supporters of the Tündern Windmill,</p>
-<p>The <strong>Windmill Tündern Association</strong> wishes you and your families a Merry Christmas and a Happy New Year 2026!</p>
-<h2>Looking Back at 2025</h2>
-<p>This year was a <strong>milestone</strong> for our historic windmill:</p>
-<ul>
-  <li><strong>July 2025:</strong> Scaffolding erected</li>
-  <li>Old plaster removed and damaged masonry repaired</li>
-  <li><strong>November 2025:</strong> Fresh plaster applied</li>
-</ul>
-<h2>Looking Ahead to 2026</h2>
-<ul>
-  <li><strong>January 2026:</strong> New coat of paint</li>
-  <li><strong>March 2026:</strong> Installation of new blades</li>
-</ul>
-<h2>Thank You!</h2>
-<p>We thank all donors, sponsors and supporters – especially the <strong>EU</strong>, the <strong>Heritage Conservation Foundation</strong>, the <strong>City of Hameln</strong> and the <strong>Hameln-Pyrmont District</strong> – for their trust and generous support.</p>
-<p>Together we are preserving this valuable cultural monument for future generations!</p>
-<p><strong>Merry Christmas and a Happy New Year 2026!</strong></p>`
+      body: `<p>Dear members of the Windmill Tündern Association, dear sponsors, supporters, construction workers and craftsmen,</p>
+<p>An eventful year is coming to an end and we are very pleased that our "Windmill" project has made such good progress.</p>
+<p>After the rather extensive plastering work and with new windows, the mill is now waiting for its new coat of paint. If the weather continues to cooperate, the painting work should be able to begin early in the new year. The new blades have already been manufactured and can be installed once the scaffolding is removed.</p>
+<p>We thank all the craftsmen and companies involved for their dedication and excellent work.</p>
+<p>We thank you all for your support and wish you and your families a Merry Christmas and all the best for the new year!</p>
+<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Tündern Windmill in winter" />
+<p class="signature">On behalf of the Board<br/>Karl-Friedrich Meyer<br/>Chairman</p>`
     },
     {
       id: '2025-12-spende-busse',
