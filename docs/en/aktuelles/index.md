@@ -97,14 +97,15 @@ const posts = t('newsPosts')
 
 .news-list-item {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 220px 1fr;
+  gap: 0;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-decoration: none !important;
   transition: all 0.3s ease;
+  align-items: stretch;
 }
 
 .news-list-item * {
@@ -122,14 +123,14 @@ const posts = t('newsPosts')
 
 .news-list-item img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
   margin: 0;
   border-radius: 0;
 }
 
 .news-list-content {
-  padding: 1.5rem 1.5rem 1.5rem 0;
+  padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,13 +139,13 @@ const posts = t('newsPosts')
 .news-list-date {
   font-size: 0.85rem;
   color: #888;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .news-list-content h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #2563a8;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem;
   line-height: 1.3;
   border: none;
   padding: 0;
@@ -153,8 +154,8 @@ const posts = t('newsPosts')
 .news-list-content p {
   font-size: 1rem;
   color: #555;
-  line-height: 1.6;
-  margin: 0 0 1rem;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
 }
 
 .news-list-link {
@@ -185,7 +186,7 @@ const posts = t('newsPosts')
   }
 
   .news-list-item img {
-    height: 180px;
+    height: 200px;
   }
 
   .news-list-content {
