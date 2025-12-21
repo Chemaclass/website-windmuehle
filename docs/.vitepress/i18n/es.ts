@@ -150,8 +150,7 @@ export default {
 <p>Después de los extensos trabajos de revoque y con las nuevas ventanas, el molino ahora espera su nueva capa de pintura. Si el tiempo sigue acompañando, los trabajos de pintura deberían poder comenzar a principios del nuevo año. Las nuevas aspas ya están fabricadas y podrán instalarse una vez que se retire el andamiaje.</p>
 <p>Agradecemos a todos los artesanos y empresas involucrados por su dedicación y excelente trabajo.</p>
 <p>Les agradecemos a todos su apoyo y les deseamos a ustedes y sus familias una Feliz Navidad y todo lo mejor para el nuevo año.</p>
-<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Molino de Tündern en invierno" />
-<p class="signature">En nombre de la Junta Directiva<br/>Karl-Friedrich Meyer<br/>Presidente</p>`
+<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Molino de Tündern en invierno" />`
     },
     {
       id: '2025-12-spende-busse',

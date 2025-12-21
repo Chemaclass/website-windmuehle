@@ -150,8 +150,7 @@ export default {
 <p>Nach den doch recht aufwendigen Putzarbeiten und mit neuen Fenstern wartet die Mühle jetzt auf den neuen Anstrich. Wenn uns das Wetter wie bisher „zuarbeitet", sollten die Malerarbeiten Anfang des Jahres beginnen können. Die neuen Flügel sind bereits gefertigt und werden nach Abbau des Gerüsts angebracht werden können.</p>
 <p>Wir danken allen beteiligten Handwerkern und Unternehmen für ihren Einsatz und die geleistete gute Arbeit.</p>
 <p>Bei Ihnen allen bedanken wir uns für Ihre Unterstützung und wünschen Ihnen und Ihren Familien mit einem herzlichen „Glück zu" ein schönes Weihnachtsfest und für das neue Jahr alles Gute!</p>
-<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Die Windmühle Tündern im Winter" />
-<p class="signature">Im Namen des Vorstandes<br/>Karl-Friedrich Meyer<br/>1. Vorsitzender</p>`
+<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Die Windmühle Tündern im Winter" />`
     },
     {
       id: '2025-12-spende-busse',

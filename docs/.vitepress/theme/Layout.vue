@@ -5,7 +5,6 @@ import { useData } from 'vitepress'
 import SiteFooter from '../../components/SiteFooter.vue'
 import AccessibilityControls from '../../components/AccessibilityControls.vue'
 import BackToTop from '../../components/BackToTop.vue'
-import ReadingProgress from '../../components/ReadingProgress.vue'
 import SkipToContent from '../../components/SkipToContent.vue'
 
 const { site, localeIndex } = useData()
@@ -101,7 +100,6 @@ const currentNav = navItems[localeIndex.value] || navItems['root']
 
 <template>
   <SkipToContent />
-  <ReadingProgress />
 
   <DefaultTheme.Layout>
     <template #nav-bar-content-after>

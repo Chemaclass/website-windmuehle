@@ -150,8 +150,7 @@ export default {
 <p>After the rather extensive plastering work and with new windows, the mill is now waiting for its new coat of paint. If the weather continues to cooperate, the painting work should be able to begin early in the new year. The new blades have already been manufactured and can be installed once the scaffolding is removed.</p>
 <p>We thank all the craftsmen and companies involved for their dedication and excellent work.</p>
 <p>We thank you all for your support and wish you and your families a Merry Christmas and all the best for the new year!</p>
-<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Tündern Windmill in winter" />
-<p class="signature">On behalf of the Board<br/>Karl-Friedrich Meyer<br/>Chairman</p>`
+<img src="/imgs/winter/windmuelle-snow1.jpg" alt="Tündern Windmill in winter" />`
     },
     {
       id: '2025-12-spende-busse',
