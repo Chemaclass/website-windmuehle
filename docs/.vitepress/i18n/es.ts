@@ -102,7 +102,7 @@ export default {
     introBold: '¡Contribuya a mantener vivo el molino de Tündern!',
     introText: 'Con su donación apoya la conservación, el cuidado y el desarrollo continuo de nuestro histórico molino de viento, un valioso monumento cultural y símbolo de nuestro pueblo. Cada aportación –grande o pequeña– nos ayuda a hacer tangible la historia – también para las próximas generaciones.',
     supportTitle: 'Apoyo oficial',
-    supportText: 'La restauración del molino tiene un presupuesto de <strong>166.600 euros</strong>. Gracias al apoyo de la <strong>UE (LEADER)</strong>, el <strong>Estado</strong>, el <strong>Distrito de Hameln-Pyrmont</strong> y la <strong>Ciudad de Hameln</strong>, este importante proyecto puede hacerse realidad. La <strong>Fundación Alemana para la Protección de Monumentos</strong> también nos apoya.',
+    supportText: 'La restauración del molino tiene un presupuesto de <strong>166.600 euros</strong>. Gracias al apoyo de la <strong>UE (LEADER)</strong>, el <strong>Estado</strong>, el <strong>Distrito de Hameln-Pyrmont</strong>, <strong>Calenberg-Grubenhagensche Landschaft</strong> y la <strong>Ciudad de Hameln</strong>, este importante proyecto puede hacerse realidad. La <strong>Fundación Alemana para la Protección de Monumentos</strong> también nos apoya.',
     impactTitle: 'Su donación hace posible',
     impact1: 'Conservación de la estructura histórica',
     impact2: 'Restauración de aspas y mampostería',
